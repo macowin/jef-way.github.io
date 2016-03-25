@@ -4,9 +4,9 @@
   <subtitle>一个有创意爱分享的博客平台</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://blog.jefway.com/"/>
   <updated>2016-03-24T10:13:45.908Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://blog.jefway.com/</id>
   
   <author>
     <name>觉小微</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Vimium - 让你体验Geek般的浏览体验</title>
-    <link href="http://yoursite.com/Vimium-%E8%AE%A9%E4%BD%A0%E4%BD%93%E9%AA%8CGeek%E8%88%AC%E7%9A%84%E6%B5%8F%E8%A7%88%E4%BD%93%E9%AA%8C.html"/>
-    <id>http://yoursite.com/Vimium-让你体验Geek般的浏览体验.html</id>
+    <link href="http://blog.jefway.com/Vimium-%E8%AE%A9%E4%BD%A0%E4%BD%93%E9%AA%8CGeek%E8%88%AC%E7%9A%84%E6%B5%8F%E8%A7%88%E4%BD%93%E9%AA%8C.html"/>
+    <id>http://blog.jefway.com/Vimium-让你体验Geek般的浏览体验.html</id>
     <published>2016-03-24T08:47:56.000Z</published>
     <updated>2016-03-24T10:13:45.908Z</updated>
     
@@ -74,8 +74,8 @@
   
   <entry>
     <title>faststone-capturecn</title>
-    <link href="http://yoursite.com/faststone-capturecn-1.html"/>
-    <id>http://yoursite.com/faststone-capturecn-1.html</id>
+    <link href="http://blog.jefway.com/faststone-capturecn-1.html"/>
+    <id>http://blog.jefway.com/faststone-capturecn-1.html</id>
     <published>2016-03-23T05:59:06.000Z</published>
     <updated>2016-03-23T05:59:06.456Z</updated>
     
@@ -90,8 +90,8 @@
   
   <entry>
     <title>faststone-capturecn</title>
-    <link href="http://yoursite.com/faststone-capturecn.html"/>
-    <id>http://yoursite.com/faststone-capturecn.html</id>
+    <link href="http://blog.jefway.com/faststone-capturecn.html"/>
+    <id>http://blog.jefway.com/faststone-capturecn.html</id>
     <published>2016-03-23T05:58:06.000Z</published>
     <updated>2016-03-23T06:04:17.493Z</updated>
     
@@ -125,8 +125,8 @@
   
   <entry>
     <title>post</title>
-    <link href="http://yoursite.com/post-1.html"/>
-    <id>http://yoursite.com/post-1.html</id>
+    <link href="http://blog.jefway.com/post-1.html"/>
+    <id>http://blog.jefway.com/post-1.html</id>
     <published>2016-03-22T09:58:28.000Z</published>
     <updated>2016-03-22T09:58:28.113Z</updated>
     
@@ -141,8 +141,8 @@
   
   <entry>
     <title>我的第一篇Hexo文章</title>
-    <link href="http://yoursite.com/post.html"/>
-    <id>http://yoursite.com/post.html</id>
+    <link href="http://blog.jefway.com/post.html"/>
+    <id>http://blog.jefway.com/post.html</id>
     <published>2016-03-22T09:57:39.000Z</published>
     <updated>2016-03-22T10:02:13.577Z</updated>
     
@@ -155,14 +155,14 @@
     </summary>
     
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://blog.jefway.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/hello-world.html"/>
-    <id>http://yoursite.com/hello-world.html</id>
+    <link href="http://blog.jefway.com/hello-world.html"/>
+    <id>http://blog.jefway.com/hello-world.html</id>
     <published>2016-03-22T09:48:30.210Z</published>
     <updated>2016-03-22T09:48:30.213Z</updated>
     
@@ -188,8 +188,8 @@
   
   <entry>
     <title>Iconfont - 让字体图标更自由</title>
-    <link href="http://yoursite.com/Iconfont-%E8%AE%A9%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87%E6%9B%B4%E8%87%AA%E7%94%B1.html"/>
-    <id>http://yoursite.com/Iconfont-让字体图标更自由.html</id>
+    <link href="http://blog.jefway.com/Iconfont-%E8%AE%A9%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87%E6%9B%B4%E8%87%AA%E7%94%B1.html"/>
+    <id>http://blog.jefway.com/Iconfont-让字体图标更自由.html</id>
     <published>2016-03-22T08:45:00.000Z</published>
     <updated>2016-03-24T10:13:45.908Z</updated>
     
@@ -240,8 +240,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
   
   <entry>
     <title>Word 除了编辑文档还可以这样......</title>
-    <link href="http://yoursite.com/Word-%E9%99%A4%E4%BA%86%E7%BC%96%E8%BE%91%E6%96%87%E6%A1%A3%E8%BF%98%E5%8F%AF%E4%BB%A5%E8%BF%99%E6%A0%B7.html"/>
-    <id>http://yoursite.com/Word-除了编辑文档还可以这样.html</id>
+    <link href="http://blog.jefway.com/Word-%E9%99%A4%E4%BA%86%E7%BC%96%E8%BE%91%E6%96%87%E6%A1%A3%E8%BF%98%E5%8F%AF%E4%BB%A5%E8%BF%99%E6%A0%B7.html"/>
+    <id>http://blog.jefway.com/Word-除了编辑文档还可以这样.html</id>
     <published>2016-03-21T06:53:00.000Z</published>
     <updated>2016-03-24T10:13:45.908Z</updated>
     
@@ -261,8 +261,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
   
   <entry>
     <title>创意动画 - 《动画师大战火柴人》</title>
-    <link href="http://yoursite.com/%E5%88%9B%E6%84%8F%E5%8A%A8%E7%94%BB-%E3%80%8A%E5%8A%A8%E7%94%BB%E5%B8%88%E5%A4%A7%E6%88%98%E7%81%AB%E6%9F%B4%E4%BA%BA%E3%80%8B.html"/>
-    <id>http://yoursite.com/创意动画-《动画师大战火柴人》.html</id>
+    <link href="http://blog.jefway.com/%E5%88%9B%E6%84%8F%E5%8A%A8%E7%94%BB-%E3%80%8A%E5%8A%A8%E7%94%BB%E5%B8%88%E5%A4%A7%E6%88%98%E7%81%AB%E6%9F%B4%E4%BA%BA%E3%80%8B.html"/>
+    <id>http://blog.jefway.com/创意动画-《动画师大战火柴人》.html</id>
     <published>2016-03-20T05:58:00.000Z</published>
     <updated>2016-03-24T10:13:45.910Z</updated>
     
@@ -285,8 +285,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
   
   <entry>
     <title>Office 2016 - 让你体验全新的办公方式</title>
-    <link href="http://yoursite.com/Office-2016-%E8%AE%A9%E4%BD%A0%E4%BD%93%E9%AA%8C%E5%85%A8%E6%96%B0%E7%9A%84%E5%8A%9E%E5%85%AC%E6%96%B9%E5%BC%8F.html"/>
-    <id>http://yoursite.com/Office-2016-让你体验全新的办公方式.html</id>
+    <link href="http://blog.jefway.com/Office-2016-%E8%AE%A9%E4%BD%A0%E4%BD%93%E9%AA%8C%E5%85%A8%E6%96%B0%E7%9A%84%E5%8A%9E%E5%85%AC%E6%96%B9%E5%BC%8F.html"/>
+    <id>http://blog.jefway.com/Office-2016-让你体验全新的办公方式.html</id>
     <published>2016-03-18T09:42:00.000Z</published>
     <updated>2016-03-24T10:13:45.910Z</updated>
     
@@ -331,8 +331,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
   
   <entry>
     <title>Typora - 让你爱上写作时轻松惬意的感觉</title>
-    <link href="http://yoursite.com/Typora-%E8%AE%A9%E4%BD%A0%E7%88%B1%E4%B8%8A%E5%86%99%E4%BD%9C%E6%97%B6%E8%BD%BB%E6%9D%BE%E6%83%AC%E6%84%8F%E7%9A%84%E6%84%9F%E8%A7%89.html"/>
-    <id>http://yoursite.com/Typora-让你爱上写作时轻松惬意的感觉.html</id>
+    <link href="http://blog.jefway.com/Typora-%E8%AE%A9%E4%BD%A0%E7%88%B1%E4%B8%8A%E5%86%99%E4%BD%9C%E6%97%B6%E8%BD%BB%E6%9D%BE%E6%83%AC%E6%84%8F%E7%9A%84%E6%84%9F%E8%A7%89.html"/>
+    <id>http://blog.jefway.com/Typora-让你爱上写作时轻松惬意的感觉.html</id>
     <published>2016-03-11T04:26:00.000Z</published>
     <updated>2016-03-24T10:13:45.910Z</updated>
     
@@ -388,8 +388,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
   
   <entry>
     <title>Flippr - 让你的 Widget 发挥无限创意</title>
-    <link href="http://yoursite.com/Flippr-%E8%AE%A9%E4%BD%A0%E7%9A%84-Widget-%E5%8F%91%E6%8C%A5%E6%97%A0%E9%99%90%E5%88%9B%E6%84%8F.html"/>
-    <id>http://yoursite.com/Flippr-让你的-Widget-发挥无限创意.html</id>
+    <link href="http://blog.jefway.com/Flippr-%E8%AE%A9%E4%BD%A0%E7%9A%84-Widget-%E5%8F%91%E6%8C%A5%E6%97%A0%E9%99%90%E5%88%9B%E6%84%8F.html"/>
+    <id>http://blog.jefway.com/Flippr-让你的-Widget-发挥无限创意.html</id>
     <published>2015-12-10T01:57:00.000Z</published>
     <updated>2016-03-24T10:13:45.910Z</updated>
     
@@ -430,8 +430,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
   
   <entry>
     <title>Atom - Github 打造的下一代编程开发利器</title>
-    <link href="http://yoursite.com/Atom-Github-%E6%89%93%E9%80%A0%E7%9A%84%E4%B8%8B%E4%B8%80%E4%BB%A3%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91%E5%88%A9%E5%99%A8.html"/>
-    <id>http://yoursite.com/Atom-Github-打造的下一代编程开发利器.html</id>
+    <link href="http://blog.jefway.com/Atom-Github-%E6%89%93%E9%80%A0%E7%9A%84%E4%B8%8B%E4%B8%80%E4%BB%A3%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91%E5%88%A9%E5%99%A8.html"/>
+    <id>http://blog.jefway.com/Atom-Github-打造的下一代编程开发利器.html</id>
     <published>2015-11-27T08:55:00.000Z</published>
     <updated>2016-03-24T10:13:45.910Z</updated>
     
@@ -473,8 +473,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
   
   <entry>
     <title>D-Day - 灾难来临，你的选择是什么</title>
-    <link href="http://yoursite.com/D-Day-%E7%81%BE%E9%9A%BE%E6%9D%A5%E4%B8%B4%EF%BC%8C%E4%BD%A0%E7%9A%84%E9%80%89%E6%8B%A9%E6%98%AF%E4%BB%80%E4%B9%88.html"/>
-    <id>http://yoursite.com/D-Day-灾难来临，你的选择是什么.html</id>
+    <link href="http://blog.jefway.com/D-Day-%E7%81%BE%E9%9A%BE%E6%9D%A5%E4%B8%B4%EF%BC%8C%E4%BD%A0%E7%9A%84%E9%80%89%E6%8B%A9%E6%98%AF%E4%BB%80%E4%B9%88.html"/>
+    <id>http://blog.jefway.com/D-Day-灾难来临，你的选择是什么.html</id>
     <published>2015-11-26T14:25:00.000Z</published>
     <updated>2016-03-24T10:13:45.911Z</updated>
     
@@ -516,8 +516,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
   
   <entry>
     <title>Vysor - 同步显示画面的神器</title>
-    <link href="http://yoursite.com/Vysor-%E5%90%8C%E6%AD%A5%E6%98%BE%E7%A4%BA%E7%94%BB%E9%9D%A2%E7%9A%84%E7%A5%9E%E5%99%A8.html"/>
-    <id>http://yoursite.com/Vysor-同步显示画面的神器.html</id>
+    <link href="http://blog.jefway.com/Vysor-%E5%90%8C%E6%AD%A5%E6%98%BE%E7%A4%BA%E7%94%BB%E9%9D%A2%E7%9A%84%E7%A5%9E%E5%99%A8.html"/>
+    <id>http://blog.jefway.com/Vysor-同步显示画面的神器.html</id>
     <published>2015-11-25T08:12:00.000Z</published>
     <updated>2016-03-24T10:13:45.911Z</updated>
     
