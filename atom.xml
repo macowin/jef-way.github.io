@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>觉微创意</title>
+  <subtitle>一个有创意爱分享的博客平台</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-03-24T10:13:45.908Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>觉小微</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vimium - 让你体验Geek般的浏览体验</title>
+    <link href="http://yoursite.com/Vimium-%E8%AE%A9%E4%BD%A0%E4%BD%93%E9%AA%8CGeek%E8%88%AC%E7%9A%84%E6%B5%8F%E8%A7%88%E4%BD%93%E9%AA%8C.html"/>
+    <id>http://yoursite.com/Vimium-让你体验Geek般的浏览体验.html</id>
+    <published>2016-03-24T08:47:56.000Z</published>
+    <updated>2016-03-24T10:13:45.908Z</updated>
+    
+    <content type="html">&lt;p&gt;相信很多电脑高手们都会寻找一一些快捷高效的操作方式，如经常利用键盘的快速操作，让你脱离鼠标，可以让你不用花太多精力地去移动细小的指针进行操作，使得工作的效率提高许多。&lt;/p&gt;
+&lt;p&gt;不过，实际上很多时候我们还是不得不用鼠标来操作，尤其是在浏览网页时，没有鼠标很多事情基本上没法做。但是！作为一个键盘党怎么可以容忍这种事情发生呢！今天给大家介绍的 &lt;strong&gt;Vimium&lt;/strong&gt; 就是为解决这个问题而生的，它能让你只用键盘就能高效快速便捷地上网，这才是高手们应该有的境界～嗯，软件也是应该要这么玩才有意思……&lt;/p&gt;
+&lt;h2 id=&quot;关于-Vimium-的由来&quot;&gt;&lt;a href=&quot;#关于-Vimium-的由来&quot; class=&quot;headerlink&quot; title=&quot;关于 Vimium 的由来&quot;&gt;&lt;/a&gt;关于 Vimium 的由来&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Vimium&lt;/strong&gt; 这个名字其实是 Vim 和 Chromium 的合体；很多人可能还不知道 Vim，这样告诉你，你是不是经常在电影里看到那些顶尖的黑客，他们在屏幕上来去自如，最关键的是，他们竟然都不用鼠标？没错，狭义地说，Vim 其实是 Linux 等平台上的一款文本编辑器，它可以让你彻底脱离鼠标，通过一系列快捷键，来操作任何一件事情。&lt;/p&gt;
+&lt;p&gt;而 Vimium 则继承了 Vim 中的常用键位，让你在使用 Chrome 的过程中，无论是浏览网页、切换标签或是其它任何操作，全都可以只通过键盘完成。想像一下，你再也不需要移动鼠标去打开一个链接，手指不用离开键盘，一切都是这么流畅。&lt;/p&gt;
+&lt;h2 id=&quot;Vimium-的操作方式介绍&quot;&gt;&lt;a href=&quot;#Vimium-的操作方式介绍&quot; class=&quot;headerlink&quot; title=&quot;Vimium 的操作方式介绍&quot;&gt;&lt;/a&gt;Vimium 的操作方式介绍&lt;/h2&gt;&lt;p&gt;听了前面这么一段介绍，你可能还在云里雾里，感觉这不是一个好上手的东西；咱们换一种方式来说，Vimium 实际上可以理解成是一系列快捷键配置，你可以通过这些快捷键来完成对应的操作，比如，Chrome 其实自带的快捷键就有：&lt;code&gt;Ctrl + T&lt;/code&gt;可以新建标签页，&lt;code&gt;Ctrl + N&lt;/code&gt;可以新建窗口等等,而 Vimium 比这简单得多，却又强大得多。&lt;/p&gt;
+&lt;p&gt;这里是一张 Vimium 的快捷键列表(通过&lt;code&gt;Shift + /&lt;/code&gt;来查看帮助)：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkNOMktVZmttR21lTnB3cjZCZVVzNXZnMnlmMVR0RzI5djhrTkRLVWpQMndBPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Vimium 的快捷键列表&quot;&gt;&lt;/p&gt;
+&lt;p&gt;别怕，虽然看着多，但常用的不多，而且使用几次后很容易上手，下面就带大家来过几个最实用的。&lt;/p&gt;
+&lt;h2 id=&quot;Vimium-常用的按键功能解释：&quot;&gt;&lt;a href=&quot;#Vimium-常用的按键功能解释：&quot; class=&quot;headerlink&quot; title=&quot;Vimium 常用的按键功能解释：&quot;&gt;&lt;/a&gt;Vimium 常用的按键功能解释：&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;j&lt;/code&gt;：向下细微滚动窗口   &lt;code&gt;k&lt;/code&gt;：向上细微滚动窗口&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;J&lt;/code&gt;：(Shift+j的意思，以下大写全部表示加Shift) 下一个标签页  &lt;code&gt;K&lt;/code&gt;：上一个标签页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;d&lt;/code&gt;：向下滚动半个屏幕   &lt;code&gt;u&lt;/code&gt;：向上移动半个屏幕&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;g+g&lt;/code&gt;（连续按两下g）：回到顶部&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;G&lt;/code&gt;：到达页面底部&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;H&lt;/code&gt;：后退   &lt;code&gt;L&lt;/code&gt;： 前进&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;f&lt;/code&gt;：将当前网页上的所有可见链接/输入框分配一个快捷键，输入后就可以打开或者跳转到对应的输入框。如果按的是F，那么将在新窗口中打开页面（见上图）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;g+i&lt;/code&gt;：将光标 定位到输入框，如果有多个可以按Tab键切换&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt;：关闭当前页面   X：恢复刚刚关闭的页面&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;o&lt;/code&gt;：相当于Chrome中的地址栏，可以匹配历史记录、收藏夹并在当前窗口打开，或者直接打开一个网址或者搜索一个关键字（Chrome在全屏的时候地址栏死都出不来，有了它就解决这个一直困扰我的问题了！～），如果按的是O，则可以在新窗口中打开，非常非常方便！&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;g+s&lt;/code&gt;：查看网页的源代码&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;r&lt;/code&gt;：重新载入当前网页（顺便提一句，这点上新浪微博和它是一样的，光标没有定位在发送框时，即便没有安装这个插件你也可以用j/k来控制页面上下滚动，用r在刷新，用f或者p来定位到发送框。而Gmail的快捷键如j,k上下移动光标也是类似，有兴趣大家可以再自己去了解一下一些常用web应用的快捷键）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Vimium-常见的几种实际操作&quot;&gt;&lt;a href=&quot;#Vimium-常见的几种实际操作&quot; class=&quot;headerlink&quot; title=&quot;Vimium 常见的几种实际操作&quot;&gt;&lt;/a&gt;Vimium 常见的几种实际操作&lt;/h2&gt;&lt;h3 id=&quot;用-Vimium-打开新页面&quot;&gt;&lt;a href=&quot;#用-Vimium-打开新页面&quot; class=&quot;headerlink&quot; title=&quot;用 Vimium 打开新页面&quot;&gt;&lt;/a&gt;用 Vimium 打开新页面&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;复制一段链接：&lt;/strong&gt;经常在网页上看到一段链接文字，但却是不可点的;原来你需要先复制，然后新建标签页，再粘贴，敲回车后才能打开。现在呢？你只需要把要打开的链接复制一下，直接按&lt;code&gt;p&lt;/code&gt;或&lt;code&gt;P&lt;/code&gt;就可以打开了，小写的 p 是在当前标签页打开，大写的 P 则新建标签页打开。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;从收藏夹、历史记录打开：&lt;/strong&gt;是不是之前看过什么网页，现在又想看了，还需要再打开历史记录找？或者想打开收藏夹里的某个链接？现在，直接按下&lt;code&gt;o&lt;/code&gt;，输入对应的关键字后，会一起搜索你的历史记录和收藏夹，如果你输的是一个网址，回车还能直接打开。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkNOMktVZmttR21lTksyZE9Cd3NDT3hjZTZSZERTdzdsMDdFNjlteCtzOXB3PT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;历史纪录&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;用-Vimium-快速打开当前页面上任意一个链接&quot;&gt;&lt;a href=&quot;#用-Vimium-快速打开当前页面上任意一个链接&quot; class=&quot;headerlink&quot; title=&quot;用 Vimium 快速打开当前页面上任意一个链接&quot;&gt;&lt;/a&gt;用 Vimium 快速打开当前页面上任意一个链接&lt;/h3&gt;&lt;p&gt;用 Vimium 在任意一个页面上，无论用多少链接，你根本不用鼠标，最多只需要敲三个键，你就可以迅速打开任意一个链接，你信吗？Vimium 就可以办到。&lt;/p&gt;
+&lt;p&gt;你只需要按一下&lt;code&gt;f&lt;/code&gt;，然后当前页面上所有可点击的元素，都会生成一个对应的快捷键分派给这些链接,比如我现在想点击导航栏上的「软件聚合」，只需要再输入「C」，OK！完成了，你只敲了三个键，就打开了「软件聚合」页面。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkNOMktVZmttR21lRmRadVEwb2d5QVpKME5qUURQVEI1ZStCL0lVeEtKRVdBPT0.png?imageView&amp;amp;thumbnail=1905y887&amp;amp;type=jpg&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;快速打开链接&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;快速显示当前所有的标签页，并快速切换&quot;&gt;&lt;a href=&quot;#快速显示当前所有的标签页，并快速切换&quot; class=&quot;headerlink&quot; title=&quot;快速显示当前所有的标签页，并快速切换&quot;&gt;&lt;/a&gt;快速显示当前所有的标签页，并快速切换&lt;/h3&gt;&lt;p&gt;有时候在查找信息、翻阅资料时，经常会一口气打开几十个网站，东西一多，Chrome 会自动将每个标签页的宽度缩小，几乎就看不到它们的标题了。用了 Vimium，你可以按一下大写的&lt;code&gt;T&lt;/code&gt;，就可以显示当前打开的所有标签页，并支持快捷搜索和跳转。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkNOMktVZmttR21lUGFIT0J5emxFKzE2ZXRIVTJDWS9lOHQrMnEzZVJtMUd3PT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;快速切换标签页&quot;&gt;&lt;/p&gt;
+&lt;p&gt;实际上 Vimium 还有许多非常酷的功能，比如你可以一键在不同的 Tab 之间切换等等，这里只是抛砖引玉，给大家介绍几个，更多的大家可以根据自己的需要去探索，如果你觉得文字不够生动，看了上面的介绍有些还没有完全理解，这里有一则官方的介绍小视频，大家有兴趣也可以看看。&lt;/p&gt;
+&lt;div id=&quot;typembed&quot;&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTUxMDY4MTAzNg/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;100%&quot; height=&quot;500&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;Vimium谷歌浏览器插件下载&quot;&gt;&lt;a href=&quot;#Vimium谷歌浏览器插件下载&quot; class=&quot;headerlink&quot; title=&quot;Vimium谷歌浏览器插件下载&quot;&gt;&lt;/a&gt;Vimium谷歌浏览器插件下载&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1bnZ3Nx9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Vimium插件下载&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;相信很多电脑高手们都会寻找一一些快捷高效的操作方式，如经常利用键盘的快速操作，让你脱离鼠标，可以让你不用花太多精力地去移动细小的指针进行操作，使得工作的效率提高许多。&lt;/p&gt;
+&lt;p&gt;不过，实际上很多时候我们还是不得不用鼠标来操作，尤其是在浏览网页时，没有鼠标很多事情基本上没
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>faststone-capturecn</title>
+    <link href="http://yoursite.com/faststone-capturecn-1.html"/>
+    <id>http://yoursite.com/faststone-capturecn-1.html</id>
+    <published>2016-03-23T05:59:06.000Z</published>
+    <updated>2016-03-23T05:59:06.456Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>faststone-capturecn</title>
+    <link href="http://yoursite.com/faststone-capturecn.html"/>
+    <id>http://yoursite.com/faststone-capturecn.html</id>
+    <published>2016-03-23T05:58:06.000Z</published>
+    <updated>2016-03-23T06:04:17.493Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;FastStone-Capturecn的主要功能&quot;&gt;&lt;a href=&quot;#FastStone-Capturecn的主要功能&quot; class=&quot;headerlink&quot; title=&quot;FastStone Capturecn的主要功能&quot;&gt;&lt;/a&gt;FastStone Capturecn的主要功能&lt;/h2&gt;&lt;p&gt;相信很多从事平面设计的朋友在平时的工作中都会经常用到QQ软件带的截图的功能，但是QQ截图的功能还是太单一化了，有很多截图方式都不能实现，而今天给大家介绍的这款&lt;strong&gt;FastStone Capturecn&lt;/strong&gt;却要强大的多，QQ截图和它比起来就确是小巫见大巫了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FastStone Capturecn&lt;/strong&gt;是一款轻量级的多功能截图软件，在截图方面有着非常强大的功能，它除了常规截图外，同时还支持&lt;strong&gt;多边形截图&lt;/strong&gt;和&lt;strong&gt;滚动屏幕截图&lt;/strong&gt;，滚动截图功能快速的帮你截取整个网页，对网页设计师来说是非常强大而且还好用的功能了，这也是&lt;strong&gt;FastStone Capturecn&lt;/strong&gt;截图软件被广大用户所喜欢的重要原因之一；另外，它还可以把你截取的图片直接进行发送到Word,Excel,PowerPoint,FTP,电子邮件等等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FastStone Capturecn&lt;/strong&gt;在截图之后会直接生成预览图像，方便你快速浏览图像是否截好，你还可以非常快速的放大，缩小，旋转裁切，等很很自由的方式去浏览和编辑你的图片。&lt;/p&gt;
+&lt;h2 id=&quot;FastStone-Capturecn的其他功能&quot;&gt;&lt;a href=&quot;#FastStone-Capturecn的其他功能&quot; class=&quot;headerlink&quot; title=&quot;FastStone Capturecn的其他功能&quot;&gt;&lt;/a&gt;FastStone Capturecn的其他功能&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;FastStone Capturecn&lt;/strong&gt;除了有强大的截图功能之外，还提供里非常实用其他功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;屏幕录制功能（支持全屏录制和窗口录制）&lt;/li&gt;
+&lt;li&gt;放大镜功能（能快速的放大屏幕的某一块地方）&lt;/li&gt;
+&lt;li&gt;屏幕取色功能（能快速提取出屏幕上任何一处的颜色值）&lt;/li&gt;
+&lt;li&gt;屏幕标尺功能（能直接在电脑屏幕上测量窗口的大小）&lt;/li&gt;
+&lt;li&gt;从扫描器获取图像&lt;/li&gt;
+&lt;li&gt;转换图像为PDF文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;对于网页设计师和前端工程师来说，&lt;strong&gt;FastStone Capturecn&lt;/strong&gt;是一个非常得力的软件小助手，能大大提高他们的工作效率，没有用过的朋友，可以下载下来体验一把，相信你绝对会爱上它的。&lt;/p&gt;
+&lt;h2 id=&quot;FastStone-Capturecn的下载地址&quot;&gt;&lt;a href=&quot;#FastStone-Capturecn的下载地址&quot; class=&quot;headerlink&quot; title=&quot;FastStone Capturecn的下载地址&quot;&gt;&lt;/a&gt;FastStone Capturecn的下载地址&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;百度网盘：&lt;a href=&quot;http://pan.baidu.com/s/1bn9bWAF&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://pan.baidu.com/s/1bn9bWAF&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkNKeG1zaGl4YkR0VEFwQUVyMk4wdGxQZTE1Z0Q3NG9TQklvZmQzWlluY3ZRPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;faststone capturecn&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkNKeG1zaGl4YkR0ZWNJejNla2FrS2lxd0ZyOWlxeU82Ulc4WkE5U3VvMVJRPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;faststone capturecn&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkNKeG1zaGl4YkR0U2x5SGxEOGxOc2MwZ1ZDZmJ6NVBtVm5JWllNN2xSdEJnPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;faststone capturecn&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkNKeG1zaGl4YkR0YVFvSWtnR09hZlgwbzB4d3VocWl1KzZGb0Qzakx6Sk13PT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;faststone capturecn&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkNKeG1zaGl4YkR0WUJrWGE1a3NoTGdwSlcyaGNWb1hQdDhaNkwzZ29sYVRnPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;faststone capturecn&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;FastStone-Capturecn的主要功能&quot;&gt;&lt;a href=&quot;#FastStone-Capturecn的主要功能&quot; class=&quot;headerlink&quot; title=&quot;FastStone Capturecn的主要功能&quot;&gt;&lt;/a&gt;FastStone Capt
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>post</title>
+    <link href="http://yoursite.com/post-1.html"/>
+    <id>http://yoursite.com/post-1.html</id>
+    <published>2016-03-22T09:58:28.000Z</published>
+    <updated>2016-03-22T09:58:28.113Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇Hexo文章</title>
+    <link href="http://yoursite.com/post.html"/>
+    <id>http://yoursite.com/post.html</id>
+    <published>2016-03-22T09:57:39.000Z</published>
+    <updated>2016-03-22T10:02:13.577Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;我的第一篇Hexo文章&quot;&gt;&lt;a href=&quot;#我的第一篇Hexo文章&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇Hexo文章&quot;&gt;&lt;/a&gt;我的第一篇Hexo文章&lt;/h1&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;我的第一篇Hexo文章&quot;&gt;&lt;a href=&quot;#我的第一篇Hexo文章&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇Hexo文章&quot;&gt;&lt;/a&gt;我的第一篇Hexo文章&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/hello-world.html"/>
+    <id>http://yoursite.com/hello-world.html</id>
+    <published>2016-03-22T09:48:30.210Z</published>
+    <updated>2016-03-22T09:48:30.213Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Iconfont - 让字体图标更自由</title>
+    <link href="http://yoursite.com/Iconfont-%E8%AE%A9%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87%E6%9B%B4%E8%87%AA%E7%94%B1.html"/>
+    <id>http://yoursite.com/Iconfont-让字体图标更自由.html</id>
+    <published>2016-03-22T08:45:00.000Z</published>
+    <updated>2016-03-24T10:13:45.908Z</updated>
+    
+    <content type="html">&lt;p&gt;今天因为工作需要无意中发现的&lt;strong&gt;&lt;a href=&quot;http://www.iconfont.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Iconfont&lt;/a&gt;&lt;/strong&gt;这个网站，发现有点相见恨晚的感觉，因为就在昨天我还在为icon字体的事儿发愁：网站本来是使用了icon字体图标的，效果本来挺好的，但有一个bug是我发现在chrome下面很多图标都无法显示，不管我将字体文件怎样重新编辑和生成都不能解决。&lt;/p&gt;
+&lt;p&gt;在认识到以我现有的水平是搞不定这个问题的之后，只好很不情愿的将字体文件全部替换成Font Awesome字体了；因为Font Awesome仅字体文件就有好几百KB（svg文件达到194KB），这无疑会增加网站访问的压力，虽然我现在用着七牛每个月10G的免费流量，但也不想给网站增加额外的几百KB请求的负担不是，还好今天发现了&lt;strong&gt;iconfont&lt;/strong&gt;，下面就来说说为什么我要将刚修改好的Font Awesome字体抛弃而转用iconfont。&lt;/p&gt;
+&lt;h2 id=&quot;两者之间的优缺点&quot;&gt;&lt;a href=&quot;#两者之间的优缺点&quot; class=&quot;headerlink&quot; title=&quot;两者之间的优缺点&quot;&gt;&lt;/a&gt;两者之间的优缺点&lt;/h2&gt;&lt;p&gt;iconfont的图标库相当巨大，我在写上一篇文章的时候还是52090个，现在刷新之后图标数量已经是368485个了，如果这么大的一个库里面仍然没有你需要的图标的话，你也可以自己动手制作你自己的图标然后使用网站的在线生成工具来生成字体文件，分分钟就可以使用了。&lt;/p&gt;
+&lt;p&gt;除了拥有巨大的图标库之外，iconfont最值得推荐的原因还在于她使用上的灵活性（实话说，iconfont给我最初的印象是有点像现在各大运营商主打的可自由搭配的积木套餐），因为她完全可以由你自由搭配组合、按需索取，如果你的网站一共只需要用到5个图标，那么你只需要将这5个图标的字体文件和相关的css下载下来就可以用了，如果你想使用iconfont的CDN服务的话，你都不用下载，直接将这几个图标添加到你自己的项目中，然后在你的网站里面引用一个CSS文件就可以了。&lt;/p&gt;
+&lt;p&gt;再反观Font Awesome，哪怕你只是要用到2个图标，你都必须要把所有文件都下载下来才能使用，而上面也说了，仅SVG就194KB大了，还有其他几个字体文件加起来一共有400+KB，这还是没有算上同样好几十KB的CSS文件。&lt;/p&gt;
+&lt;p&gt;孰优孰劣是不是很清楚？相信你已经有了自己的选择。&lt;/p&gt;
+&lt;p&gt;来，下面说说如何使用，其实很简单，但还是理一个步骤给不是很懂的同学。&lt;/p&gt;
+&lt;h2 id=&quot;将你看上的图标加入到购物车&quot;&gt;&lt;a href=&quot;#将你看上的图标加入到购物车&quot; class=&quot;headerlink&quot; title=&quot;将你看上的图标加入到购物车&quot;&gt;&lt;/a&gt;将你看上的图标加入到购物车&lt;/h2&gt;&lt;p&gt;将你看上的图标加入到购物车官方叫法是“暂存架”，购物车只是我的叫法，好像并不准确，因为不需要花钱的啊，但是它用了一个购物车的图标，所以暂且这样称呼吧。&lt;/p&gt;
+&lt;p&gt;这里你可以在&lt;strong&gt;iconfont&lt;/strong&gt;的图标库里面寻找你要的图标，但是我不建议你这样做，因为默认给出的几个官方图标库里面的图标是不全的。正确的做法是在导航栏右侧的输入框中输入关键词来搜索图标，这样就会将网友制作的图标都搜出来。（我一开始就是在图标库中找微信、twitter和QQ空间的图标怎么也找不到，后来试着在上面搜索了一下，出来大把的，才知道官方库里面是没有收录这些图标的。。。）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE0TU1QcDZEQlhodGE3RTdGNFZwQ0xTeFhQU3hFcW8rL0xiZVZPcE5zY0JBPT0.gif&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;存储为项目或者下载到本地&quot;&gt;&lt;a href=&quot;#存储为项目或者下载到本地&quot; class=&quot;headerlink&quot; title=&quot;存储为项目或者下载到本地&quot;&gt;&lt;/a&gt;存储为项目或者下载到本地&lt;/h2&gt;&lt;p&gt;就像上面图片中的那样，添加到购物车之后就可以存为项目或下载到本地，这里看你的需求了；反正我是想使用阿里的CDN，所以直接存为项目了。存储为项目的时候你可以选择存为新项目还是添加到已有的项目里面，确定之后会跳转到项目详情页。&lt;/p&gt;
+&lt;h2 id=&quot;下载修改并调用CSS文件&quot;&gt;&lt;a href=&quot;#下载修改并调用CSS文件&quot; class=&quot;headerlink&quot; title=&quot;下载修改并调用CSS文件&quot;&gt;&lt;/a&gt;下载修改并调用CSS文件&lt;/h2&gt;&lt;p&gt;在项目详情页里面你还是可以选择是下载文件到本地使用还是使用阿里的CDN，当然选择CDN了（也就是页面中的获取在线链接）；这里建议使用Font Class，因为如果你选择Unicode的话CSS中图标的编码都要自己写，这个有点麻烦啊，不符合我这种懒鬼的风格，所以如果你也是懒鬼一枚请将下图中右上角的滑块滑到右侧。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE0TU1QcDZEQlhoajdvMTVZaTdMSzZHelV5dzVOSm1GOTBPdFowalFIQzZ3PT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;然后鼠标移到左侧的获取在线链接这里就能看到生成的CSS文件了，你现在有两个选择：一是直接调用这个文件，在网站的HTML中修改添加图标的元素的类为&amp;quot;iconfont icon-xxx&amp;quot;的；第二个选择是将这个文件下载下来，然后做一些修改之后传到服务器本地调用，然后在网站的HTML中修改添加图标的元素的类为&amp;quot;icon-xxx&amp;quot;。我选择的是第二种，大家随意。&lt;/p&gt;
+&lt;p&gt;选择第二种的话需要对CSS做一点小的修改，将选择器“.iconfont”改为“[class*=icon-],[class^=icon-]”：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[class*=&amp;amp;quot;icon-&amp;amp;quot;],[class^=&amp;amp;quot;icon-&amp;amp;quot;]{
+font-family:&amp;amp;quot;iconfont&amp;amp;quot;!important;
+font-size:16px;
+font-style:normal;
+-webkit-font-smoothing:antialiased;
+-webkit-text-stroke-width:0.2px;
+-moz-osx-font-smoothing:grayscale;
+}
+`&amp;lt;/pre&amp;gt;
+
+然后引用CSS文件就OK了。
+
+## 在网页中使用icon图标字体
+
+CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看下面这张图，比如我要调用图片中的小火箭这个图标，那我就要将我的HTML修改为
+
+&amp;lt;pre&amp;gt;`    &amp;amp;lt;i class=&amp;amp;quot;icon-xiaohuojian&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这样既可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE0TU1QcDZEQlhob3BqcWk4U2YwUEdMTjIzZWFqV2R6cjdLZzY4TW1vNnlRPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;图标演示效果&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天因为工作需要无意中发现的&lt;strong&gt;&lt;a href=&quot;http://www.iconfont.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Iconfont&lt;/a&gt;&lt;/strong&gt;这个网站，发现有点相见恨晚的感觉，因为就在昨天我还在为ic
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Word 除了编辑文档还可以这样......</title>
+    <link href="http://yoursite.com/Word-%E9%99%A4%E4%BA%86%E7%BC%96%E8%BE%91%E6%96%87%E6%A1%A3%E8%BF%98%E5%8F%AF%E4%BB%A5%E8%BF%99%E6%A0%B7.html"/>
+    <id>http://yoursite.com/Word-除了编辑文档还可以这样.html</id>
+    <published>2016-03-21T06:53:00.000Z</published>
+    <updated>2016-03-24T10:13:45.908Z</updated>
+    
+    <content type="html">&lt;p&gt;在平时的工作中，我们会经常遇到孰能生巧的人，他们因为长时间的使用某一种工具，而把这种工具使用的出神入化，让人非常钦佩；而我今天给大家分享的就是一个把&lt;strong&gt;Word&lt;/strong&gt;使用的出神入化的大神的视频…&lt;/p&gt;
+&lt;h2 id=&quot;用Word来做平面设计的工作&quot;&gt;&lt;a href=&quot;#用Word来做平面设计的工作&quot; class=&quot;headerlink&quot; title=&quot;用Word来做平面设计的工作&quot;&gt;&lt;/a&gt;用Word来做平面设计的工作&lt;/h2&gt;&lt;p&gt;视频中，大神使用我们经常使用的文档编辑软件&lt;strong&gt;Word&lt;/strong&gt;设计出了&lt;strong&gt;IOS7&lt;/strong&gt;的界面，做出来的效果比专业平面设计软件设计出来的效果都要好&lt;/p&gt;
+&lt;div id=&quot;typembed&quot;&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTUwNzA3NzYyNA/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;100%&quot; height=&quot;500&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/div&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在平时的工作中，我们会经常遇到孰能生巧的人，他们因为长时间的使用某一种工具，而把这种工具使用的出神入化，让人非常钦佩；而我今天给大家分享的就是一个把&lt;strong&gt;Word&lt;/strong&gt;使用的出神入化的大神的视频…&lt;/p&gt;
+&lt;h2 id=&quot;用Word来做平面设计的工作&quot;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>创意动画 - 《动画师大战火柴人》</title>
+    <link href="http://yoursite.com/%E5%88%9B%E6%84%8F%E5%8A%A8%E7%94%BB-%E3%80%8A%E5%8A%A8%E7%94%BB%E5%B8%88%E5%A4%A7%E6%88%98%E7%81%AB%E6%9F%B4%E4%BA%BA%E3%80%8B.html"/>
+    <id>http://yoursite.com/创意动画-《动画师大战火柴人》.html</id>
+    <published>2016-03-20T05:58:00.000Z</published>
+    <updated>2016-03-24T10:13:45.910Z</updated>
+    
+    <content type="html">&lt;p&gt;今天呢，给大家分享一部动画师&lt;strong&gt;Alan Becker&lt;/strong&gt;创作的火柴人系列的Flash动画，主要讲述了动画师和他所创造的动画人物-&lt;strong&gt;火柴人&lt;/strong&gt;之间的故事，动画剧情非常精彩和完整，充满的创意。&lt;/p&gt;
+&lt;h2 id=&quot;《动画师大战火柴人》剧情介绍&quot;&gt;&lt;a href=&quot;#《动画师大战火柴人》剧情介绍&quot; class=&quot;headerlink&quot; title=&quot;《动画师大战火柴人》剧情介绍&quot;&gt;&lt;/a&gt;《动画师大战火柴人》剧情介绍&lt;/h2&gt;&lt;p&gt;故事从动画师开始创作说起，这天动画师用新买的电脑在创作动画，中途，动画师因为事情离开了电脑前；这时，屏幕中的火柴人活了过来，开始探头探脑，观察着周围的情况，它在一个网页中发现了4个自己的同伴被关在一个房子中，它看到4个和自己长得差不多的小伙伴们，感到非常高兴，于是它就把4个同伴放了出来，开始在电脑屏幕上大肆破坏…&lt;/p&gt;
+&lt;p&gt;在它们玩的高兴的时候，动画师从外面回来了，当他看到火柴人先是破坏了他的PS软件，动画师感到非常愤怒，把其他4个火柴人的进程给强制关闭，发现同伴消失之后，火柴人以为动画师灭了自己的一帮兄弟，于是它又黑进了动画师的Facebook账户，接着由数据线进入iPhone手机，让动画师手机里的APP全部报废……然而，经过一番斗智斗勇之后，动画师和火柴人却因才华惺惺相惜起来，最终化敌为友！&lt;/p&gt;
+&lt;h2 id=&quot;一起欣赏一下《动画师大战火柴人》动画吧&quot;&gt;&lt;a href=&quot;#一起欣赏一下《动画师大战火柴人》动画吧&quot; class=&quot;headerlink&quot; title=&quot;一起欣赏一下《动画师大战火柴人》动画吧&quot;&gt;&lt;/a&gt;一起欣赏一下《动画师大战火柴人》动画吧&lt;/h2&gt;&lt;div id=&quot;typembed&quot;&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTUwNTg2MDY0MA/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;100%&quot; height=&quot;500&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;《动画师大战火柴人》动画的制作幕后&quot;&gt;&lt;a href=&quot;#《动画师大战火柴人》动画的制作幕后&quot; class=&quot;headerlink&quot; title=&quot;《动画师大战火柴人》动画的制作幕后&quot;&gt;&lt;/a&gt;《动画师大战火柴人》动画的制作幕后&lt;/h2&gt;&lt;div id=&quot;typembed&quot;&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTUwNTg1ODY3Ng/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;100%&quot; height=&quot;500&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/div&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天呢，给大家分享一部动画师&lt;strong&gt;Alan Becker&lt;/strong&gt;创作的火柴人系列的Flash动画，主要讲述了动画师和他所创造的动画人物-&lt;strong&gt;火柴人&lt;/strong&gt;之间的故事，动画剧情非常精彩和完整，充满的创意。&lt;/p&gt;
+&lt;h2 id=&quot;《动
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Office 2016 - 让你体验全新的办公方式</title>
+    <link href="http://yoursite.com/Office-2016-%E8%AE%A9%E4%BD%A0%E4%BD%93%E9%AA%8C%E5%85%A8%E6%96%B0%E7%9A%84%E5%8A%9E%E5%85%AC%E6%96%B9%E5%BC%8F.html"/>
+    <id>http://yoursite.com/Office-2016-让你体验全新的办公方式.html</id>
+    <published>2016-03-18T09:42:00.000Z</published>
+    <updated>2016-03-24T10:13:45.910Z</updated>
+    
+    <content type="html">&lt;p&gt;小编我是一个非常喜欢收集软件的人，因为我觉得用好一个软件能使我的工作效率提高一倍不止，所以我就养成收集软件的习惯了；而今天我要带大家了解的就是我们工作中，经常用到的软件&lt;strong&gt;Office&lt;/strong&gt;,它可以说是我们工作中必备的软件了，去年微软公司发布了最新版本的office - &lt;strong&gt;office 2016&lt;/strong&gt;啦，每一个版本的office都会给我们带来很多新的功能，而且软件的用户体验也变得越来越好，让你操作起来更方便，更快捷。&lt;/p&gt;
+&lt;h2 id=&quot;Office-2016都有哪些新的功能&quot;&gt;&lt;a href=&quot;#Office-2016都有哪些新的功能&quot; class=&quot;headerlink&quot; title=&quot;Office 2016都有哪些新的功能&quot;&gt;&lt;/a&gt;Office 2016都有哪些新的功能&lt;/h2&gt;&lt;p&gt;这次的 Office 2016 正式版 包含很多新特性和改进，譬如颇受关注的远程实时多人合作编辑功能。Office 2016 包含了 Word、Excel、PowerPoint、OneNote、Publisher、Access、Visio、Project、Outlook 等组件。如果你经常需要用到办公软件，那么微软新一代更加高效智能的 Office 2016 当然是值得你升级的……&lt;/p&gt;
+&lt;p&gt;Office 2016 正式版支持 Windows 10、Win8 以及 Win7，Office 2016 经过不断的升级和改进，更加智能更加先进高效，同时也加入了多方面升级，包括文档共同创作 (多人远程协作编辑)、新的“Tell Me”导航支持、与 Power BI 的集成、OneDrive for Business，以及更多的权限管理功能等。&lt;/p&gt;
+&lt;p&gt;最新的 Office 2016 基于云端同步的工作方式可以大幅提高工作效率，无论您需要在家中、学校或公司使用 Office，你的所有文档都能随处使用。&lt;/p&gt;
+&lt;h2 id=&quot;Office-2016-软件截图预览：&quot;&gt;&lt;a href=&quot;#Office-2016-软件截图预览：&quot; class=&quot;headerlink&quot; title=&quot;Office 2016 软件截图预览：&quot;&gt;&lt;/a&gt;Office 2016 软件截图预览：&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkFwb2d0ZWVDSS8xay8rV3JVVWc0Z2hhbU9LTVZidTJPVjZ4UVVJVExmaW13PT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;WORD 截图&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkFwb2d0ZWVDSS8xZ1JlMXRITjdySm9xM05xSWZpU2ZoWnNJVWl0d2wzUm13PT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;PowerPoint 截图&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkFwb2d0ZWVDSS8xczNGdnhSdC9pY2VQNjVtWTVBOWFwWU9ZbmxXaE43Ryt3PT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Excel 截图&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Office-2016-宣传视频：&quot;&gt;&lt;a href=&quot;#Office-2016-宣传视频：&quot; class=&quot;headerlink&quot; title=&quot;Office 2016 宣传视频：&quot;&gt;&lt;/a&gt;Office 2016 宣传视频：&lt;/h2&gt;&lt;div id=&quot;typembed&quot;&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTM0Mjk3MTg4MA/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;100%&quot; height=&quot;500&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;关于Office-2016-办公软件新功能&quot;&gt;&lt;a href=&quot;#关于Office-2016-办公软件新功能&quot; class=&quot;headerlink&quot; title=&quot;关于Office 2016 办公软件新功能&quot;&gt;&lt;/a&gt;关于Office 2016 办公软件新功能&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;云服务加强：任何位置、任何设备访问你的文件，Outlook 支持 OneDrive 附件和自动权限设置&lt;/li&gt;
+&lt;li&gt;实时多人协作：可以通过网络实现多人协同编辑文件&lt;/li&gt;
+&lt;li&gt;智能应用：应用将支持 Tell Me 功能助手，Clutter 邮箱清理功能、Insights 找到相关信息等智能功能。&lt;/li&gt;
+&lt;li&gt;数据分析更快更简单：Excel 内置新的分析功能，可以拉取、分析、可视化数据。&lt;/li&gt;
+&lt;li&gt;新的 IT 功能：安全控制（数据丢失保护、信息版权管理、Outlook 多因素验证），更灵活部署和管理方案&lt;/li&gt;
+&lt;li&gt;Skype for Business：可以直接在文档中即时通讯、屏幕分享、语音和视频聊天和会议。&lt;/li&gt;
+&lt;li&gt;Outlook 2016 提供了智能邮箱、快速搜索、自动过滤低优先级邮件、OneDrive 附件等。&lt;/li&gt;
+&lt;li&gt;新版本的 OneDrive for Business ：将提供 Windows 和 Mac 客户端。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Office-2016-和-Office-365-有哪些区别？&quot;&gt;&lt;a href=&quot;#Office-2016-和-Office-365-有哪些区别？&quot; class=&quot;headerlink&quot; title=&quot;Office 2016 和 Office 365 有哪些区别？&quot;&gt;&lt;/a&gt;Office 2016 和 Office 365 有哪些区别？&lt;/h2&gt;&lt;p&gt;很多朋友看到微软的 Office 2016 以及 Office 365 两个名字会比较混淆;其实，这是微软推出的两种不同的 Office 销售方式。首先，Office 2016 是一款软件产品，是微软 Office 办公套件的最新版本，对应的上一个版本是 Office 2013。而 Office 365 并不是一款产品，而是一项「订阅服务」，用通俗的话来说，就是包年服务。&lt;/p&gt;
+&lt;p&gt;用户可以选择直接购买 Office 2016 软件（买断永久使用 / 但跨版本升级需要付费 / 不同操作系统版本(Win / Mac) 也要分别购买）；也可以选择订阅 Office 365，在服务有效期内，用户可以使用包括 Win / Mac / 平板 / 手机 等多个平台在内的「最新版本」的 Office 软件，即便明天微软推出 Office 2018，只要 Office 365 未到期，用户都能免费使用它。&lt;/p&gt;
+&lt;p&gt;换句话说，Office 365 (有效期内) 包含了 Office 2016 以及日后的所有的新版本升级，跨平台使用不同版本无需额外付费，特别是如果你同时使用 Windows PC 以及苹果 Mac 电脑，甚至还会使用手机版的 Office，那么订阅 Office 365 显然更为合算。&lt;/p&gt;
+&lt;p&gt;而且，订阅最便宜的个人版 Office 365 即可使用 Office 2016 小型企业版以上版本才会有的 Outlook、Publisher、Access 等组件，另外还会额外赠送 1TB 的 OneDrive 云存储空间，相对来说可以为用户带来更全面的 Microsoft Office 体验。Office 365 也是微软目前主推的销售方式。&lt;/p&gt;
+&lt;h2 id=&quot;Office-2016软件下载&quot;&gt;&lt;a href=&quot;#Office-2016软件下载&quot; class=&quot;headerlink&quot; title=&quot;Office 2016软件下载&quot;&gt;&lt;/a&gt;Office 2016软件下载&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;ed2k://|file|cn_office_professional_plus_2016_x86_x64_dvd_6969182.iso|2588266496|27EEA4FE4BB13CD0ECCDFC24167F9E01|/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Office 2016下载&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;小编我是一个非常喜欢收集软件的人，因为我觉得用好一个软件能使我的工作效率提高一倍不止，所以我就养成收集软件的习惯了；而今天我要带大家了解的就是我们工作中，经常用到的软件&lt;strong&gt;Office&lt;/strong&gt;,它可以说是我们工作中必备的软件了，去年微软公司发布了最新版
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Typora - 让你爱上写作时轻松惬意的感觉</title>
+    <link href="http://yoursite.com/Typora-%E8%AE%A9%E4%BD%A0%E7%88%B1%E4%B8%8A%E5%86%99%E4%BD%9C%E6%97%B6%E8%BD%BB%E6%9D%BE%E6%83%AC%E6%84%8F%E7%9A%84%E6%84%9F%E8%A7%89.html"/>
+    <id>http://yoursite.com/Typora-让你爱上写作时轻松惬意的感觉.html</id>
+    <published>2016-03-11T04:26:00.000Z</published>
+    <updated>2016-03-24T10:13:45.910Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;a href=&quot;#接触Typora源于Markdown写作&quot; class=&quot;headerlink&quot; title=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;/a&gt;接触Typora源于Markdown写作&lt;/h2&gt;&lt;p&gt;最近呢，我抽了点时间把网站重新规划了一下，我觉得以前的网站比较繁杂、没有真正的主题，而且我平时更新也比较少，网站程序本身也比较臃肿，访问速度不快，等等这些种种原因致使我下定决心重做网站…&lt;/p&gt;
+&lt;p&gt;于是我重新选择了一个新的博客程序，重新编写了主题样式，让博客看着和原来差不多；博客程序是支持&lt;code&gt;Markdown语法&lt;/code&gt;模式来写作的，我也是第一次接触这种写作方式，接触不久我就发现我爱上了这种写作方式，我也开始寻找一些支持Markdown语法的编辑器，发现有很多不错的编辑软件功能都非常的不错，而我今天为大家推荐的就是这款&lt;strong&gt;Typora&lt;/strong&gt;编辑器。&lt;/p&gt;
+&lt;h2 id=&quot;Typora的Markdown写作的特点&quot;&gt;&lt;a href=&quot;#Typora的Markdown写作的特点&quot; class=&quot;headerlink&quot; title=&quot;Typora的Markdown写作的特点&quot;&gt;&lt;/a&gt;Typora的Markdown写作的特点&lt;/h2&gt;&lt;p&gt;Typora 和其他的Markdown编辑器有点不同，因为它将&lt;strong&gt;写作&lt;/strong&gt;和&lt;strong&gt;预览&lt;/strong&gt;两件事情合在一起了，你输入的地方，也是输出的地方，就像现在很流行的 WYSIWYG（What You See Is What You Get）,其实转念一想，这和 Office Word 没什么不同嘛，只不过编辑文本时不用再去工具栏上点选，一切的格式都能通过符号来控制。&lt;/p&gt;
+&lt;p&gt;我们来看一下 Typora 官方的演示视频，你就知道这一切是多么的自然啦；没错，所有的行内元素（如加粗、斜体）都会根据当前是否在编辑态而智能地在编辑态和预览态切换，而区块级元素（如标题、列表）则会在按下 Enter 后即时渲染，不能再次编辑，一切都变得如此干净和纯粹。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkJ6Y3JtdWFENzY1YXFOOVJvM1pBSnMzM3kzVHhHMTM3YzNZTVk0SnJKTkZnPT0.gif&quot; alt=&quot;Typora 演示视频&quot;&gt;&lt;/p&gt;
+&lt;p&gt;当然，Typora 的强大之处不仅仅在于颠覆了 Markdown 编辑器传统的交互模式，它还引入了一系列强大的功能，一起看看吧。&lt;/p&gt;
+&lt;h2 id=&quot;如此简单的表格编辑&quot;&gt;&lt;a href=&quot;#如此简单的表格编辑&quot; class=&quot;headerlink&quot; title=&quot;如此简单的表格编辑&quot;&gt;&lt;/a&gt;如此简单的表格编辑&lt;/h2&gt;&lt;p&gt;用过 Markdown 原生格式编辑表格的，一定知道那是多么痛苦的一件事情，因为它的是这样的：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkFNam9rOTE5dEUyUDFkMHZMYUh4Q2lnZmhzVFJuUHpvVlBlUTVRRUR4NUp3PT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;原格式编辑表格&quot;&gt;&lt;/p&gt;
+&lt;p&gt;还好，Typora 提供了像 Office 一样的表格编辑能力,通过&lt;code&gt;Ctrl+Alt+T&lt;/code&gt;快捷键即可以插入表格，Typora 会弹出一个表格插入设置，你可以预先设定好行数和列数，确定后表格就出现了，每一列上面还有三个按钮，可以控制本列的文字向左、居中、向右对齐，甚至，你可以点击左上角改变表格的行数和列数，是不是一种 Office 的既视感，但却又如此得恰到好处，弥补了 Markdown 编辑器中反人类的表格编辑设定。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkROQ2tjZmRXUk1DbjRWV0UzL0ZkSm8rUmdraUVwSVZOc29zSGIxR3lJODBnPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;进入插入表格模式&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkROQ2tjZmRXUk1DcDc1OFJkckVhYjBoVDRwVDN3T2t6RFFZazc2LzBPNWhnPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;插入表格输入数据&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkROQ2tjZmRXUk1DdlNReU5xbTRDazhvbWJOMXRZaFUzMGw2Z0t0eDRUMGNRPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;快速设置表格行列&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;快速插入图片变得更简单&quot;&gt;&lt;a href=&quot;#快速插入图片变得更简单&quot; class=&quot;headerlink&quot; title=&quot;快速插入图片变得更简单&quot;&gt;&lt;/a&gt;快速插入图片变得更简单&lt;/h2&gt;&lt;p&gt;在传统的 Markdown 编辑器中，如果想要插入一张图片，默认的语法是这样的：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;![logo](http://typora.io/img/favicon-128.png)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;而在 Typora 中，你只需要像把图片拖拽进去，就大功告成了，完全不用记住语法格式，再也不用输文件名，再也不用自己去找文件的路径地址，就是这么简单。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.typora.io/img/screen/image.png&quot; alt=&quot;快速插入图片&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Typora其他的一些功能介绍&quot;&gt;&lt;a href=&quot;#Typora其他的一些功能介绍&quot; class=&quot;headerlink&quot; title=&quot;Typora其他的一些功能介绍&quot;&gt;&lt;/a&gt;Typora其他的一些功能介绍&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Lists列表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.typora.io/img/screen/list.png&quot; alt=&quot;Lists&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code Fences代码高亮&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.typora.io/img/screen/codefences.png&quot; alt=&quot;Code Fences&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Toc 主题大纲&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.typora.io/img/screen/toc.png&quot; alt=&quot;Toc&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;个性主题，随心定制&quot;&gt;&lt;a href=&quot;#个性主题，随心定制&quot; class=&quot;headerlink&quot; title=&quot;个性主题，随心定制&quot;&gt;&lt;/a&gt;个性主题，随心定制&lt;/h2&gt;&lt;p&gt;Typora 默认提供了六套主题样式：Github、默认主题 Gothic、出版风格的 Newsprint、夜间模式 Night、Pixyll 和 Whitey，每一款主题都非常精美。并且，主题是基于 CSS 样式的，这意味着你可以自己新增任何主题，或者在当前主题的基础上做一些微调；想想某些厂商的换肤换色，不知道高到哪里去了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.typora.io/img/theme-prev/Snip20141101_4.png&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.typora.io/img/theme-prev/Snip20141101_5.png&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.typora.io/img/theme-prev/Snip20141101_6.png&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.typora.io/img/theme-prev/Snip20141101_3.png&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Typora下载&quot;&gt;&lt;a href=&quot;#Typora下载&quot; class=&quot;headerlink&quot; title=&quot;Typora下载&quot;&gt;&lt;/a&gt;Typora下载&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方网站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1pK0eOIZ&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora(win)下载&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;a href=&quot;#接触Typora源于Markdown写作&quot; class=&quot;headerlink&quot; title=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;/a&gt;接触Typora源于Markdown写作&lt;/h2&gt;&lt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Flippr - 让你的 Widget 发挥无限创意</title>
+    <link href="http://yoursite.com/Flippr-%E8%AE%A9%E4%BD%A0%E7%9A%84-Widget-%E5%8F%91%E6%8C%A5%E6%97%A0%E9%99%90%E5%88%9B%E6%84%8F.html"/>
+    <id>http://yoursite.com/Flippr-让你的-Widget-发挥无限创意.html</id>
+    <published>2015-12-10T01:57:00.000Z</published>
+    <updated>2016-03-24T10:13:45.910Z</updated>
+    
+    <content type="html">&lt;p&gt;作为 Android 平台引以为傲的桌面元素，Widget 的方便之处自然不必多言。桌面放个天气小部件，随时就能看到天气情况；放个备忘录，打开桌面就可以起到提醒的作用。而 Widget 最棒的一点还是它的互动性，不仅可以控制音乐播放器，快速打开应用里面的特定功能，你甚至可以在桌面放一个计算器，需要时随时计算而不用打开应用。&lt;/p&gt;
+&lt;p&gt;Widget 的存在大大地减少了我们的操作，削弱了点开应用的必要性。然而如此好用的东西，只能在桌面使用岂不可惜。&lt;/p&gt;
+&lt;p&gt;J 君曾经推荐过一款能够将 Widget 小部件放进下拉状态栏的应用 Snap ，也曾经推荐过一款悬浮音乐播放器 &lt;a href=&quot;http://www.jefway.com/bump-music-player.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BuMP Music Player&lt;/a&gt;，前者是为了节省桌面空间，后者是为了在一边阅读一边听音乐时尽量保持少的操作。而 flippr 这款应用可以轻松的代替这它们，因为它能让你的 Widget 小部件做到「随手可得」。&lt;/p&gt;
+&lt;h2 id=&quot;无论何时，一划即得&quot;&gt;&lt;a href=&quot;#无论何时，一划即得&quot; class=&quot;headerlink&quot; title=&quot;无论何时，一划即得&quot;&gt;&lt;/a&gt;无论何时，一划即得&lt;/h2&gt;&lt;p&gt;Snap 将 Widget 放在下拉菜单栏里面，已经可以做到在任何界面使用 Widget 了，但是下拉菜单栏始终是一个让大屏手机用户苦恼的动作。flippr 则更进一步，将 Widget 改为由一个悬浮圆滑动呼出，效果颇为炫酷。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://sspai.com/attachment/origin/2015/12/09/297345.gif&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;呼出后的 Widget 小部件依旧可以互动，点击小部件以外的位置则会自动收回，操作流畅毫无违和感，就像在屏幕侧面多出了一个 Widget 工具栏一样。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://sspai.com/attachment/origin/2015/12/09/297348.gif&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;无论是在阅读还是在聊天，甚至是在玩游戏的时候，你都可以随时呼出你的 Widget 小部件进行类似切歌、查看清单、切换应用等操作。&lt;/p&gt;
+&lt;p&gt;这下你明白为什么 flippr 可以替代 BuMP 了吧：只要你常用的音乐播放器有 Widget 小部件，你就可以借由 flippr 获得接近 BuMP 的效果。&lt;/p&gt;
+&lt;h2 id=&quot;完善定制，随心所欲&quot;&gt;&lt;a href=&quot;#完善定制，随心所欲&quot; class=&quot;headerlink&quot; title=&quot;完善定制，随心所欲&quot;&gt;&lt;/a&gt;完善定制，随心所欲&lt;/h2&gt;&lt;p&gt;flippr 的用户指引非常的详细，实际上这款应用的操作并不复杂，只要记住：按住圆点上下滑动选择分组，选定分组左右滑动选定。&lt;/p&gt;
+&lt;p&gt;应用的分组有两种，Widget 和 Shortcut，后者类似于快速打开应用，个人并不常用。命名分组后就可以添加 Widget 了，添加之后可以点击齿轮按钮将 Widget 大小、背景调整到合适的样子。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cdn.sspai.com/attachment/thumbnail/2015/12/09/7529000b9ddf6c688d0089f3953c517348989_mw_800_wm_1_wmp_3.jpg&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cdn.sspai.com/attachment/thumbnail/2015/12/09/5ed5fdd050384e1fcd5c29be583d177e48987_mw_800_wm_1_wmp_3.jpg&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cdn.sspai.com/attachment/thumbnail/2015/12/09/76146925162f94b856ee7565047d056e48988_mw_800_wm_1_wmp_3.jpg&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;应用设置里面提供了丰富的选择，你可以在 Blacklist 里面选择在选定应用隐藏 flippr，也可以调整圆点的位置和大小。不过免费版不支持自定义圆点的颜色和呼出 Widget 的动画效果。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cdn.sspai.com/attachment/thumbnail/2015/12/09/5b8b174560836fa02768f5edbb35ce534898a_mw_800_wm_1_wmp_3.jpg&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cdn.sspai.com/attachment/thumbnail/2015/12/09/a7a22fa799519581aad408c0d234fce84898b_mw_800_wm_1_wmp_3.jpg&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cdn.sspai.com/attachment/thumbnail/2015/12/09/02ee896f64e24cbc89085599ac9ba35c4898c_mw_800_wm_1_wmp_3.jpg&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;自从发现这款应用后，J 君就删除了 Snap，毕竟随手一滑和下拉状态栏的操作难度差距显而易见。这款应用提供了一个优质的 Widget 工具，至于能用它玩出什么花样，还要看你攒了多少有趣的 Widget。&lt;/p&gt;
+&lt;h2 id=&quot;相关文件下载地址：&quot;&gt;&lt;a href=&quot;#相关文件下载地址：&quot; class=&quot;headerlink&quot; title=&quot;相关文件下载地址：&quot;&gt;&lt;/a&gt;相关文件下载地址：&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1bohGiKJ&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 Flippr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;作为 Android 平台引以为傲的桌面元素，Widget 的方便之处自然不必多言。桌面放个天气小部件，随时就能看到天气情况；放个备忘录，打开桌面就可以起到提醒的作用。而 Widget 最棒的一点还是它的互动性，不仅可以控制音乐播放器，快速打开应用里面的特定功能，你甚至可以
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Atom - Github 打造的下一代编程开发利器</title>
+    <link href="http://yoursite.com/Atom-Github-%E6%89%93%E9%80%A0%E7%9A%84%E4%B8%8B%E4%B8%80%E4%BB%A3%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91%E5%88%A9%E5%99%A8.html"/>
+    <id>http://yoursite.com/Atom-Github-打造的下一代编程开发利器.html</id>
+    <published>2015-11-27T08:55:00.000Z</published>
+    <updated>2016-03-24T10:13:45.910Z</updated>
+    
+    <content type="html">&lt;p&gt;在代码编辑器、文本编辑器领域，有着不少的「神器」级的产品，如历史悠久的 VIM、Emacs 以及如今当红的&lt;a href=&quot;http://www.jefway.com/subliem-text.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SublimeText&lt;/a&gt;。另外还有 EditPlus、NotePad++、UltraEdit 等一大堆流行的利器，可谓百家争鸣。&lt;/p&gt;
+&lt;p&gt;然而，作为目前全球范围内影响力最大的代码仓库/开源社区，GitHub 的程序员们并不满足于此。他们使用目前最先进流行的技术重新打造了一款称为“属于21世纪”的代码编辑器——&lt;strong&gt;Atom&lt;/strong&gt;， 它开源免费跨平台，并且整合 GIT 并提供类似 SublimeText 的包管理功能，支持插件扩展，可配置性非常高……&lt;/p&gt;
+&lt;h2 id=&quot;ATOM-由-GitHub-打造更为先进的编辑器&quot;&gt;&lt;a href=&quot;#ATOM-由-GitHub-打造更为先进的编辑器&quot; class=&quot;headerlink&quot; title=&quot;ATOM - 由 GitHub 打造更为先进的编辑器&quot;&gt;&lt;/a&gt;ATOM - 由 GitHub 打造更为先进的编辑器&lt;/h2&gt;&lt;p&gt;Atom 代码编辑器支持 Windows、Mac、Linux 三大桌面平台，完全免费，并且已经在 GitHub 上开放了全部的源代码。在经过一段长时间的迭代开发和不断改进后，Atom 终于从早期的测试版达到了 1.0 正式版了！相比之前的版本，在性能和稳定性方面都有着显著的改善。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkNXWWRvZ2xYR0k3RGZCRld1T24zSEo4bnpoUXppNmxUYkQzQ3NEeVhBR2xnPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;开发团队将 Atom 称为一个“为 21 世纪创造的可配置的编辑器”，它拥有非常精致细腻的界面，并且可配置项丰富，加上它提供了与 SublimeText 上类似的 Package Control (包管理)功能，人们可以非常方便地安装和管理各种插件，并将 Atom 打造成真正适合自己的开发工具。&lt;/p&gt;
+&lt;h2 id=&quot;Atom-编辑器官方宣传片：&quot;&gt;&lt;a href=&quot;#Atom-编辑器官方宣传片：&quot; class=&quot;headerlink&quot; title=&quot;Atom 编辑器官方宣传片：&quot;&gt;&lt;/a&gt;Atom 编辑器官方宣传片：&lt;/h2&gt;&lt;div id=&quot;typembed&quot;&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTI3MDg2NjczMg/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;100%&quot; height=&quot;500&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;一个拥有丰富功能的现代化代码编辑器-文本编辑器&quot;&gt;&lt;a href=&quot;#一个拥有丰富功能的现代化代码编辑器-文本编辑器&quot; class=&quot;headerlink&quot; title=&quot;一个拥有丰富功能的现代化代码编辑器/文本编辑器&quot;&gt;&lt;/a&gt;一个拥有丰富功能的现代化代码编辑器/文本编辑器&lt;/h2&gt;&lt;p&gt;作为一个现代的代码编辑器，Atom 有着各种流行编辑器都有的特性，功能上非常丰富，支持各种编程语言的代码高亮(HTML / CSS / Javascript / PHP / Python / C / C++ / Objective C / Java / JSON / Perl / CoffeeScript / Go / Sass / YAML / Markdown 等等)、 与大多数其他编辑器相比，Atom的语言支持已经算是覆盖非常全面了。另外，它的代码补全功能（也叫Snippets） 也非常好用，你只需输入几个字符即可展开成各种常用代码，可以极大提高编程效率。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkNXWWRvZ2xYR0k3TnhaMmtGY3BRYXFpN3g4ZnBsVTlnOTRma0lDN2xUMzZRPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;另外，Atom同样支持 SublimeText 的几个重要的功能，譬如 Goto Anything、Goto Symbol、Goto Line、命令面板等等，就连快捷键也是一模一样的！相信 ST 的用户将会比较轻松地过渡到 Atom 去。实际上，从功能上来看，目前的 Atom 编辑器基本就是 Sublime 的一个复刻版，只是技术实现方式不同，插件的技术也有所差异。&lt;/p&gt;
+&lt;h2 id=&quot;和-GIT-完美结合工作&quot;&gt;&lt;a href=&quot;#和-GIT-完美结合工作&quot; class=&quot;headerlink&quot; title=&quot;和 GIT 完美结合工作&quot;&gt;&lt;/a&gt;和 GIT 完美结合工作&lt;/h2&gt;&lt;p&gt;Atom 编辑器可以和 GIT 完美结合，所有对代码、文本的修改都能体现在编辑器的界面上。比如在文件内新写的代码会在左边标记为绿色，删除的标记为红色，修改的标记为黄色。在左边的目录导航也能方便的看到文件改动：有改动的文件其文件名和所在文件夹名都会被标记为高亮显示。编辑器底部会显示当前所在分支和对文件的修改行数统计，对于 GIT 用户来说非常方便。&lt;/p&gt;
+&lt;h2 id=&quot;基于-WEB-技术构建&quot;&gt;&lt;a href=&quot;#基于-WEB-技术构建&quot; class=&quot;headerlink&quot; title=&quot;基于 WEB 技术构建&quot;&gt;&lt;/a&gt;基于 WEB 技术构建&lt;/h2&gt;&lt;p&gt;和之前介绍过的微软 Visual Studio Code 编辑器一样，Atom 也是基于 WEB 技术（Chromium+Node.js）开发的，简单理解的话编辑器本身其实是一个跑在本地的网页，这足以让无数 WEB 工程师为之兴奋！用户可以用Javascript来编写编辑器插件，用 CSS把主题界面改成任何你喜欢的样式等，这使得编写插件、主题、二次开发的门槛的降低了许多。这也能解释从 Atom 发布到现在不长的时间里，Atom的 Package 和主题数量都快速增长上来了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkNXWWRvZ2xYR0k3RmdTNmJ6SDlGenVqRmhBYnpSeWU2T2FBYVBRTHJoaENBPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;不过，也正因为它基于WEB 技术构建的，目前处于初步阶段的 Atom 在性能上与传统的编辑器还有点差距，在打开大文件时尤为明显，而在一些机器上也容易出现 CPU 占用率过高等问题，这一点确实有待改进，而且还是需要大幅改进。&lt;/p&gt;
+&lt;h2 id=&quot;Atom-编辑器到底怎么样？&quot;&gt;&lt;a href=&quot;#Atom-编辑器到底怎么样？&quot; class=&quot;headerlink&quot; title=&quot;Atom 编辑器到底怎么样？&quot;&gt;&lt;/a&gt;Atom 编辑器到底怎么样？&lt;/h2&gt;&lt;p&gt;那么，很多人关心的是，Atom 与主流的编辑器对比会怎么样？其实，在我看来， Atom 目前还不太适合用做主力编辑器，虽然它的功能与 SublimeText 较为接近，但现在的它和 Sublime 相比还是稚嫩了一点，毕竟现在Sublime 已经非常成熟了，后者有很全面的内置功能，也有非常丰富的插件包和活跃的社区，而 Atom 则还需给予时间让其发展。&lt;/p&gt;
+&lt;p&gt;不过由于 Atom 是由 &lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github&lt;/a&gt; 维护的，它拥有非常强大的后台。并且那里有着大量极为优秀的编程爱好者，也是极客们的聚集地，相信在不久的将来Atom一定也会拥有不少新的插件包，而性能方面的缺点迟早也会被解决掉。&lt;/p&gt;
+&lt;p&gt;对于喜欢追求新鲜技术的极客和程序员们，Atom 肯定将会是你的一个不错的新玩物，毕竟它是开源社区的产物，并且也代表着 WEB 技术进入桌面程序开发的新方向。纵使目前它还有不少的进步的空间，但一旦它解决了性能问题、建立了丰富强大的插件库，开源且跨平台的 Atom 编辑器将会成为业界新宠。&lt;/p&gt;
+&lt;h2 id=&quot;相关文件下载地址：&quot;&gt;&lt;a href=&quot;#相关文件下载地址：&quot; class=&quot;headerlink&quot; title=&quot;相关文件下载地址：&quot;&gt;&lt;/a&gt;相关文件下载地址：&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://atom.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方网站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1o6NB48a&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Atom 编辑器快捷键列表&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1c0mclvq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 Atom 编辑器 (Win)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1bnlyqo3&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 Atom 编辑器 (Mac)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在代码编辑器、文本编辑器领域，有着不少的「神器」级的产品，如历史悠久的 VIM、Emacs 以及如今当红的&lt;a href=&quot;http://www.jefway.com/subliem-text.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sub
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>D-Day - 灾难来临，你的选择是什么</title>
+    <link href="http://yoursite.com/D-Day-%E7%81%BE%E9%9A%BE%E6%9D%A5%E4%B8%B4%EF%BC%8C%E4%BD%A0%E7%9A%84%E9%80%89%E6%8B%A9%E6%98%AF%E4%BB%80%E4%B9%88.html"/>
+    <id>http://yoursite.com/D-Day-灾难来临，你的选择是什么.html</id>
+    <published>2015-11-26T14:25:00.000Z</published>
+    <updated>2016-03-24T10:13:45.911Z</updated>
+    
+    <content type="html">&lt;p&gt;实话告诉大家，小编我呢，其实是一个半个韩剧迷啦，那大家就要问了，为什么说是半个韩剧迷呢？其实呢，我对电视剧要求还是比较高的，我不是所有韩剧都看的，我是非常喜欢哪些有特点、有意义的韩剧看的，看到搞笑的地方我会笑，看到伤心的时候我也会哭，所以说我是半个韩剧迷啦；我个人真是挺佩服哪些写出这么多好题材的编剧们，这不我又发现了一部不错的韩剧，今天就推荐给大家；要是大家也有好的韩剧也可以推荐给我哦！&lt;/p&gt;
+&lt;h2 id=&quot;D-Day-灾难来临日&quot;&gt;&lt;a href=&quot;#D-Day-灾难来临日&quot; class=&quot;headerlink&quot; title=&quot;D-Day 灾难来临日&quot;&gt;&lt;/a&gt;D-Day 灾难来临日&lt;/h2&gt;&lt;p&gt;《D-Day》（灾难来临日）是韩国JTBC电视台于2015年9月18日起播出的金土迷你连续剧，到现在应该是已经完结的状态了，喜欢的朋友可以一次看个够，不用辛苦追剧了；这是韩国首部灾难型题材电视剧，主要讲述了首尔发生大地震后，灾难医疗小组成员冒着生命危险执行任务的医疗组故事；电视剧题材新颖，场景华丽，由金英光、郑素敏、金晶和、李成烈和尹珠熙等倾情出演，剧中将出现高楼大厦倒塌的画面，将运用CG技术展现壮观场面。&lt;/p&gt;
+&lt;h2 id=&quot;D-Day-剧情简介&quot;&gt;&lt;a href=&quot;#D-Day-剧情简介&quot; class=&quot;headerlink&quot; title=&quot;D-Day 剧情简介&quot;&gt;&lt;/a&gt;D-Day 剧情简介&lt;/h2&gt;&lt;p&gt;《D-DAY》是JTBC数一数二的代表作，主要讲述了首尔在发生大地震后，灾难医疗小组成员李海成带领着组员一起冒着生命危险执行任务的医疗组故事。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkRyNDNRTzM1MEFUQklXbHJaNXk1WkVGV3IzL0Q5dDIzNDRsUnVyZ3R5cSt3PT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;D-Day-主要角色介绍&quot;&gt;&lt;a href=&quot;#D-Day-主要角色介绍&quot; class=&quot;headerlink&quot; title=&quot;D-Day 主要角色介绍&quot;&gt;&lt;/a&gt;D-Day 主要角色介绍&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkRyNDNRTzM1MEFURDlNek9NcXJPTDEvMVlKS01IeVpZRlAvMXZaaTdFQVNRPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;李海成，33岁，未来医院一般外科医生，急诊室夜间当值。相当具有责任感与使命感，有着聪明、活泼又善良的品性，是位有领导力的医生。灾难医疗组组长，手到病除的外科医生，救死扶伤。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkRyNDNRTzM1MEFUUDRReXk1UHpZU3NOWXlucnF5YmxlL0VkUG4wWForbDdRPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;郑乭美，28岁，釜山白医院整形外科住院医生R3。积极进取、让人信赖的女医生。非常崇拜宇镇。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkRyNDNRTzM1MEFUTUtNV1MwMmhEdnFUanFucnZrQ2dZd0kwZUtKRFYzS0FnPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;韩佑振，38岁，未来医院一般外科副教授，海成的前辈，韩国首屈一指的机器手臂手术专家，与珠兰有着竞争的关系。与智娜曾有过一段情。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkRyNDNRTzM1MEFUSzBTZmxYZFZmM1FDYzIzQWtnYm5jUUVSZytVaGg1RTFnPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;朴智娜，28岁，首尔未来医院急诊室专科护士EMT。朴建的私生女，宇镇的前女友，暗恋李海成。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkRyNDNRTzM1MEFUS2U2ZXBLQnZYSUJhVGMxM05vNmlTbkpvOXlNRlp4R0NRPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;朴建，60岁，未来医院集团未来医院院长，未来医院集团朴允淑会长的弟弟，神经外科医师。是个重利益轻病患的医师，一心想让未来医院变成专业医院。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkRyNDNRTzM1MEFUSzdnNVJhaUlvZERUSlAwRTJVMWcxRFlnd3hOTGtmcFN3PT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;姜珠兰，未来医院里唯一支持李海成的急救室室长&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkRyNDNRTzM1MEFUTG1ndjc4ZzJrUG82TGNmVzdSbXQzalMrSWJaK2ZKcVZ3PT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;崔日燮，荣光消防所救助2班的班长&lt;/p&gt;
+&lt;h2 id=&quot;D-Day-宣传视频片段&quot;&gt;&lt;a href=&quot;#D-Day-宣传视频片段&quot; class=&quot;headerlink&quot; title=&quot;D-Day 宣传视频片段&quot;&gt;&lt;/a&gt;D-Day 宣传视频片段&lt;/h2&gt;&lt;div id=&quot;typembed&quot;&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTM5Njg1NTQ0OA/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;100%&quot; height=&quot;500&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;D-Day-下载&quot;&gt;&lt;a href=&quot;#D-Day-下载&quot; class=&quot;headerlink&quot; title=&quot;D-Day 下载&quot;&gt;&lt;/a&gt;D-Day 下载&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.hanjucc.com/hanjuxiazai/114189.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;D-Day下载&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;实话告诉大家，小编我呢，其实是一个半个韩剧迷啦，那大家就要问了，为什么说是半个韩剧迷呢？其实呢，我对电视剧要求还是比较高的，我不是所有韩剧都看的，我是非常喜欢哪些有特点、有意义的韩剧看的，看到搞笑的地方我会笑，看到伤心的时候我也会哭，所以说我是半个韩剧迷啦；我个人真是挺佩服
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Vysor - 同步显示画面的神器</title>
+    <link href="http://yoursite.com/Vysor-%E5%90%8C%E6%AD%A5%E6%98%BE%E7%A4%BA%E7%94%BB%E9%9D%A2%E7%9A%84%E7%A5%9E%E5%99%A8.html"/>
+    <id>http://yoursite.com/Vysor-同步显示画面的神器.html</id>
+    <published>2015-11-25T08:12:00.000Z</published>
+    <updated>2016-03-24T10:13:45.911Z</updated>
+    
+    <content type="html">&lt;p&gt;虽然现在各种如 ARC Welder / Genymotion / Andy 等安卓模拟器可以让你在电脑上运行手机 APP 或玩手机游戏，但还有很多人希望能直接在电脑上远程控制手机真机，或在电脑上同步显示手机的画面！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vysor&lt;/strong&gt; 是一款可以免费让你 &lt;strong&gt;在电脑上控制 Android 手机/平板的软件&lt;/strong&gt;！它实用性超高，不仅可以将安卓手机的屏幕画面实时同步投影显示在电脑的屏幕上，甚至还能直接在电脑上对手机进行远程控制操作！而且它是一款Chrome 浏览器插件应用，可跨平台支持 Win / Mac / Linux，用途非常广泛，绝对是手机控的必备神器……&lt;/p&gt;
+&lt;h2 id=&quot;Vysor-电脑“远程”控制-Android-安卓手机的超实用工具！&quot;&gt;&lt;a href=&quot;#Vysor-电脑“远程”控制-Android-安卓手机的超实用工具！&quot; class=&quot;headerlink&quot; title=&quot;Vysor - 电脑“远程”控制 Android 安卓手机的超实用工具！&quot;&gt;&lt;/a&gt;Vysor - 电脑“远程”控制 Android 安卓手机的超实用工具！&lt;/h2&gt;&lt;p&gt;通过 Vysor 我们不仅能在电脑上同步看到手机的实时动态画面，而且还能通过键盘和鼠标直接控制手机！！Vysor 可以应用在很多场景，譬如对于上班一族来说，工作时不再需要偷偷低头拿着手机了，直接在电脑上就能收发微信、玩游戏、炒股、下载安装或使用各种 APP 等等。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/cU1NQXlBREt0dkdOQjEyZXp4bm41MXlSK21GV3JVOFBFeUY5ZTJ5em1KUDB6VFI4Tndmdy9RPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg5Yib5oSPIC8gamVmLXdheS5sb2Z0ZXIuY29t&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;而一些原本需手机辅助或必须在手机上完成的工作 (如收发短信/查看通话记录/管理编辑手机上的文档等)，通过电脑鼠标以及键盘操作起来也会变得更高效便利，善加利用绝对可以提高不少效率。&lt;/p&gt;
+&lt;p&gt;而且对于一些 IT 相关行业用户以及 APP 开发者等，利用屏幕镜像投射以及控制功能，在会议上演示手机 APP 功能、展示手机上的各种文档或内容、测试应用或移动网页、为 APP 录像或截图、录制视频教程、写评测图文等等都会非常方便……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/cU1NQXlBREt0dkdOQjEyZXp4bm41em5JejFTdEg0Wll6dWU2Nm1GTHV0clowKzZOa2FERUFRPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg5Yib5oSPIC8gamVmLXdheS5sb2Z0ZXIuY29t&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;另外，如果你再搭配「PushBullet (子弹推送)」等消息推送工具一起使用风味更佳！你完全可以不拿起手机就能在电脑前完成几乎所有手机上的工作，真正的电脑与手机合一了！&lt;/p&gt;
+&lt;h2 id=&quot;Vysor-电脑控制-Android-手机软件演示视频：&quot;&gt;&lt;a href=&quot;#Vysor-电脑控制-Android-手机软件演示视频：&quot; class=&quot;headerlink&quot; title=&quot;Vysor 电脑控制 Android 手机软件演示视频：&quot;&gt;&lt;/a&gt;Vysor 电脑控制 Android 手机软件演示视频：&lt;/h2&gt;&lt;div id=&quot;typembed&quot;&gt;&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTM1NzMwNTYxMg/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;100%&quot; height=&quot;500&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;Vysor-电脑控制手机工具的特点介绍&quot;&gt;&lt;a href=&quot;#Vysor-电脑控制手机工具的特点介绍&quot; class=&quot;headerlink&quot; title=&quot;Vysor 电脑控制手机工具的特点介绍&quot;&gt;&lt;/a&gt;Vysor 电脑控制手机工具的特点介绍&lt;/h2&gt;&lt;p&gt;Vysor 并不是一款传统的应用程序，而是作为一个 Chrome 浏览器扩展程序 存在，称之为 Chrome App。之前介绍过的 ARC Welder 安卓模拟器 也是这种形式的浏览器扩展插件应用，它们可以运行在任何能安装和运行谷歌 Chrome 浏览器的操作系统上，包括 Win / Mac / Linux / ChromeOS。不过由于众所周知的原因，你必须「番·羽·土·啬」之后才能下载谷歌浏览器以及 Vysor 扩展。&lt;/p&gt;
+&lt;p&gt;除了免费与跨平台外，Vysor 还有一个很大的优点，就是手机并不需要 ROOT 权限，也不需安装任何 APP。你需要的，仅仅只是一条 USB 数据线并在电脑上装好 Vysor 即可。它跟之前推荐过的电脑远程控制 Android 设备的工具 Teamviewer QuickSupport 不一样，Teamviewer 强制要求 ROOT 权限，电脑跟手机都要安装 APP，远程控制是基于无线网络通信的。而 &lt;strong&gt;Vysor 完全免 ROOT&lt;/strong&gt;，要通过 USB 数据线连接手机和电脑，不过 USB 传输相比网络更加高速可靠，因此 Vysor 的速度也更为流畅稳定，画面也更清晰。实际试用看来控制速度还算让人满意，实用性很高！&lt;/p&gt;
+&lt;h2 id=&quot;Vysor-使用方法教程&quot;&gt;&lt;a href=&quot;#Vysor-使用方法教程&quot; class=&quot;headerlink&quot; title=&quot;Vysor 使用方法教程&quot;&gt;&lt;/a&gt;Vysor 使用方法教程&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;1、下载：&lt;/strong&gt;由于 Vysor 是一款 Chrome 扩展应用，因此你需要先安装好 Google Chrome 谷歌浏览器，再安装 Vysor 扩展，但下载它们俩均需要先「番·羽·土·啬」才行。(两者的下载地址均位于本文结尾处提供)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2、手机开启 USB 调试模式：&lt;/strong&gt;这只需设置一次即可，但是必须启用该选项后 Vysor 才能连接到你的手机。在大多数安卓手机上这个选项是被隐藏起来的，你需要进入「设置→关于手机」，找到「版本号」一栏并连续点击它多次，系统就会弹出“开启开发者选项”的消息了。然后找到「设置→开发者选项→USB调试」开启即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/cU1NQXlBREt0dkdOQjEyZXp4bm41K2haS21LZTliWG5tMGRrVFNsa1VzNWh3ZFZ0S1c5aTdRPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg5Yib5oSPIC8gamVmLXdheS5sb2Z0ZXIuY29t&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3、安装 ADB Driver 驱动：&lt;/strong&gt;如果你在 Windows 系统下使用 Vysor，那么还需要安装一个 ADB Driver 驱动 (Mac 下不需要)，安卓开发者应该很熟悉了。如果你是普通用户，可以下载作者提供的 &lt;strong&gt;Universal ADB Driver(通用 ADB 驱动)&lt;/strong&gt; 安装好即可，实测 Windows 10 系统下可用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4、将手机通过 USB 数据线连接到电脑&lt;/strong&gt;，并启动 Vysor。如果界面上没有列出你的手机或平板，这时按下界面上的 Find Device (搜寻设备) 按钮即可刷出来。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/cU1NQXlBREt0dkdOQjEyZXp4bm41LzVrdzdCTmZ5b0MzVVB3NlZ1bHY3ZlhDOEE0TFBxOHVnPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg5Yib5oSPIC8gamVmLXdheS5sb2Z0ZXIuY29t&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;之后，在列表中选择的手机名称并按下「选择」键即可连接。Vysor 可以支持一次连接多台 Android 手机或平板设备。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/cU1NQXlBREt0dkdOQjEyZXp4bm41eTNFTWZ3NFVuYnBZWEFET2xKRHkwYTQ0RXdCWDIxV1JRPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg5Yib5oSPIC8gamVmLXdheS5sb2Z0ZXIuY29t&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;首次连接成功后，手机上会弹出对话框问你是否允许连接 (下图左)，选择是即可。此时 Vysor 会自动在你的手机上安装上 Vysor 的 APP，提示连接成功后(下图右)，我们便可在电脑上看到手机画面了。这时你也可以通过鼠标对手机进行操作，手机也是跟着同步响应的；反之在手机上操作，电脑上的显示也会随之变化。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/cU1NQXlBREt0dkdOQjEyZXp4bm41eTZtTFFqNjNsMU1NSm5RM1ZsdEwzeDc0a0w2M0kzK1pRPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg5Yib5oSPIC8gamVmLXdheS5sb2Z0ZXIuY29t&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Vysor 键盘和鼠标对手机进行操作的对应关系如下：鼠标左键 = 手指点击、键盘 Esc / 鼠标右键 = 手机返回键、F1 = 菜单键、键盘 Home 键 / 鼠标中键 = 手机 Home 键。&lt;/p&gt;
+&lt;p&gt;好了，就是这么简单。之后你就可以在电脑上控制手机做任何爱做的事了 HoHohoho …… 上班玩游戏炒股发短信？启动手机摄像头各种拍？反正随你……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/cU1NQXlBREt0dkdOQjEyZXp4bm41MEt0aEpWclVDM0p0SDU3eDF3akxoaDJNbHRwZHFPcDVBPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg5Yib5oSPIC8gamVmLXdheS5sb2Z0ZXIuY29t&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;不得不说，对于像小编一样经常需要给手机截屏的，Vysor 真心方便啊！连接后在画面顶部会有小小的工具栏，其中就有个截图的按钮，简直就是神器……&lt;/p&gt;
+&lt;h2 id=&quot;网络远程连接控制-给小伙伴共享你手机的控制权&quot;&gt;&lt;a href=&quot;#网络远程连接控制-给小伙伴共享你手机的控制权&quot; class=&quot;headerlink&quot; title=&quot;网络远程连接控制 / 给小伙伴共享你手机的控制权&quot;&gt;&lt;/a&gt;网络远程连接控制 / 给小伙伴共享你手机的控制权&lt;/h2&gt;&lt;p&gt;等等！我们都知道因为 Teamviewer QuickSupport 是通过网络连接的，因此可以实现「异地网络远程控制手机」，那么使用 USB 连接的 Vysor 能这样玩么？答案也是可以的！不过实现方式不太一样。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vysor&lt;/strong&gt;提供了名为 Vysor Share 的「网络远程控制共享」功能，准确来说应该是「共享手机的控制权」给网络上的他人远程进行操作。操作方法也很简单，通过 USB 连接成功后，在 Vysor 的手机列表上将会出现一个「Share」(分享) 按钮，点击后即可获得一个私密的 Vysor Share 链接。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/cU1NQXlBREt0dkdOQjEyZXp4bm41NGNnQXlIUWZ1SmZGTjJ6dXlhV3Nib1BXQXE5bC9uamN3PT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg5Yib5oSPIC8gamVmLXdheS5sb2Z0ZXIuY29t&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;你可以将这个 Vysor Share 链接通过 QQ 或邮件发给需要通过网络远程控制你手机的人（当然也可以是你自己啦），然后对方在电脑上 (同样需要安装好 Chrome 浏览器和 Vysor 扩展哦) 点击打开之后，就能开始对手机进行“网络远程”的控制了。&lt;/p&gt;
+&lt;p&gt;不过由于我自己并没有这方面的需求，加上时间关系 (就是偷懒了 &amp;gt;_&amp;lt;)，所以这里没有实际测试过远程控制的效果如何，有试过的朋友不妨给大家说说。&lt;/p&gt;
+&lt;h2 id=&quot;总结：&quot;&gt;&lt;a href=&quot;#总结：&quot; class=&quot;headerlink&quot; title=&quot;总结：&quot;&gt;&lt;/a&gt;总结：&lt;/h2&gt;&lt;p&gt;目前 Vysor 还处于 Beta 测试阶段，从实际效果看来，画面帧速率还不是很高，快速操作时图像还是有延迟和模糊失真，但是一会就变回清晰了。而除了截图跟网络共享控制之外，其他附加功能也还不多。&lt;/p&gt;
+&lt;p&gt;不过，尽管还不很完美，但 Vysor 实用性已经很值得一赞了！别忘了它还完全免费且跨平台哦！如果你一直在苦苦寻觅&lt;strong&gt;免 ROOT 权限的电脑远程控制手机的 APP&lt;/strong&gt;，或者需要找一款将 Android 手机画面同步投射/串流到电脑的软件，又或者寻找手机截图利器，Vysor 正正就是你需要的！不得不说，它的本事让我印象深刻……&lt;/p&gt;
+&lt;h2 id=&quot;相关文件下载地址：&quot;&gt;&lt;a href=&quot;#相关文件下载地址：&quot; class=&quot;headerlink&quot; title=&quot;相关文件下载地址：&quot;&gt;&lt;/a&gt;相关文件下载地址：&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.vysor.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方网站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1kTq73Vp&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 Vysor 扩展&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1dDfozi5&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 ADB 驱动 (Win)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;虽然现在各种如 ARC Welder / Genymotion / Andy 等安卓模拟器可以让你在电脑上运行手机 APP 或玩手机游戏，但还有很多人希望能直接在电脑上远程控制手机真机，或在电脑上同步显示手机的画面！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vysor&lt;/strong
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
