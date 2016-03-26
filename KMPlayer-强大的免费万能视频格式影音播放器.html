@@ -1,0 +1,721 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
+  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="媒体播放器," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="觉微创意" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.5.0" />
+
+
+
+
+
+
+<meta name="description" content="今天给大家推荐一款本地影音播放器，它就是KMPlayer (KMP播放器) ，它是 Windows 上老牌的知名万能格式视频播放器，几乎可以播放所有主流的多媒体文件 (mkv、avi、rmvb、wmv、flv、mp4 等等)。
+
+作为一款优秀的影音播放器，KMPlayer 内置了强大的音频和视频解码器，视频回放效果出色，播放高清视频的资源占用也很低，支持外挂字幕加载，支持视觉特效等各种扩展插件，可">
+<meta property="og:type" content="article">
+<meta property="og:title" content="KMPlayer - 强大的免费万能视频格式影音播放器">
+<meta property="og:url" content="http://blog.jefway.com/KMPlayer-强大的免费万能视频格式影音播放器.html">
+<meta property="og:site_name" content="觉微创意">
+<meta property="og:description" content="今天给大家推荐一款本地影音播放器，它就是KMPlayer (KMP播放器) ，它是 Windows 上老牌的知名万能格式视频播放器，几乎可以播放所有主流的多媒体文件 (mkv、avi、rmvb、wmv、flv、mp4 等等)。
+
+作为一款优秀的影音播放器，KMPlayer 内置了强大的音频和视频解码器，视频回放效果出色，播放高清视频的资源占用也很低，支持外挂字幕加载，支持视觉特效等各种扩展插件，可">
+<meta property="og:image" content="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkNOakJPSkpXajlnVi9TUmRJQ0Z0bCtLR2J5clhsaHlFcCtiTytYbnRPZG1BPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg%7Cwatermark&type=2&text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&font=bXN5aA==&gravity=southwest&dissolve=30&fontsize=240&dx=8&dy=10&stripmeta=0">
+<meta property="og:image" content="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkE3c1pLazhJTGt1b3RUbEp4UXFKR1BOREpKb3I1czdDQjVialdvMlNOSTdBPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg%7Cwatermark&type=2&text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&font=bXN5aA==&gravity=southwest&dissolve=30&fontsize=240&dx=8&dy=10&stripmeta=0">
+<meta property="og:image" content="http://cdn.kmplayer.com/KMP/images/company/element/sub_bg_1_v4_0.png?v=1">
+<meta property="og:image" content="http://cdn.kmplayer.com/KMP/images/company/element/sub_bg_2.jpg">
+<meta property="og:updated_time" content="2016-03-25T14:44:44.177Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="KMPlayer - 强大的免费万能视频格式影音播放器">
+<meta name="twitter:description" content="今天给大家推荐一款本地影音播放器，它就是KMPlayer (KMP播放器) ，它是 Windows 上老牌的知名万能格式视频播放器，几乎可以播放所有主流的多媒体文件 (mkv、avi、rmvb、wmv、flv、mp4 等等)。
+
+作为一款优秀的影音播放器，KMPlayer 内置了强大的音频和视频解码器，视频回放效果出色，播放高清视频的资源占用也很低，支持外挂字幕加载，支持视觉特效等各种扩展插件，可">
+<meta name="twitter:image" content="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkNOakJPSkpXajlnVi9TUmRJQ0Z0bCtLR2J5clhsaHlFcCtiTytYbnRPZG1BPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg%7Cwatermark&type=2&text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&font=bXN5aA==&gravity=southwest&dissolve=30&fontsize=240&dx=8&dy=10&stripmeta=0">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: 'Author'
+    }
+  };
+</script>
+
+  <title> KMPlayer - 强大的免费万能视频格式影音播放器 | 觉微创意 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">觉微创意</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">一个有创意爱分享的博客平台</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                KMPlayer - 强大的免费万能视频格式影音播放器
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2015-10-30T11:05:00+08:00" content="2015-10-30">
+              2015-10-30
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>今天给大家推荐一款本地影音播放器，它就是KMPlayer (KMP播放器) ，它是 Windows 上老牌的知名万能格式视频播放器，几乎可以播放所有主流的多媒体文件 (mkv、avi、rmvb、wmv、flv、mp4 等等)。</p>
+<p><img src="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkNOakJPSkpXajlnVi9TUmRJQ0Z0bCtLR2J5clhsaHlFcCtiTytYbnRPZG1BPT0.png?imageView&amp;thumbnail=500x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg%7Cwatermark&amp;type=2&amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;font=bXN5aA==&amp;gravity=southwest&amp;dissolve=30&amp;fontsize=240&amp;dx=8&amp;dy=10&amp;stripmeta=0" alt="KMPlayer播放界面"></p>
+<p>作为一款优秀的影音播放器，<strong>KMPlayer</strong> 内置了强大的音频和视频解码器，视频回放效果出色，播放高清视频的资源占用也很低，支持外挂字幕加载，支持视觉特效等各种扩展插件，可更换皮肤，软件本身完全免费，综合素质非常出色！而且现在还新增了 Android 和 iOS 版……</p>
+<p><img src="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkE3c1pLazhJTGt1b3RUbEp4UXFKR1BOREpKb3I1czdDQjVialdvMlNOSTdBPT0.jpg?imageView&amp;thumbnail=500x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg%7Cwatermark&amp;type=2&amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;font=bXN5aA==&amp;gravity=southwest&amp;dissolve=30&amp;fontsize=240&amp;dx=8&amp;dy=10&amp;stripmeta=0" alt="请输入图片描述"></p>
+<h2 id="KMPlayer的发挥重要的多媒体编解码器内置本身"><a href="#KMPlayer的发挥重要的多媒体编解码器内置本身" class="headerlink" title="KMPlayer的发挥重要的多媒体编解码器内置本身"></a>KMPlayer的发挥重要的多媒体编解码器内置本身</h2><p>因此，它可以发挥媒体无需额外的编解码器和编解码器支持内部/外部分为如果语音编解码器的 效果，支持MPEG1，2，AAC格式的WMA7，8，OGG格式，并支持内置的语音编解码器的功能，当使用矩阵/等化器附加功能支持. ffdshow的KMPlayer的编解码器内置，从里面的情况下，因为处理是更快，更安全，支持所有编解码器，支持MPEG1/ 2支持.编解码器的用户安装麻烦，低规格的电脑用户，那些为寻找优秀的多媒体播放体验由KMP可以装点简单的多媒体播放体验.</p>
+<p><img src="http://cdn.kmplayer.com/KMP/images/company/element/sub_bg_1_v4_0.png?v=1" alt="请输入图片描述"></p>
+<h2 id="KMPlayer的重要功能"><a href="#KMPlayer的重要功能" class="headerlink" title="KMPlayer的重要功能"></a>KMPlayer的重要功能</h2><ul>
+<li>高分辨率的电影的支持看电影在一流的质量支持3 d、4 k和UHD</li>
+<li>支持多种语言，支持全球超过24种语言</li>
+<li>不同的格式支持RTS,MPEG1,的MPEG2,AAC、WMA7 WMA8,OGG等</li>
+<li>视频捕捉捕获音频和视频或屏幕截图是可能的,并且可以保存在您想要的格式</li>
+<li>高级选项电影DVD提供完全控制选择、菜单、音频菜单、副标题菜单,亮度/对比度,以满足用户的需求</li>
+<li>内部编解码器编解码器包的软件,因此可以快速高效地看电影</li>
+</ul>
+<h2 id="KMPlayer-移动版"><a href="#KMPlayer-移动版" class="headerlink" title="KMPlayer 移动版"></a>KMPlayer 移动版</h2><p>KMPlayer Mobile (移动版)和PC版一样同样是主打 “万能格式” 播放的优势，一次安装即能通吃几乎所有主流的视频和音频文件格式，经测试在 iPhone 5S 上直接播放 <strong>1080P MKV格式全高清</strong> 电影效果还是很流畅的;而且，针对手机、平板的触摸屏特点，KMplayer for Android/iOS 还支持方便的手势操作和精确的快进/后退以及倍速播放等。</p>
+<p><img src="http://cdn.kmplayer.com/KMP/images/company/element/sub_bg_2.jpg" alt="请输入图片描述"></p>
+<p>在播放界面上左右滑动可以用于短时间的快进后退，上下滑动可以用于音量调节，你不再需要特意调出进度条就能方便地快进后退或者调整音量了。</p>
+<h2 id="KMPlayer播放器官方宣传片"><a href="#KMPlayer播放器官方宣传片" class="headerlink" title="KMPlayer播放器官方宣传片"></a>KMPlayer播放器官方宣传片</h2><div id="typembed"><embed src="http://player.youku.com/player.php/sid/XMTM3MzE2NTc5Mg/v.swf" allowfullscreen="true" quality="high" width="100%" height="500" allowscriptaccess="always" type="application/x-shockwave-flash"></div>
+
+<h2 id="KMPlayer下载"><a href="#KMPlayer下载" class="headerlink" title="KMPlayer下载"></a>KMPlayer下载</h2><blockquote>
+<ul>
+<li><a href="http://pan.baidu.com/s/1mg3uHeg" target="_blank" rel="external">KMPlayer PC去广告版下载</a></li>
+<li><a href="http://pan.baidu.com/s/1o6H3JHS" target="_blank" rel="external">KMPlayer 移动去广告Android版下载</a></li>
+</ul>
+</blockquote>
+<hr>
+<p><small>Copyright &copy; <a href="http://www.jefway.com" target="_blank" rel="external">觉小微</a> for <a href="http://www.jefway.com/" target="_blank" rel="external">觉微创意</a> 2010 | <a href="http://www.jefway.com/kmplayer.html" target="_blank" rel="external">Permalink</a> | 0 条评论</small></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/媒体播放器/" rel="tag">#媒体播放器</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/Sketch让UI设计变得更简单、更高效.html" rel="next" title="Sketch让UI设计变得更简单、更高效">
+                <i class="fa fa-chevron-left"></i> Sketch让UI设计变得更简单、更高效
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/钉钉-一种全新的工作方式.html" rel="prev" title="钉钉 - 一种全新的工作方式">
+                钉钉 - 一种全新的工作方式 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/default_avatar.jpg"
+               alt="觉小微" />
+          <p class="site-author-name" itemprop="name">觉小微</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">32</span>
+              <span class="site-state-item-name">posts</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        <div class="links-of-blogroll motion-element">
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator">
+            <i class="fa fa-angle-double-up"></i>
+          </div>
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#KMPlayer的发挥重要的多媒体编解码器内置本身"><span class="nav-number">1.</span> <span class="nav-text">KMPlayer的发挥重要的多媒体编解码器内置本身</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#KMPlayer的重要功能"><span class="nav-number">2.</span> <span class="nav-text">KMPlayer的重要功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#KMPlayer-移动版"><span class="nav-number">3.</span> <span class="nav-text">KMPlayer 移动版</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#KMPlayer播放器官方宣传片"><span class="nav-number">4.</span> <span class="nav-text">KMPlayer播放器官方宣传片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#KMPlayer下载"><span class="nav-number">5.</span> <span class="nav-text">KMPlayer下载</span></a></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator">
+            <i class="fa fa-angle-double-down"></i>
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">觉小微</span>
+</div>
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+
+  
+
+
+
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=0.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=0.5.0"></script>
+
+
+
+  
+  
+
+  
+  
+<script type="text/javascript" src="/js/src/scrollspy.js?v=0.5.0"></script>
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 1 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = NexT.utils.escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    NexT.motion.middleWares.sidebar = function () {
+      var $tocContent = $('.post-toc-content');
+
+      if (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always') {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          NexT.utils.displaySidebar();
+        }
+      }
+    };
+  });
+</script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=0.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>

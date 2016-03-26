@@ -1,0 +1,745 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
+  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="插件," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="觉微创意" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.5.0" />
+
+
+
+
+
+
+<meta name="description" content="平时我们上网查阅资料、阅读文章等等都有收藏或稍后阅读的需求。而随着人们电脑、手机、平板等各种设备越来越多，当然也希望这些文章收藏/网页书签能在任何设备上都能自动同步了。
+虽然现在很多浏览器都有收藏夹同步功能，但如果将各类待读文章与网址收藏夹混杂在一起似乎并不好管理，整理起来很伤脑筋，而且也不能方便地搜索收藏过的内容。Raindrop.io 是一个跨桌面和移动平台的免费云端网络书签服务，拥有精致的设">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Raindrop.io - 跨平台云端书签，让你喜爱的网站，触手可及">
+<meta property="og:url" content="http://blog.jefway.com/Raindrop-io-跨平台云端书签，让你喜爱的网站，触手可及.html">
+<meta property="og:site_name" content="觉微创意">
+<meta property="og:description" content="平时我们上网查阅资料、阅读文章等等都有收藏或稍后阅读的需求。而随着人们电脑、手机、平板等各种设备越来越多，当然也希望这些文章收藏/网页书签能在任何设备上都能自动同步了。
+虽然现在很多浏览器都有收藏夹同步功能，但如果将各类待读文章与网址收藏夹混杂在一起似乎并不好管理，整理起来很伤脑筋，而且也不能方便地搜索收藏过的内容。Raindrop.io 是一个跨桌面和移动平台的免费云端网络书签服务，拥有精致的设">
+<meta property="og:image" content="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkRmUUpBV3B0TzhyVEp6SGk3M0xZNDE2azVvY1Nhc25YdUVsNm84ZXZXYy9nPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg%7Cwatermark&type=2&text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&font=bXN5aA==&gravity=southwest&dissolve=30&fontsize=240&dx=8&dy=10&stripmeta=0">
+<meta property="og:image" content="http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkRmUUpBV3B0TzhyWW1CWmdVRHRlVHZic3Q4MmJSZWx4ckVES252RTNTSXV3PT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg%7Cwatermark&type=2&text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&font=bXN5aA==&gravity=southwest&dissolve=30&fontsize=240&dx=8&dy=10&stripmeta=0">
+<meta property="og:image" content="http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkRmUUpBV3B0TzhyWEZZcHpWRXVMTm9oVS9aMzJvU3BuODc0YXgyZDhMV3JBPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg%7Cwatermark&type=2&text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&font=bXN5aA==&gravity=southwest&dissolve=30&fontsize=240&dx=8&dy=10&stripmeta=0">
+<meta property="og:image" content="http://a2.mzstatic.com/us/r30/Purple69/v4/bb/f8/12/bbf81243-2e03-a36b-d0aa-49a565f9de8c/screen568x568.jpeg">
+<meta property="og:image" content="http://a3.mzstatic.com/us/r30/Purple69/v4/c9/a1/9c/c9a19c73-f79e-a671-ddaa-7d51bee6c778/screen568x568.jpeg">
+<meta property="og:image" content="http://a3.mzstatic.com/us/r30/Purple69/v4/c9/a1/9c/c9a19c73-f79e-a671-ddaa-7d51bee6c778/screen568x568.jpeg">
+<meta property="og:image" content="http://a4.mzstatic.com/us/r30/Purple69/v4/3a/65/87/3a6587cf-1f0f-86ea-f279-44369d190cab/screen568x568.jpeg">
+<meta property="og:image" content="http://a2.mzstatic.com/us/r30/Purple69/v4/33/d6/b9/33d6b986-4e36-a38c-3f87-a4a69b574f6e/screen568x568.jpeg">
+<meta property="og:updated_time" content="2016-03-25T14:41:23.797Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Raindrop.io - 跨平台云端书签，让你喜爱的网站，触手可及">
+<meta name="twitter:description" content="平时我们上网查阅资料、阅读文章等等都有收藏或稍后阅读的需求。而随着人们电脑、手机、平板等各种设备越来越多，当然也希望这些文章收藏/网页书签能在任何设备上都能自动同步了。
+虽然现在很多浏览器都有收藏夹同步功能，但如果将各类待读文章与网址收藏夹混杂在一起似乎并不好管理，整理起来很伤脑筋，而且也不能方便地搜索收藏过的内容。Raindrop.io 是一个跨桌面和移动平台的免费云端网络书签服务，拥有精致的设">
+<meta name="twitter:image" content="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkRmUUpBV3B0TzhyVEp6SGk3M0xZNDE2azVvY1Nhc25YdUVsNm84ZXZXYy9nPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg%7Cwatermark&type=2&text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&font=bXN5aA==&gravity=southwest&dissolve=30&fontsize=240&dx=8&dy=10&stripmeta=0">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: 'Author'
+    }
+  };
+</script>
+
+  <title> Raindrop.io - 跨平台云端书签，让你喜爱的网站，触手可及 | 觉微创意 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">觉微创意</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">一个有创意爱分享的博客平台</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Raindrop.io - 跨平台云端书签，让你喜爱的网站，触手可及
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2015-11-13T11:10:00+08:00" content="2015-11-13">
+              2015-11-13
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>平时我们上网查阅资料、阅读文章等等都有收藏或稍后阅读的需求。而随着人们电脑、手机、平板等各种设备越来越多，当然也希望这些文章收藏/网页书签能在任何设备上都能自动同步了。</p>
+<p>虽然现在很多浏览器都有收藏夹同步功能，但如果将各类待读文章与网址收藏夹混杂在一起似乎并不好管理，整理起来很伤脑筋，而且也不能方便地搜索收藏过的内容。Raindrop.io 是一个跨桌面和移动平台的免费<br><strong>云端网络书签服务</strong><br>，拥有精致的设计以及方便的收藏保存、分类整理、搜索以及书签同步等功能……</p>
+<h2 id="收藏网页的利器、文章稍后阅读清单-你喜爱的网站，触手可及！"><a href="#收藏网页的利器、文章稍后阅读清单-你喜爱的网站，触手可及！" class="headerlink" title="收藏网页的利器、文章稍后阅读清单 -  你喜爱的网站，触手可及！"></a>收藏网页的利器、文章稍后阅读清单 -  你喜爱的网站，触手可及！</h2><p>传统的浏览器收藏夹功能仅仅提保存了网页的标题和网址，收藏一时爽，但项目多起来后想要查找或整理就让人死的心都有了。我们认为，一款<br><strong>强大的网络书签工具</strong><br>，应该是一个可以在不同设备之前自动同步稍后阅读 (网页/文章) 列表，不仅要可以轻松分类整理，还要可以快速搜索查找内容！</p>
+<p><img src="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkRmUUpBV3B0TzhyVEp6SGk3M0xZNDE2azVvY1Nhc25YdUVsNm84ZXZXYy9nPT0.jpg?imageView&amp;thumbnail=500x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg%7Cwatermark&amp;type=2&amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;font=bXN5aA==&amp;gravity=southwest&amp;dissolve=30&amp;fontsize=240&amp;dx=8&amp;dy=10&amp;stripmeta=0" alt="请输入图片描述"></p>
+<p><strong>Raindrop.io</strong><br>做到了想要的一切，简洁、美观，跨平台提供 Android / iOS / Mac 平台客户端、网页版以及各大浏览器的插件扩展。你的所有书签都会保存在云端，无论你使用何种设备，都能非常方便地保存、整理以及获取你的书签收藏！！即使在他人的电脑上也能通过网页版进行访问。</p>
+<h2 id="Raindrop-io-网页版截图："><a href="#Raindrop-io-网页版截图：" class="headerlink" title="Raindrop.io 网页版截图："></a>Raindrop.io 网页版截图：</h2><p><img src="http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkRmUUpBV3B0TzhyWW1CWmdVRHRlVHZic3Q4MmJSZWx4ckVES252RTNTSXV3PT0.jpg?imageView&amp;thumbnail=500x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg%7Cwatermark&amp;type=2&amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;font=bXN5aA==&amp;gravity=southwest&amp;dissolve=30&amp;fontsize=240&amp;dx=8&amp;dy=10&amp;stripmeta=0" alt="请输入图片描述"></p>
+<h2 id="归类整理、查找搜索、分享书签收藏列表以及协同管理"><a href="#归类整理、查找搜索、分享书签收藏列表以及协同管理" class="headerlink" title="归类整理、查找搜索、分享书签收藏列表以及协同管理"></a>归类整理、查找搜索、分享书签收藏列表以及协同管理</h2><p><strong>归类整理与查找搜索：</strong><br>Raindrop.io 可以给你的收藏的网页添加描述或 Tag 标签，或创建文件夹 (Collection) 进行整理归类，可以帮助你将不同的工作参考资料、有趣的文章、学习资料、稍后待读、软件教程等分门别类整理好。而且当你需要查找相关的书签收藏时，还能通过关键字直接进行搜索，这一点比起浏览器的收藏功能实在是高效太多了。</p>
+<p><strong>分享收藏集：</strong><br>当你收集整理了一些不错的网页清单 (Collection) 时，譬如「异次元上最值得阅读的文章列表」、「全球最佳的设计类网站」等，还可以通过 Raindrop.io 将这个书签列表分享给好基友们。这比起以前要一个一个复制网址再通过 QQ、微信发给别人简直不能更方便，而且你整理好的列表也能得到更系统化的呈现，更易于传播交流。</p>
+<p><img src="http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkRmUUpBV3B0TzhyWEZZcHpWRXVMTm9oVS9aMzJvU3BuODc0YXgyZDhMV3JBPT0.jpg?imageView&amp;thumbnail=500x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg%7Cwatermark&amp;type=2&amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;font=bXN5aA==&amp;gravity=southwest&amp;dissolve=30&amp;fontsize=240&amp;dx=8&amp;dy=10&amp;stripmeta=0" alt="请输入图片描述"></p>
+<p><strong>协同管理书签收藏：</strong><br>你还可以邀请朋友、同事共同管理某个收藏集里的书签，这对于一些需要协作共同查找收集资料的朋友来说会非常实用！毕竟一直以来书签都是“私人物品”，与他人分享收藏夹里的好网站好文章都已困难重重，更别说与别人一起「共用」收藏夹了。作为互联网新一代的书签工具，Raindrop.io 在书签的分享与协同管理上的想象力空间会非常大，应用好这个特性相信一定能帮上不少忙。</p>
+<h2 id="Raindrop-手机版-APP-截图："><a href="#Raindrop-手机版-APP-截图：" class="headerlink" title="Raindrop 手机版 APP 截图："></a>Raindrop 手机版 APP 截图：</h2><p>[ Raindrop.io ― 你喜爱的网站，触手可及 iPhone版截图 ]</p>
+<p><img src="http://a2.mzstatic.com/us/r30/Purple69/v4/bb/f8/12/bbf81243-2e03-a36b-d0aa-49a565f9de8c/screen568x568.jpeg" alt="请输入图片描述"></p>
+<p><img src="http://a3.mzstatic.com/us/r30/Purple69/v4/c9/a1/9c/c9a19c73-f79e-a671-ddaa-7d51bee6c778/screen568x568.jpeg" alt="请输入图片描述"></p>
+<p><img src="http://a3.mzstatic.com/us/r30/Purple69/v4/c9/a1/9c/c9a19c73-f79e-a671-ddaa-7d51bee6c778/screen568x568.jpeg" alt="请输入图片描述"></p>
+<p><img src="http://a4.mzstatic.com/us/r30/Purple69/v4/3a/65/87/3a6587cf-1f0f-86ea-f279-44369d190cab/screen568x568.jpeg" alt="请输入图片描述"></p>
+<p><img src="http://a2.mzstatic.com/us/r30/Purple69/v4/33/d6/b9/33d6b986-4e36-a38c-3f87-a4a69b574f6e/screen568x568.jpeg" alt="请输入图片描述"></p>
+<h2 id="更多丰富的特性："><a href="#更多丰富的特性：" class="headerlink" title="更多丰富的特性："></a>更多丰富的特性：</h2><p>Raindrop 还有很多特性，你不仅可以收藏网页，还能收藏图片/视频；可以给收藏夹生成私人或公共的 RSS 订阅地址；支持智能识别文章内容格式化排版；支持从 Chrome、Firefox、Opera、Safari 等主流浏览器以及 Delicious、Instapaper、Pocket、Readability 等服务导入书签；开通付费高级功能后，还可以通过 Dropbox 备份书签、支持多层级文件夹等。</p>
+<p>另外它还提供了一个「新标签页插件」(快速拨号)，可以直接替代 Chrome 或 Firefox 的默认新建标签页，你只需要把书签加入到「最喜爱的网站」这个分类里，它们就会出现在新建标签页中了，这样就能更好地替换掉浏览器自身的书签功能了。</p>
+<h2 id="Raindrop-io-收藏插件演示视频："><a href="#Raindrop-io-收藏插件演示视频：" class="headerlink" title="Raindrop.io 收藏插件演示视频："></a>Raindrop.io 收藏插件演示视频：</h2><div id="typembed"><br><embed src="http://player.youku.com/player.php/sid/XMTM4NDk4MjU4MA/v.swf" allowfullscreen="true" quality="high" width="100%" height="500" allowscriptaccess="always" type="application/x-shockwave-flash"><br></div>
+
+<p>Raindrop 可以轻松快速收藏网页、图片、视频等内容</p>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>Raindrop.io 拥有完善强大的书签保存、分类与管理功能，提供多种平台客户端、浏览器扩展，全面覆盖手，所有书签云端自动同步，还能与他人共享与协作，基本上能想到的书签功能它都已具备，堪称收藏神器了。</p>
+<p>而且设计精致的界面、合理的布局，以及完全免费的使用也让 Raindrop 加分不少！可以说，Raindrop.io 也是新一代书签服务的诠释者，非常适合有大量收藏资源以及喜欢整理有序的用户。作为跨平台的应用，Raindrop 无论在 iOS、Android 还是电脑浏览器上都表现出色……</p>
+<h2 id="相关文件下载地址："><a href="#相关文件下载地址：" class="headerlink" title="相关文件下载地址："></a>相关文件下载地址：</h2><blockquote>
+<ul>
+<li><a href="https://raindrop.io/" target="_blank" rel="external">官方网站</a></li>
+</ul>
+<ul>
+<li>下载浏览器插件：</li>
+</ul>
+<p><a href="https://chrome.google.com/webstore/detail/raindropio-smart-bookmark/ldgfbffkinooeloadekpmfoklnobpien" target="_blank" rel="external">Chrome</a></p>
+<p>|</p>
+<p><a href="https://raindrop.io/releases/raindropio.xpi" target="_blank" rel="external">Firefox</a></p>
+<p>|</p>
+<p><a href="https://addons.opera.com/extensions/details/raindropio-smart-bookmarks" target="_blank" rel="external">Opera</a></p>
+<ul>
+<li><a href="http://f1.market.mi-img.com/download/AppStore/0ebf844d6e79d3a867631a82b19265702394187cb/io.raindrop.raindropio.apk" target="_blank" rel="external">Raindrop 客户端 (Android)</a></li>
+</ul>
+<ul>
+<li><a href="https://geo.itunes.apple.com/cn/app/raindrop.io-ni-xi-ai-wang/id1021913807?mt=6&amp;at=10laHZ" target="_blank" rel="external">Raindrop 客户端 (IOS)</a></li>
+</ul>
+<ul>
+<li><a href="https://geo.itunes.apple.com/cn/app/raindrop.io-keep-your-favorites/id957810159?mt=6&amp;at=10laHZ" target="_blank" rel="external">Raindrop 客户端 (MAC)</a></li>
+</ul>
+<ul>
+<li><a href="https://raindrop.io" target="_blank" rel="external">Raindrop 客户端 (网页版)</a></li>
+</ul>
+</blockquote>
+<hr>
+<p><small><br>Copyright &copy;<br><a href="http://www.jefway.com" target="_blank" rel="external">觉小微</a><br>for<br><a href="http://www.jefway.com/" target="_blank" rel="external">觉微创意</a><br>2010 |<br><a href="http://www.jefway.com/raindrop-io.html" target="_blank" rel="external">Permalink</a><br>| 0 条评论<br></small></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/插件/" rel="tag">#插件</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/印象笔记-高效的知识管理工具软件APP下载.html" rel="next" title="印象笔记-高效的知识管理工具软件APP下载">
+                <i class="fa fa-chevron-left"></i> 印象笔记-高效的知识管理工具软件APP下载
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/Monospace-Writer-让你在手机上也能轻松创作.html" rel="prev" title="Monospace Writer - 让你在手机上也能轻松创作">
+                Monospace Writer - 让你在手机上也能轻松创作 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/default_avatar.jpg"
+               alt="觉小微" />
+          <p class="site-author-name" itemprop="name">觉小微</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">32</span>
+              <span class="site-state-item-name">posts</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        <div class="links-of-blogroll motion-element">
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator">
+            <i class="fa fa-angle-double-up"></i>
+          </div>
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#收藏网页的利器、文章稍后阅读清单-你喜爱的网站，触手可及！"><span class="nav-number">1.</span> <span class="nav-text">收藏网页的利器、文章稍后阅读清单 -  你喜爱的网站，触手可及！</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Raindrop-io-网页版截图："><span class="nav-number">2.</span> <span class="nav-text">Raindrop.io 网页版截图：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#归类整理、查找搜索、分享书签收藏列表以及协同管理"><span class="nav-number">3.</span> <span class="nav-text">归类整理、查找搜索、分享书签收藏列表以及协同管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Raindrop-手机版-APP-截图："><span class="nav-number">4.</span> <span class="nav-text">Raindrop 手机版 APP 截图：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更多丰富的特性："><span class="nav-number">5.</span> <span class="nav-text">更多丰富的特性：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Raindrop-io-收藏插件演示视频："><span class="nav-number">6.</span> <span class="nav-text">Raindrop.io 收藏插件演示视频：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结："><span class="nav-number">7.</span> <span class="nav-text">总结：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相关文件下载地址："><span class="nav-number">8.</span> <span class="nav-text">相关文件下载地址：</span></a></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator">
+            <i class="fa fa-angle-double-down"></i>
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">觉小微</span>
+</div>
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+
+  
+
+
+
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=0.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=0.5.0"></script>
+
+
+
+  
+  
+
+  
+  
+<script type="text/javascript" src="/js/src/scrollspy.js?v=0.5.0"></script>
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 1 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = NexT.utils.escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    NexT.motion.middleWares.sidebar = function () {
+      var $tocContent = $('.post-toc-content');
+
+      if (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always') {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          NexT.utils.displaySidebar();
+        }
+      }
+    };
+  });
+</script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=0.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
