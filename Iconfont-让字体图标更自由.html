@@ -41,10 +41,12 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="文摘," />
+  <meta name="keywords" content="字体图标,WEB技术," />
 
 
 
+
+  
 
 
   <link rel="alternate" href="/atom.xml" title="觉微创意" type="application/atom+xml" />
@@ -70,7 +72,7 @@
 <meta property="og:image" content="http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE0TU1QcDZEQlhodGE3RTdGNFZwQ0xTeFhQU3hFcW8rL0xiZVZPcE5zY0JBPT0.gif">
 <meta property="og:image" content="http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE0TU1QcDZEQlhoajdvMTVZaTdMSzZHelV5dzVOSm1GOTBPdFowalFIQzZ3PT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
 <meta property="og:image" content="http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE0TU1QcDZEQlhob3BqcWk4U2YwUEdMTjIzZWFqV2R6cjdLZzY4TW1vNnlRPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
-<meta property="og:updated_time" content="2016-03-25T14:45:15.680Z">
+<meta property="og:updated_time" content="2016-03-27T09:06:41.989Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Iconfont - 让字体图标更自由">
 <meta name="twitter:description" content="今天因为工作需要无意中发现的Iconfont这个网站，发现有点相见恨晚的感觉，因为就在昨天我还在为icon字体的事儿发愁：网站本来是使用了icon字体图标的，效果本来挺好的，但有一个bug是我发现在chrome下面很多图标都无法显示，不管我将字体文件怎样重新编辑和生成都不能解决。
@@ -304,24 +306,11 @@
 <p><img src="http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE0TU1QcDZEQlhoajdvMTVZaTdMSzZHelV5dzVOSm1GOTBPdFowalFIQzZ3PT0.png?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="请输入图片描述"></p>
 <p>然后鼠标移到左侧的获取在线链接这里就能看到生成的CSS文件了，你现在有两个选择：一是直接调用这个文件，在网站的HTML中修改添加图标的元素的类为&quot;iconfont icon-xxx&quot;的；第二个选择是将这个文件下载下来，然后做一些修改之后传到服务器本地调用，然后在网站的HTML中修改添加图标的元素的类为&quot;icon-xxx&quot;。我选择的是第二种，大家随意。</p>
 <p>选择第二种的话需要对CSS做一点小的修改，将选择器“.iconfont”改为“[class*=icon-],[class^=icon-]”：</p>
-<pre><code>[class*=&amp;quot;icon-&amp;quot;],[class^=&amp;quot;icon-&amp;quot;]{
-font-family:&amp;quot;iconfont&amp;quot;!important;
-font-size:16px;
-font-style:normal;
--webkit-font-smoothing:antialiased;
--webkit-text-stroke-width:0.2px;
--moz-osx-font-smoothing:grayscale;
-}
-`&lt;/pre&gt;
-
-然后引用CSS文件就OK了。
-
-## 在网页中使用icon图标字体
-
-CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看下面这张图，比如我要调用图片中的小火箭这个图标，那我就要将我的HTML修改为
-
-&lt;pre&gt;`    &amp;lt;i class=&amp;quot;icon-xiaohuojian&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
-</code></pre><p>这样既可。</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-attr">[class*="icon-"]</span>,<span class="selector-attr">[class^="icon-"]</span>&#123;</span><br><span class="line">	<span class="attribute">font-family</span>:<span class="string">"iconfont"</span><span class="meta">!important</span>;</span><br><span class="line">	<span class="attribute">font-size</span>:<span class="number">16px</span>;</span><br><span class="line">	<span class="attribute">font-style</span>:normal;</span><br><span class="line">	<span class="attribute">-webkit-font-smoothing</span>:antialiased;</span><br><span class="line">	<span class="attribute">-webkit-text-stroke-width</span>:<span class="number">0.2px</span>;</span><br><span class="line">	<span class="attribute">-moz-osx-font-smoothing</span>:grayscale;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后引用CSS文件就OK了。</p>
+<h2 id="在网页中使用icon图标字体"><a href="#在网页中使用icon图标字体" class="headerlink" title="在网页中使用icon图标字体"></a>在网页中使用icon图标字体</h2><p>CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看下面这张图，比如我要调用图片中的小火箭这个图标，那我就要将我的HTML修改为</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"icon-xiaohuojian"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>这样既可。</p>
 <p><img src="http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE0TU1QcDZEQlhob3BqcWk4U2YwUEdMTjIzZWFqV2R6cjdLZzY4TW1vNnlRPT0.png?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="图标演示效果"></p>
 
       
@@ -337,7 +326,9 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
       
         <div class="post-tags">
           
-            <a href="/tags/文摘/" rel="tag">#文摘</a>
+            <a href="/tags/字体图标/" rel="tag">#字体图标</a>
+          
+            <a href="/tags/WEB技术/" rel="tag">#WEB技术</a>
           
         </div>
       
@@ -457,7 +448,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">29</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -498,7 +489,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#两者之间的优缺点"><span class="nav-number">1.</span> <span class="nav-text">两者之间的优缺点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#将你看上的图标加入到购物车"><span class="nav-number">2.</span> <span class="nav-text">将你看上的图标加入到购物车</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#存储为项目或者下载到本地"><span class="nav-number">3.</span> <span class="nav-text">存储为项目或者下载到本地</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下载修改并调用CSS文件"><span class="nav-number">4.</span> <span class="nav-text">下载修改并调用CSS文件</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#两者之间的优缺点"><span class="nav-number">1.</span> <span class="nav-text">两者之间的优缺点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#将你看上的图标加入到购物车"><span class="nav-number">2.</span> <span class="nav-text">将你看上的图标加入到购物车</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#存储为项目或者下载到本地"><span class="nav-number">3.</span> <span class="nav-text">存储为项目或者下载到本地</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下载修改并调用CSS文件"><span class="nav-number">4.</span> <span class="nav-text">下载修改并调用CSS文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在网页中使用icon图标字体"><span class="nav-number">5.</span> <span class="nav-text">在网页中使用icon图标字体</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">

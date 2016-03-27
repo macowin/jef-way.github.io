@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.jefway.com/"/>
-  <updated>2016-03-26T03:11:10.279Z</updated>
+  <updated>2016-03-27T08:56:46.996Z</updated>
   <id>http://blog.jefway.com/</id>
   
   <author>
@@ -20,14 +20,14 @@
     <link href="http://blog.jefway.com/Vimium-%E8%AE%A9%E4%BD%A0%E4%BD%93%E9%AA%8CGeek%E8%88%AC%E7%9A%84%E6%B5%8F%E8%A7%88%E4%BD%93%E9%AA%8C.html"/>
     <id>http://blog.jefway.com/Vimium-让你体验Geek般的浏览体验.html</id>
     <published>2016-03-24T08:47:56.000Z</published>
-    <updated>2016-03-26T03:11:10.279Z</updated>
+    <updated>2016-03-27T08:56:46.996Z</updated>
     
     <content type="html">&lt;p&gt;相信很多电脑高手们都会寻找一一些快捷高效的操作方式，如经常利用键盘的快速操作，让你脱离鼠标，可以让你不用花太多精力地去移动细小的指针进行操作，使得工作的效率提高许多。&lt;/p&gt;
 &lt;p&gt;不过，实际上很多时候我们还是不得不用鼠标来操作，尤其是在浏览网页时，没有鼠标很多事情基本上没法做。但是！作为一个键盘党怎么可以容忍这种事情发生呢！今天给大家介绍的 &lt;strong&gt;Vimium&lt;/strong&gt; 就是为解决这个问题而生的，它能让你只用键盘就能高效快速便捷地上网，这才是高手们应该有的境界～嗯，软件也是应该要这么玩才有意思……&lt;/p&gt;
 &lt;h2 id=&quot;关于-Vimium-的由来&quot;&gt;&lt;a href=&quot;#关于-Vimium-的由来&quot; class=&quot;headerlink&quot; title=&quot;关于 Vimium 的由来&quot;&gt;&lt;/a&gt;关于 Vimium 的由来&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Vimium&lt;/strong&gt; 这个名字其实是 Vim 和 Chromium 的合体；很多人可能还不知道 Vim，这样告诉你，你是不是经常在电影里看到那些顶尖的黑客，他们在屏幕上来去自如，最关键的是，他们竟然都不用鼠标？没错，狭义地说，Vim 其实是 Linux 等平台上的一款文本编辑器，它可以让你彻底脱离鼠标，通过一系列快捷键，来操作任何一件事情。&lt;/p&gt;
 &lt;p&gt;而 Vimium 则继承了 Vim 中的常用键位，让你在使用 Chrome 的过程中，无论是浏览网页、切换标签或是其它任何操作，全都可以只通过键盘完成。想像一下，你再也不需要移动鼠标去打开一个链接，手指不用离开键盘，一切都是这么流畅。&lt;/p&gt;
-&lt;h2 id=&quot;Vimium-的操作方式介绍&quot;&gt;&lt;a href=&quot;#Vimium-的操作方式介绍&quot; class=&quot;headerlink&quot; title=&quot;Vimium 的操作方式介绍&quot;&gt;&lt;/a&gt;Vimium 的操作方式介绍&lt;/h2&gt;&lt;p&gt;听了前面这么一段介绍，你可能还在云里雾里，感觉这不是一个好上手的东西；咱们换一种方式来说，Vimium 实际上可以理解成是一系列快捷键配置，你可以通过这些快捷键来完成对应的操作，比如，Chrome 其实自带的快捷键就有：&lt;code&gt;Ctrl + T&lt;/code&gt;可以新建标签页，&lt;code&gt;Ctrl + N&lt;/code&gt;可以新建窗口等等,而 Vimium 比这简单得多，却又强大得多。&lt;/p&gt;
-&lt;p&gt;这里是一张 Vimium 的快捷键列表(通过&lt;code&gt;Shift + /&lt;/code&gt;来查看帮助)：&lt;/p&gt;
+&lt;h2 id=&quot;Vimium-的操作方式介绍&quot;&gt;&lt;a href=&quot;#Vimium-的操作方式介绍&quot; class=&quot;headerlink&quot; title=&quot;Vimium 的操作方式介绍&quot;&gt;&lt;/a&gt;Vimium 的操作方式介绍&lt;/h2&gt;&lt;p&gt;听了前面这么一段介绍，你可能还在云里雾里，感觉这不是一个好上手的东西；咱们换一种方式来说，Vimium 实际上可以理解成是一系列快捷键配置，你可以通过这些快捷键来完成对应的操作，比如，Chrome 其实自带的快捷键就有：&lt;code&gt;Ctrl + T&lt;/code&gt;可以新建标签页，&lt;code&gt;Ctrl + N&lt;/code&gt; 可以新建窗口等等,而 Vimium 比这简单得多，却又强大得多。&lt;/p&gt;
+&lt;p&gt;这里是一张 Vimium 的快捷键列表(通过 &lt;code&gt;Shift + /&lt;/code&gt; 来查看帮助)：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkNOMktVZmttR21lTnB3cjZCZVVzNXZnMnlmMVR0RzI5djhrTkRLVWpQMndBPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Vimium 的快捷键列表&quot;&gt;&lt;/p&gt;
 &lt;p&gt;别怕，虽然看着多，但常用的不多，而且使用几次后很容易上手，下面就带大家来过几个最实用的。&lt;/p&gt;
 &lt;h2 id=&quot;Vimium-常用的按键功能解释：&quot;&gt;&lt;a href=&quot;#Vimium-常用的按键功能解释：&quot; class=&quot;headerlink&quot; title=&quot;Vimium 常用的按键功能解释：&quot;&gt;&lt;/a&gt;Vimium 常用的按键功能解释：&lt;/h2&gt;&lt;ul&gt;
@@ -71,6 +71,8 @@
     
       <category term="插件" scheme="http://blog.jefway.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
+      <category term="工具" scheme="http://blog.jefway.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
   </entry>
   
   <entry>
@@ -78,7 +80,7 @@
     <link href="http://blog.jefway.com/Iconfont-%E8%AE%A9%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87%E6%9B%B4%E8%87%AA%E7%94%B1.html"/>
     <id>http://blog.jefway.com/Iconfont-让字体图标更自由.html</id>
     <published>2016-03-22T08:45:00.000Z</published>
-    <updated>2016-03-25T14:45:15.680Z</updated>
+    <updated>2016-03-27T09:06:41.989Z</updated>
     
     <content type="html">&lt;p&gt;今天因为工作需要无意中发现的&lt;strong&gt;&lt;a href=&quot;http://www.iconfont.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Iconfont&lt;/a&gt;&lt;/strong&gt;这个网站，发现有点相见恨晚的感觉，因为就在昨天我还在为icon字体的事儿发愁：网站本来是使用了icon字体图标的，效果本来挺好的，但有一个bug是我发现在chrome下面很多图标都无法显示，不管我将字体文件怎样重新编辑和生成都不能解决。&lt;/p&gt;
 &lt;p&gt;在认识到以我现有的水平是搞不定这个问题的之后，只好很不情愿的将字体文件全部替换成Font Awesome字体了；因为Font Awesome仅字体文件就有好几百KB（svg文件达到194KB），这无疑会增加网站访问的压力，虽然我现在用着七牛每个月10G的免费流量，但也不想给网站增加额外的几百KB请求的负担不是，还好今天发现了&lt;strong&gt;iconfont&lt;/strong&gt;，下面就来说说为什么我要将刚修改好的Font Awesome字体抛弃而转用iconfont。&lt;/p&gt;
@@ -95,24 +97,11 @@
 &lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE0TU1QcDZEQlhoajdvMTVZaTdMSzZHelV5dzVOSm1GOTBPdFowalFIQzZ3PT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
 &lt;p&gt;然后鼠标移到左侧的获取在线链接这里就能看到生成的CSS文件了，你现在有两个选择：一是直接调用这个文件，在网站的HTML中修改添加图标的元素的类为&amp;quot;iconfont icon-xxx&amp;quot;的；第二个选择是将这个文件下载下来，然后做一些修改之后传到服务器本地调用，然后在网站的HTML中修改添加图标的元素的类为&amp;quot;icon-xxx&amp;quot;。我选择的是第二种，大家随意。&lt;/p&gt;
 &lt;p&gt;选择第二种的话需要对CSS做一点小的修改，将选择器“.iconfont”改为“[class*=icon-],[class^=icon-]”：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;[class*=&amp;amp;quot;icon-&amp;amp;quot;],[class^=&amp;amp;quot;icon-&amp;amp;quot;]{
-font-family:&amp;amp;quot;iconfont&amp;amp;quot;!important;
-font-size:16px;
-font-style:normal;
--webkit-font-smoothing:antialiased;
--webkit-text-stroke-width:0.2px;
--moz-osx-font-smoothing:grayscale;
-}
-`&amp;lt;/pre&amp;gt;
-
-然后引用CSS文件就OK了。
-
-## 在网页中使用icon图标字体
-
-CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看下面这张图，比如我要调用图片中的小火箭这个图标，那我就要将我的HTML修改为
-
-&amp;lt;pre&amp;gt;`    &amp;amp;lt;i class=&amp;amp;quot;icon-xiaohuojian&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这样既可。&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-attr&quot;&gt;[class*=&quot;icon-&quot;]&lt;/span&gt;,&lt;span class=&quot;selector-attr&quot;&gt;[class^=&quot;icon-&quot;]&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;font-family&lt;/span&gt;:&lt;span class=&quot;string&quot;&gt;&quot;iconfont&quot;&lt;/span&gt;&lt;span class=&quot;meta&quot;&gt;!important&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;16px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;font-style&lt;/span&gt;:normal;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;-webkit-font-smoothing&lt;/span&gt;:antialiased;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;-webkit-text-stroke-width&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;0.2px&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;attribute&quot;&gt;-moz-osx-font-smoothing&lt;/span&gt;:grayscale;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;然后引用CSS文件就OK了。&lt;/p&gt;
+&lt;h2 id=&quot;在网页中使用icon图标字体&quot;&gt;&lt;a href=&quot;#在网页中使用icon图标字体&quot; class=&quot;headerlink&quot; title=&quot;在网页中使用icon图标字体&quot;&gt;&lt;/a&gt;在网页中使用icon图标字体&lt;/h2&gt;&lt;p&gt;CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看下面这张图，比如我要调用图片中的小火箭这个图标，那我就要将我的HTML修改为&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;icon-xiaohuojian&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;i&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;这样既可。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE0TU1QcDZEQlhob3BqcWk4U2YwUEdMTjIzZWFqV2R6cjdLZzY4TW1vNnlRPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;图标演示效果&quot;&gt;&lt;/p&gt;
 </content>
     
@@ -123,7 +112,9 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     </summary>
     
     
-      <category term="文摘" scheme="http://blog.jefway.com/tags/%E6%96%87%E6%91%98/"/>
+      <category term="字体图标" scheme="http://blog.jefway.com/tags/%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87/"/>
+    
+      <category term="WEB技术" scheme="http://blog.jefway.com/tags/WEB%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -132,7 +123,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Word-%E9%99%A4%E4%BA%86%E7%BC%96%E8%BE%91%E6%96%87%E6%A1%A3%E8%BF%98%E5%8F%AF%E4%BB%A5%E8%BF%99%E6%A0%B7.html"/>
     <id>http://blog.jefway.com/Word-除了编辑文档还可以这样.html</id>
     <published>2016-03-21T06:53:00.000Z</published>
-    <updated>2016-03-26T03:10:39.407Z</updated>
+    <updated>2016-03-27T08:47:01.781Z</updated>
     
     <content type="html">&lt;p&gt;在平时的工作中，我们会经常遇到孰能生巧的人，他们因为长时间的使用某一种工具，而把这种工具使用的出神入化，让人非常钦佩；而我今天给大家分享的就是一个把&lt;strong&gt;Word&lt;/strong&gt;使用的出神入化的大神的视频…&lt;/p&gt;
 &lt;h2 id=&quot;用Word来做平面设计的工作&quot;&gt;&lt;a href=&quot;#用Word来做平面设计的工作&quot; class=&quot;headerlink&quot; title=&quot;用Word来做平面设计的工作&quot;&gt;&lt;/a&gt;用Word来做平面设计的工作&lt;/h2&gt;&lt;p&gt;视频中，大神使用我们经常使用的文档编辑软件&lt;strong&gt;Word&lt;/strong&gt;设计出了&lt;strong&gt;IOS7&lt;/strong&gt;的界面，做出来的效果比专业平面设计软件设计出来的效果都要好&lt;/p&gt;
@@ -148,6 +139,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="软件" scheme="http://blog.jefway.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
+      <category term="Word" scheme="http://blog.jefway.com/tags/Word/"/>
+    
   </entry>
   
   <entry>
@@ -155,7 +148,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/%E5%88%9B%E6%84%8F%E5%8A%A8%E7%94%BB-%E3%80%8A%E5%8A%A8%E7%94%BB%E5%B8%88%E5%A4%A7%E6%88%98%E7%81%AB%E6%9F%B4%E4%BA%BA%E3%80%8B.html"/>
     <id>http://blog.jefway.com/创意动画-《动画师大战火柴人》.html</id>
     <published>2016-03-20T05:58:00.000Z</published>
-    <updated>2016-03-26T03:10:18.335Z</updated>
+    <updated>2016-03-27T08:46:35.827Z</updated>
     
     <content type="html">&lt;p&gt;今天呢，给大家分享一部动画师&lt;strong&gt;Alan Becker&lt;/strong&gt;创作的火柴人系列的Flash动画，主要讲述了动画师和他所创造的动画人物-&lt;strong&gt;火柴人&lt;/strong&gt;之间的故事，动画剧情非常精彩和完整，充满的创意。&lt;/p&gt;
 &lt;h2 id=&quot;《动画师大战火柴人》剧情介绍&quot;&gt;&lt;a href=&quot;#《动画师大战火柴人》剧情介绍&quot; class=&quot;headerlink&quot; title=&quot;《动画师大战火柴人》剧情介绍&quot;&gt;&lt;/a&gt;《动画师大战火柴人》剧情介绍&lt;/h2&gt;&lt;p&gt;故事从动画师开始创作说起，这天动画师用新买的电脑在创作动画，中途，动画师因为事情离开了电脑前；这时，屏幕中的火柴人活了过来，开始探头探脑，观察着周围的情况，它在一个网页中发现了4个自己的同伴被关在一个房子中，它看到4个和自己长得差不多的小伙伴们，感到非常高兴，于是它就把4个同伴放了出来，开始在电脑屏幕上大肆破坏…&lt;/p&gt;
@@ -173,6 +166,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="创意视频" scheme="http://blog.jefway.com/tags/%E5%88%9B%E6%84%8F%E8%A7%86%E9%A2%91/"/>
     
+      <category term="火柴人" scheme="http://blog.jefway.com/tags/%E7%81%AB%E6%9F%B4%E4%BA%BA/"/>
+    
   </entry>
   
   <entry>
@@ -180,7 +175,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Office-2016-%E8%AE%A9%E4%BD%A0%E4%BD%93%E9%AA%8C%E5%85%A8%E6%96%B0%E7%9A%84%E5%8A%9E%E5%85%AC%E6%96%B9%E5%BC%8F.html"/>
     <id>http://blog.jefway.com/Office-2016-让你体验全新的办公方式.html</id>
     <published>2016-03-18T09:42:00.000Z</published>
-    <updated>2016-03-26T03:12:45.109Z</updated>
+    <updated>2016-03-27T08:45:04.638Z</updated>
     
     <content type="html">&lt;p&gt;小编我是一个非常喜欢收集软件的人，因为我觉得用好一个软件能使我的工作效率提高一倍不止，所以我就养成收集软件的习惯了；而今天我要带大家了解的就是我们工作中，经常用到的软件&lt;strong&gt;Office&lt;/strong&gt;,它可以说是我们工作中必备的软件了，去年微软公司发布了最新版本的office - &lt;strong&gt;office 2016&lt;/strong&gt;啦，每一个版本的office都会给我们带来很多新的功能，而且软件的用户体验也变得越来越好，让你操作起来更方便，更快捷。&lt;/p&gt;
 &lt;h2 id=&quot;Office-2016都有哪些新的功能&quot;&gt;&lt;a href=&quot;#Office-2016都有哪些新的功能&quot; class=&quot;headerlink&quot; title=&quot;Office 2016都有哪些新的功能&quot;&gt;&lt;/a&gt;Office 2016都有哪些新的功能&lt;/h2&gt;&lt;p&gt;这次的 Office 2016 正式版 包含很多新特性和改进，譬如颇受关注的远程实时多人合作编辑功能。Office 2016 包含了 Word、Excel、PowerPoint、OneNote、Publisher、Access、Visio、Project、Outlook 等组件。如果你经常需要用到办公软件，那么微软新一代更加高效智能的 Office 2016 当然是值得你升级的……&lt;/p&gt;
@@ -220,6 +215,12 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="软件" scheme="http://blog.jefway.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
+      <category term="Word" scheme="http://blog.jefway.com/tags/Word/"/>
+    
+      <category term="PPT" scheme="http://blog.jefway.com/tags/PPT/"/>
+    
+      <category term="Excel" scheme="http://blog.jefway.com/tags/Excel/"/>
+    
   </entry>
   
   <entry>
@@ -227,7 +228,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Typora-%E8%AE%A9%E4%BD%A0%E7%88%B1%E4%B8%8A%E5%86%99%E4%BD%9C%E6%97%B6%E8%BD%BB%E6%9D%BE%E6%83%AC%E6%84%8F%E7%9A%84%E6%84%9F%E8%A7%89.html"/>
     <id>http://blog.jefway.com/Typora-让你爱上写作时轻松惬意的感觉.html</id>
     <published>2016-03-11T04:26:00.000Z</published>
-    <updated>2016-03-25T14:34:13.621Z</updated>
+    <updated>2016-03-27T08:42:48.380Z</updated>
     
     <content type="html">&lt;h2 id=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;a href=&quot;#接触Typora源于Markdown写作&quot; class=&quot;headerlink&quot; title=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;/a&gt;接触Typora源于Markdown写作&lt;/h2&gt;&lt;p&gt;最近呢，我抽了点时间把网站重新规划了一下，我觉得以前的网站比较繁杂、没有真正的主题，而且我平时更新也比较少，网站程序本身也比较臃肿，访问速度不快，等等这些种种原因致使我下定决心重做网站…&lt;/p&gt;
 &lt;p&gt;于是我重新选择了一个新的博客程序，重新编写了主题样式，让博客看着和原来差不多；博客程序是支持&lt;code&gt;Markdown语法&lt;/code&gt;模式来写作的，我也是第一次接触这种写作方式，接触不久我就发现我爱上了这种写作方式，我也开始寻找一些支持Markdown语法的编辑器，发现有很多不错的编辑软件功能都非常的不错，而我今天为大家推荐的就是这款&lt;strong&gt;Typora&lt;/strong&gt;编辑器。&lt;/p&gt;
@@ -277,6 +278,12 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     </summary>
     
     
+      <category term="软件" scheme="http://blog.jefway.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="写作" scheme="http://blog.jefway.com/tags/%E5%86%99%E4%BD%9C/"/>
+    
+      <category term="Markdown" scheme="http://blog.jefway.com/tags/Markdown/"/>
+    
   </entry>
   
   <entry>
@@ -284,7 +291,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Flippr-%E8%AE%A9%E4%BD%A0%E7%9A%84-Widget-%E5%8F%91%E6%8C%A5%E6%97%A0%E9%99%90%E5%88%9B%E6%84%8F.html"/>
     <id>http://blog.jefway.com/Flippr-让你的-Widget-发挥无限创意.html</id>
     <published>2015-12-10T01:57:00.000Z</published>
-    <updated>2016-03-25T14:46:26.780Z</updated>
+    <updated>2016-03-27T08:37:43.005Z</updated>
     
     <content type="html">&lt;p&gt;作为 Android 平台引以为傲的桌面元素，Widget 的方便之处自然不必多言。桌面放个天气小部件，随时就能看到天气情况；放个备忘录，打开桌面就可以起到提醒的作用。而 Widget 最棒的一点还是它的互动性，不仅可以控制音乐播放器，快速打开应用里面的特定功能，你甚至可以在桌面放一个计算器，需要时随时计算而不用打开应用。&lt;/p&gt;
 &lt;p&gt;Widget 的存在大大地减少了我们的操作，削弱了点开应用的必要性。然而如此好用的东西，只能在桌面使用岂不可惜。&lt;/p&gt;
@@ -321,6 +328,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="APP" scheme="http://blog.jefway.com/tags/APP/"/>
     
+      <category term="插件" scheme="http://blog.jefway.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
   </entry>
   
   <entry>
@@ -328,7 +337,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Atom-Github-%E6%89%93%E9%80%A0%E7%9A%84%E4%B8%8B%E4%B8%80%E4%BB%A3%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91%E5%88%A9%E5%99%A8.html"/>
     <id>http://blog.jefway.com/Atom-Github-打造的下一代编程开发利器.html</id>
     <published>2015-11-27T08:55:00.000Z</published>
-    <updated>2016-03-26T03:07:25.150Z</updated>
+    <updated>2016-03-27T08:36:47.202Z</updated>
     
     <content type="html">&lt;p&gt;在代码编辑器、文本编辑器领域，有着不少的「神器」级的产品，如历史悠久的 VIM、Emacs 以及如今当红的&lt;a href=&quot;http://www.jefway.com/subliem-text.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SublimeText&lt;/a&gt;。另外还有 EditPlus、NotePad++、UltraEdit 等一大堆流行的利器，可谓百家争鸣。&lt;/p&gt;
 &lt;p&gt;然而，作为目前全球范围内影响力最大的代码仓库/开源社区，GitHub 的程序员们并不满足于此。他们使用目前最先进流行的技术重新打造了一款称为“属于21世纪”的代码编辑器——&lt;strong&gt;Atom&lt;/strong&gt;， 它开源免费跨平台，并且整合 GIT 并提供类似 SublimeText 的包管理功能，支持插件扩展，可配置性非常高……&lt;/p&gt;
@@ -365,6 +374,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="软件" scheme="http://blog.jefway.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
+      <category term="编辑器" scheme="http://blog.jefway.com/tags/%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+    
   </entry>
   
   <entry>
@@ -372,7 +383,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/D-Day-%E7%81%BE%E9%9A%BE%E6%9D%A5%E4%B8%B4%EF%BC%8C%E4%BD%A0%E7%9A%84%E9%80%89%E6%8B%A9%E6%98%AF%E4%BB%80%E4%B9%88.html"/>
     <id>http://blog.jefway.com/D-Day-灾难来临，你的选择是什么.html</id>
     <published>2015-11-26T14:25:00.000Z</published>
-    <updated>2016-03-26T03:06:07.821Z</updated>
+    <updated>2016-03-27T08:35:46.863Z</updated>
     
     <content type="html">&lt;p&gt;实话告诉大家，小编我呢，其实是一个半个韩剧迷啦，那大家就要问了，为什么说是半个韩剧迷呢？其实呢，我对电视剧要求还是比较高的，我不是所有韩剧都看的，我是非常喜欢哪些有特点、有意义的韩剧看的，看到搞笑的地方我会笑，看到伤心的时候我也会哭，所以说我是半个韩剧迷啦；我个人真是挺佩服哪些写出这么多好题材的编剧们，这不我又发现了一部不错的韩剧，今天就推荐给大家；要是大家也有好的韩剧也可以推荐给我哦！&lt;/p&gt;
 &lt;h2 id=&quot;D-Day-灾难来临日&quot;&gt;&lt;a href=&quot;#D-Day-灾难来临日&quot; class=&quot;headerlink&quot; title=&quot;D-Day 灾难来临日&quot;&gt;&lt;/a&gt;D-Day 灾难来临日&lt;/h2&gt;&lt;p&gt;《D-Day》（灾难来临日）是韩国JTBC电视台于2015年9月18日起播出的金土迷你连续剧，到现在应该是已经完结的状态了，喜欢的朋友可以一次看个够，不用辛苦追剧了；这是韩国首部灾难型题材电视剧，主要讲述了首尔发生大地震后，灾难医疗小组成员冒着生命危险执行任务的医疗组故事；电视剧题材新颖，场景华丽，由金英光、郑素敏、金晶和、李成烈和尹珠熙等倾情出演，剧中将出现高楼大厦倒塌的画面，将运用CG技术展现壮观场面。&lt;/p&gt;
@@ -409,6 +420,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="影视" scheme="http://blog.jefway.com/tags/%E5%BD%B1%E8%A7%86/"/>
     
+      <category term="电视剧" scheme="http://blog.jefway.com/tags/%E7%94%B5%E8%A7%86%E5%89%A7/"/>
+    
   </entry>
   
   <entry>
@@ -416,7 +429,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Vysor-%E5%90%8C%E6%AD%A5%E6%98%BE%E7%A4%BA%E7%94%BB%E9%9D%A2%E7%9A%84%E7%A5%9E%E5%99%A8.html"/>
     <id>http://blog.jefway.com/Vysor-同步显示画面的神器.html</id>
     <published>2015-11-25T08:12:00.000Z</published>
-    <updated>2016-03-26T03:10:56.319Z</updated>
+    <updated>2016-03-27T08:35:00.768Z</updated>
     
     <content type="html">&lt;p&gt;虽然现在各种如 ARC Welder / Genymotion / Andy 等安卓模拟器可以让你在电脑上运行手机 APP 或玩手机游戏，但还有很多人希望能直接在电脑上远程控制手机真机，或在电脑上同步显示手机的画面！&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Vysor&lt;/strong&gt; 是一款可以免费让你 &lt;strong&gt;在电脑上控制 Android 手机/平板的软件&lt;/strong&gt;！它实用性超高，不仅可以将安卓手机的屏幕画面实时同步投影显示在电脑的屏幕上，甚至还能直接在电脑上对手机进行远程控制操作！而且它是一款Chrome 浏览器插件应用，可跨平台支持 Win / Mac / Linux，用途非常广泛，绝对是手机控的必备神器……&lt;/p&gt;
@@ -469,6 +482,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="插件" scheme="http://blog.jefway.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
+      <category term="同步" scheme="http://blog.jefway.com/tags/%E5%90%8C%E6%AD%A5/"/>
+    
   </entry>
   
   <entry>
@@ -476,7 +491,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/%E6%A0%87%E4%BD%A0%E5%A6%B9%E5%95%8A-UI%E8%AE%BE%E8%AE%A1%E5%B8%88%E5%BF%85%E5%A4%87%E7%9A%84%E8%87%AA%E5%8A%A8%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7.html"/>
     <id>http://blog.jefway.com/标你妹啊-UI设计师必备的自动标注工具.html</id>
     <published>2015-11-24T05:35:00.000Z</published>
-    <updated>2016-03-25T14:38:06.026Z</updated>
+    <updated>2016-03-27T08:34:18.085Z</updated>
     
     <content type="html">&lt;p&gt;APP设计师们，你还在为繁琐枯燥的设计标注工作而烦恼、因为程序猿的设计还原不准而抓狂吗？今天给大家推荐一款UI设计师必备的UI自动标注工具——标你妹啊。&lt;/p&gt;
 &lt;p&gt;这是一款云端、一键自动完成所有标注数据的自动标注工具。Photoshop的设计师从此可以真正体验到自动化标注的高效便捷 ！&lt;/p&gt;
@@ -509,8 +524,6 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
 &lt;li&gt;&lt;a href=&quot;http://www.biaonimeia.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官网网址&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;small&gt;Copyright &amp;copy; &lt;a href=&quot;http://www.jefway.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉小微&lt;/a&gt; for &lt;a href=&quot;http://www.jefway.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉微创意&lt;/a&gt; 2010 | &lt;a href=&quot;http://www.jefway.com/biaonimeia.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Permalink&lt;/a&gt; | 0 条评论&lt;/small&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -523,6 +536,10 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="软件" scheme="http://blog.jefway.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
+      <category term="工具" scheme="http://blog.jefway.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="标注" scheme="http://blog.jefway.com/tags/%E6%A0%87%E6%B3%A8/"/>
+    
   </entry>
   
   <entry>
@@ -530,7 +547,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Inputting-Android-%E4%B8%8A%E7%9A%84%E3%80%8CCtrl-Z%E3%80%8D.html"/>
     <id>http://blog.jefway.com/Inputting-Android-上的「Ctrl-Z」.html</id>
     <published>2015-11-23T02:37:00.000Z</published>
-    <updated>2016-03-25T14:44:58.677Z</updated>
+    <updated>2016-03-27T08:33:18.491Z</updated>
     
     <content type="html">&lt;p&gt;和心上人聊天的时候，我们总是斟酌用词、语气严谨，生怕说错什么让对方误解。所以在说话时，我们常常会经历「输入、删除、输入、删除」的往复过程，可是翻来覆去还是觉得第一次说的比较靠谱，于是只好再重新输入一遍。然而当我们发送完这句话，这时候往往已经过去了好几分钟，对方是不是以为我对 TA 爱答不理呢？如果手机上能够做到桌面系统上的「撤销」功能那不就方便多了。&lt;/p&gt;
 &lt;p&gt;少数派曾经为大家介绍过 Type Machine，它能够记录所有你输入过的文字，然而它也仅仅是记录一段输入完整的文字，不能记录输入的历史动作，想要用它实现「撤销」和「重做」确实有些捉襟见肘。而 Inputting+ 这款应用不仅能够实现 Type Machine 的所有功能，还高精度记录了我们所有的录入动作，从此，我们打字也可以吃后悔药了。&lt;/p&gt;
@@ -553,8 +570,6 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
 &lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1qWGf0sO&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 Inputting+ 增强输入器&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;small&gt;Copyright &amp;copy; &lt;a href=&quot;http://www.jefway.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉小微&lt;/a&gt; for &lt;a href=&quot;http://www.jefway.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉微创意&lt;/a&gt; 2010 | &lt;a href=&quot;http://www.jefway.com/inputtin.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Permalink&lt;/a&gt; | 0 条评论&lt;/small&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -566,6 +581,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="APP" scheme="http://blog.jefway.com/tags/APP/"/>
     
+      <category term="工具" scheme="http://blog.jefway.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
   </entry>
   
   <entry>
@@ -573,50 +590,32 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Wox-%E5%BC%80%E6%BA%90%E5%85%8D%E8%B4%B9%E5%BC%BA%E5%A4%A7%E7%9A%84%E5%BF%AB%E6%8D%B7%E5%90%AF%E5%8A%A8%E5%99%A8%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7.html"/>
     <id>http://blog.jefway.com/Wox-开源免费强大的快捷启动器辅助工具.html</id>
     <published>2015-11-21T06:06:00.000Z</published>
-    <updated>2016-03-25T14:37:47.532Z</updated>
+    <updated>2016-03-27T08:32:32.328Z</updated>
     
-    <content type="html">&lt;pre&gt;&lt;code&gt;在日常的电脑操作中，我们常常花很多时间重复做着一件事情：退回桌面/开始菜单-&amp;amp;gt;寻找软件图标-&amp;amp;gt;点击启动。但如果你喜欢高效的键盘操作，那么你需要一款好用的 **快速启动器软件**
-。
-
-我们曾介绍过 Launchy、AltRun、Executor、Alfred 等键盘快速启动工具，而今天推荐的则是另外一款国产开源免费的软件快捷启动工具 Wox！它可以搜索你电脑上的程序，通过快捷键呼出搜索框，输入少量字母快速匹配出对应软件并启动、打开网页、翻译单词、或配合 Everything 插件搜索任意文件等等……
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Wox-强大高效的快捷启动软件&quot;&gt;&lt;a href=&quot;#Wox-强大高效的快捷启动软件&quot; class=&quot;headerlink&quot; title=&quot;Wox - 强大高效的快捷启动软件&quot;&gt;&lt;/a&gt;Wox - 强大高效的快捷启动软件&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;你可以将 **Wox**
-看作一个高效的本地快速搜索框，通过快捷键呼出，然后输入关键字来搜索程序进行快速启动，或者搜索本地硬盘的文件，打开百度、Google 进行搜索，甚至是通过一些插件的功能实现单词翻译、关闭屏幕、查询剪贴板历史、查询编程文档、查询天气等更多功能。
-
-![请输入图片描述](http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGdHBVclpxU3NrM1ZDMkdNUXQ5eTZkNTNPeWgrQTMvYTZnPT0.png?imageView&amp;amp;amp;thumbnail=500x0&amp;amp;amp;quality=96&amp;amp;amp;stripmeta=0&amp;amp;amp;type=jpg%7Cwatermark&amp;amp;amp;type=2&amp;amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;amp;font=bXN5aA==&amp;amp;amp;gravity=southwest&amp;amp;amp;dissolve=30&amp;amp;amp;fontsize=240&amp;amp;amp;dx=8&amp;amp;amp;dy=10&amp;amp;amp;stripmeta=0)
-
-相比 Launchy 等同类的快速启动器工具，Wox 最大的特点是可以支持中文拼音的模糊匹配。譬如说你想搜索“设备管理器”，那么只需输入&amp;amp;quot;sheb&amp;amp;quot;就能匹配得到。
-
-![请输入图片描述](http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGcFdLcEZ3OC82dXFSUzAyTE9Fd3JNcVBMa21yUDFoTEN3PT0.png?imageView&amp;amp;amp;thumbnail=500x0&amp;amp;amp;quality=96&amp;amp;amp;stripmeta=0&amp;amp;amp;type=jpg%7Cwatermark&amp;amp;amp;type=2&amp;amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;amp;font=bXN5aA==&amp;amp;amp;gravity=southwest&amp;amp;amp;dissolve=30&amp;amp;amp;fontsize=240&amp;amp;amp;dx=8&amp;amp;amp;dy=10&amp;amp;amp;stripmeta=0)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;增加程序的搜索目录：&quot;&gt;&lt;a href=&quot;#增加程序的搜索目录：&quot; class=&quot;headerlink&quot; title=&quot;增加程序的搜索目录：&quot;&gt;&lt;/a&gt;增加程序的搜索目录：&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;一开始使用 Wox 时，你会发现，除了开始菜单里面有的程序能搜索到之外，自己的一些绿色软件或者安装到非默认目录的软件都找不到。这时你可以在 Wox 里输入 settings 回车或托盘图标右键选择 Settings 进入设置界面，然后在 Programs 中按 Add 按钮添加你的软件所在的文件夹。
-
-![请输入图片描述](http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGc21ITENDY3RSZkRuekgxSDQ3WWZNWUJwcUlyeHlxd21RPT0.png?imageView&amp;amp;amp;thumbnail=500x0&amp;amp;amp;quality=96&amp;amp;amp;stripmeta=0&amp;amp;amp;type=jpg%7Cwatermark&amp;amp;amp;type=2&amp;amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;amp;font=bXN5aA==&amp;amp;amp;gravity=southwest&amp;amp;amp;dissolve=30&amp;amp;amp;fontsize=240&amp;amp;amp;dx=8&amp;amp;amp;dy=10&amp;amp;amp;stripmeta=0)
-
-如下图，Type 一般选择 Portable 开头的那项，然后在 Location 里输入目录路径，BounsPoint 是优先级，默认填0即可。设置后退出并重启 Wox 即可生效。
-
-![请输入图片描述](http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGckhzcTFybGVvQk5pODg1dWdpNm5KZWF3NENFWnZrMDB3PT0.png?imageView&amp;amp;amp;thumbnail=500x0&amp;amp;amp;quality=96&amp;amp;amp;stripmeta=0&amp;amp;amp;type=jpg%7Cwatermark&amp;amp;amp;type=2&amp;amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;amp;font=bXN5aA==&amp;amp;amp;gravity=southwest&amp;amp;amp;dissolve=30&amp;amp;amp;fontsize=240&amp;amp;amp;dx=8&amp;amp;amp;dy=10&amp;amp;amp;stripmeta=0)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;网页搜索功能：&quot;&gt;&lt;a href=&quot;#网页搜索功能：&quot; class=&quot;headerlink&quot; title=&quot;网页搜索功能：&quot;&gt;&lt;/a&gt;网页搜索功能：&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;Wox 的网页搜索功能是可以让用户自己为某个搜索引擎设置一个关键字。举个简单例子，如果用户经常使用百度搜索。那么用户就可以在 Wox 的设置里的 Web Search 选项中，点击 Add 增加这么一个选项（URL为http://www.baidu.com/s?wd={q}）：
-
-![请输入图片描述](http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGbnZBTjFydjZKSHBDckFGK0xXd1l1Rlp6YWt2TUxNREtnPT0.png?imageView&amp;amp;amp;thumbnail=500x0&amp;amp;amp;quality=96&amp;amp;amp;stripmeta=0&amp;amp;amp;type=jpg%7Cwatermark&amp;amp;amp;type=2&amp;amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;amp;font=bXN5aA==&amp;amp;amp;gravity=southwest&amp;amp;amp;dissolve=30&amp;amp;amp;fontsize=240&amp;amp;amp;dx=8&amp;amp;amp;dy=10&amp;amp;amp;stripmeta=0)
-
-这样，你便可以通过在 Wox 搜索框里输入「bd 关键字」进行百度搜索。同理，你也可以增一个淘宝搜索、必应搜索，或者任何其他你所需要打开的网站，网址中的{q}是代表你输入的关键字，发挥你的想象力吧。
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;插件管理：&quot;&gt;&lt;a href=&quot;#插件管理：&quot; class=&quot;headerlink&quot; title=&quot;插件管理：&quot;&gt;&lt;/a&gt;插件管理：&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;同样是在
-**Wox**
-里键入 settings 并回车进入设置界面，Plugins 一页中便是你目前安装的插件。你可以在这里启用/禁用或者设置你的插件。你可以在这里找到 Wox 的插件下载，下载回来的是 .wox 格式的文件，直接拖放到 Wox 的搜索框上，软件就会提示你是否安装了。
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Everything-搜索插件：&quot;&gt;&lt;a href=&quot;#Everything-搜索插件：&quot; class=&quot;headerlink&quot; title=&quot;Everything 搜索插件：&quot;&gt;&lt;/a&gt;Everything 搜索插件：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;Everything 无疑是目前最强大的文件秒搜工具了，因此在 Wox 上集成 Everything 的功能一定会让它变得更酷更实用！但是，直接安装完 Everything 的插件你会发现通过它的命令「ev 文件名」并不能搜索。这时，你还需要进入插件的目录中，将 x64 或 x86 文件夹里面的 Everything.dll 复制一个到上层目录，重启 Wox 才能生效。
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;更多插件：&quot;&gt;&lt;a href=&quot;#更多插件：&quot; class=&quot;headerlink&quot; title=&quot;更多插件：&quot;&gt;&lt;/a&gt;更多插件：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;目前 Wox 已经有不少实用的插件了，如豆瓣电影、雅虎天气、进程关闭器、URL编码、关闭显示器、剪贴板历史、Windows最近使用文档等等……更多的 Wox 插件下载以及它们使用方式，大家可以
-[前往这里获取](http://www.getwox.com/plugin)
-，限于篇幅这里就不介绍更多了，大家亲身去尝试吧。
-
-另外，官方的介绍上表示可以通过输入「wpm install 插件名」命令进行插件安装，但我这边实测时不知为何并无此命令的存在，可能在新版本会修正这个问题吧。
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;其他功能：&quot;&gt;&lt;a href=&quot;#其他功能：&quot; class=&quot;headerlink&quot; title=&quot;其他功能：&quot;&gt;&lt;/a&gt;其他功能：&lt;/h2&gt;&lt;h3 id=&quot;运行命令行-替换Win-R：&quot;&gt;&lt;a href=&quot;#运行命令行-替换Win-R：&quot; class=&quot;headerlink&quot; title=&quot;运行命令行/替换Win+R：&quot;&gt;&lt;/a&gt;运行命令行/替换Win+R：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;Wox 还提供了 Win+R 替换运行窗口的功能（可在设置中关闭），也提供了快速输入命令行的功能。也就说在打开Wox的情况下，如果用户按下 Win+R 将会直接打开Wox并进入命令行状态（用户也可以通过输入&amp;amp;gt;直接进入此状态），如下图，键「 &amp;amp;gt;ping www.jefway.com」可以快速执行 ping 命令。
-
-![请输入图片描述](http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGbFdObmtvVEJRRVhMaXFodFg1T3NDaWo4OStZNmYvQzhnPT0.png?imageView&amp;amp;amp;thumbnail=500x0&amp;amp;amp;quality=96&amp;amp;amp;stripmeta=0&amp;amp;amp;type=jpg%7Cwatermark&amp;amp;amp;type=2&amp;amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;amp;font=bXN5aA==&amp;amp;amp;gravity=southwest&amp;amp;amp;dissolve=30&amp;amp;amp;fontsize=240&amp;amp;amp;dx=8&amp;amp;amp;dy=10&amp;amp;amp;stripmeta=0)
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;快速计算器：&quot;&gt;&lt;a href=&quot;#快速计算器：&quot; class=&quot;headerlink&quot; title=&quot;快速计算器：&quot;&gt;&lt;/a&gt;快速计算器：&lt;/h3&gt;&lt;p&gt;Wox 还能进行一些简单的数学运算，可以非常方便地随手进行计算，并且回车后还可以复制计算结果。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;![请输入图片描述](http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGaERlWHlheEFtWkY4d2xTamIydmNaMCtreTh5Q0lQc3FRPT0.png?imageView&amp;amp;amp;thumbnail=500x0&amp;amp;amp;quality=96&amp;amp;amp;stripmeta=0&amp;amp;amp;type=jpg%7Cwatermark&amp;amp;amp;type=2&amp;amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;amp;font=bXN5aA==&amp;amp;amp;gravity=southwest&amp;amp;amp;dissolve=30&amp;amp;amp;fontsize=240&amp;amp;amp;dx=8&amp;amp;amp;dy=10&amp;amp;amp;stripmeta=0)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;自定义主题外观：&quot;&gt;&lt;a href=&quot;#自定义主题外观：&quot; class=&quot;headerlink&quot; title=&quot;自定义主题外观：&quot;&gt;&lt;/a&gt;自定义主题外观：&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;除了插件外，Wox 还支持自定义主题外观。你可以在设置界面中的 Theme 页面中选择已有的主题，也可以通过这个在线的主题制作工具自行定制。
-
-![请输入图片描述](http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGb1FBK2JTdGUyMEtmNmlydWtvUEQ3ZnZZaG9CTmJKYW5BPT0.png?imageView&amp;amp;amp;thumbnail=500x0&amp;amp;amp;quality=96&amp;amp;amp;stripmeta=0&amp;amp;amp;type=jpg%7Cwatermark&amp;amp;amp;type=2&amp;amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;amp;font=bXN5aA==&amp;amp;amp;gravity=southwest&amp;amp;amp;dissolve=30&amp;amp;amp;fontsize=240&amp;amp;amp;dx=8&amp;amp;amp;dy=10&amp;amp;amp;stripmeta=0)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;总结-Wox-的一些特性：&quot;&gt;&lt;a href=&quot;#总结-Wox-的一些特性：&quot; class=&quot;headerlink&quot; title=&quot;总结 Wox 的一些特性：&quot;&gt;&lt;/a&gt;总结 Wox 的一些特性：&lt;/h2&gt;&lt;ul&gt;
+    <content type="html">&lt;p&gt;在日常的电脑操作中，我们常常花很多时间重复做着一件事情：退回桌面/开始菜单-&amp;gt;寻找软件图标-&amp;gt;点击启动。但如果你喜欢高效的键盘操作，那么你需要一款好用的 &lt;strong&gt;快速启动器软件&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;我们曾介绍过 Launchy、AltRun、Executor、Alfred 等键盘快速启动工具，而今天推荐的则是另外一款国产开源免费的软件快捷启动工具 Wox！它可以搜索你电脑上的程序，通过快捷键呼出搜索框，输入少量字母快速匹配出对应软件并启动、打开网页、翻译单词、或配合 Everything 插件搜索任意文件等等……&lt;/p&gt;
+&lt;h2 id=&quot;Wox-强大高效的快捷启动软件&quot;&gt;&lt;a href=&quot;#Wox-强大高效的快捷启动软件&quot; class=&quot;headerlink&quot; title=&quot;Wox - 强大高效的快捷启动软件&quot;&gt;&lt;/a&gt;Wox - 强大高效的快捷启动软件&lt;/h2&gt;&lt;p&gt;你可以将 &lt;strong&gt;Wox&lt;/strong&gt; 看作一个高效的本地快速搜索框，通过快捷键呼出，然后输入关键字来搜索程序进行快速启动，或者搜索本地硬盘的文件，打开百度、Google 进行搜索，甚至是通过一些插件的功能实现单词翻译、关闭屏幕、查询剪贴板历史、查询编程文档、查询天气等更多功能。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGdHBVclpxU3NrM1ZDMkdNUXQ5eTZkNTNPeWgrQTMvYTZnPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;相比 Launchy 等同类的快速启动器工具，Wox 最大的特点是可以支持中文拼音的模糊匹配。譬如说你想搜索“设备管理器”，那么只需输入&amp;quot;sheb&amp;quot;就能匹配得到。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGcFdLcEZ3OC82dXFSUzAyTE9Fd3JNcVBMa21yUDFoTEN3PT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;增加程序的搜索目录：&quot;&gt;&lt;a href=&quot;#增加程序的搜索目录：&quot; class=&quot;headerlink&quot; title=&quot;增加程序的搜索目录：&quot;&gt;&lt;/a&gt;增加程序的搜索目录：&lt;/h2&gt;&lt;p&gt;一开始使用 Wox 时，你会发现，除了开始菜单里面有的程序能搜索到之外，自己的一些绿色软件或者安装到非默认目录的软件都找不到。这时你可以在 Wox 里输入 settings 回车或托盘图标右键选择 Settings 进入设置界面，然后在 Programs 中按 Add 按钮添加你的软件所在的文件夹。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGc21ITENDY3RSZkRuekgxSDQ3WWZNWUJwcUlyeHlxd21RPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如下图，Type 一般选择 Portable 开头的那项，然后在 Location 里输入目录路径，BounsPoint 是优先级，默认填0即可。设置后退出并重启 Wox 即可生效。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGckhzcTFybGVvQk5pODg1dWdpNm5KZWF3NENFWnZrMDB3PT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;网页搜索功能：&quot;&gt;&lt;a href=&quot;#网页搜索功能：&quot; class=&quot;headerlink&quot; title=&quot;网页搜索功能：&quot;&gt;&lt;/a&gt;网页搜索功能：&lt;/h2&gt;&lt;p&gt;Wox 的网页搜索功能是可以让用户自己为某个搜索引擎设置一个关键字。举个简单例子，如果用户经常使用百度搜索。那么用户就可以在 Wox 的设置里的 Web Search 选项中，点击 Add 增加这么一个选项（URL为&lt;a href=&quot;http://www.baidu.com/s?wd={q}）：&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.baidu.com/s?wd={q}）：&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGbnZBTjFydjZKSHBDckFGK0xXd1l1Rlp6YWt2TUxNREtnPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这样，你便可以通过在 Wox 搜索框里输入「bd 关键字」进行百度搜索。同理，你也可以增一个淘宝搜索、必应搜索，或者任何其他你所需要打开的网站，网址中的{q}是代表你输入的关键字，发挥你的想象力吧。&lt;/p&gt;
+&lt;h2 id=&quot;插件管理：&quot;&gt;&lt;a href=&quot;#插件管理：&quot; class=&quot;headerlink&quot; title=&quot;插件管理：&quot;&gt;&lt;/a&gt;插件管理：&lt;/h2&gt;&lt;p&gt;同样是在 &lt;strong&gt;Wox&lt;/strong&gt; 里键入 settings 并回车进入设置界面，Plugins 一页中便是你目前安装的插件。你可以在这里启用/禁用或者设置你的插件。你可以在这里找到 Wox 的插件下载，下载回来的是 .wox 格式的文件，直接拖放到 Wox 的搜索框上，软件就会提示你是否安装了。&lt;/p&gt;
+&lt;h3 id=&quot;Everything-搜索插件：&quot;&gt;&lt;a href=&quot;#Everything-搜索插件：&quot; class=&quot;headerlink&quot; title=&quot;Everything 搜索插件：&quot;&gt;&lt;/a&gt;Everything 搜索插件：&lt;/h3&gt;&lt;p&gt;Everything 无疑是目前最强大的文件秒搜工具了，因此在 Wox 上集成 Everything 的功能一定会让它变得更酷更实用！但是，直接安装完 Everything 的插件你会发现通过它的命令「ev 文件名」并不能搜索。这时，你还需要进入插件的目录中，将 x64 或 x86 文件夹里面的 Everything.dll 复制一个到上层目录，重启 Wox 才能生效。&lt;/p&gt;
+&lt;h3 id=&quot;更多插件：&quot;&gt;&lt;a href=&quot;#更多插件：&quot; class=&quot;headerlink&quot; title=&quot;更多插件：&quot;&gt;&lt;/a&gt;更多插件：&lt;/h3&gt;&lt;p&gt;目前 Wox 已经有不少实用的插件了，如豆瓣电影、雅虎天气、进程关闭器、URL编码、关闭显示器、剪贴板历史、Windows最近使用文档等等……更多的 Wox 插件下载以及它们使用方式，大家可以&lt;a href=&quot;http://www.getwox.com/plugin&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前往这里获取&lt;/a&gt;，限于篇幅这里就不介绍更多了，大家亲身去尝试吧。&lt;/p&gt;
+&lt;p&gt;另外，官方的介绍上表示可以通过输入「wpm install 插件名」命令进行插件安装，但我这边实测时不知为何并无此命令的存在，可能在新版本会修正这个问题吧。&lt;/p&gt;
+&lt;h2 id=&quot;其他功能：&quot;&gt;&lt;a href=&quot;#其他功能：&quot; class=&quot;headerlink&quot; title=&quot;其他功能：&quot;&gt;&lt;/a&gt;其他功能：&lt;/h2&gt;&lt;h3 id=&quot;运行命令行-替换Win-R：&quot;&gt;&lt;a href=&quot;#运行命令行-替换Win-R：&quot; class=&quot;headerlink&quot; title=&quot;运行命令行/替换Win+R：&quot;&gt;&lt;/a&gt;运行命令行/替换Win+R：&lt;/h3&gt;&lt;p&gt;Wox 还提供了 Win+R 替换运行窗口的功能（可在设置中关闭），也提供了快速输入命令行的功能。也就说在打开Wox的情况下，如果用户按下 Win+R 将会直接打开Wox并进入命令行状态（用户也可以通过输入&amp;gt;直接进入此状态），如下图，键「 &amp;gt;ping www.jefway.com」可以快速执行 ping 命令。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGbFdObmtvVEJRRVhMaXFodFg1T3NDaWo4OStZNmYvQzhnPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;快速计算器：&quot;&gt;&lt;a href=&quot;#快速计算器：&quot; class=&quot;headerlink&quot; title=&quot;快速计算器：&quot;&gt;&lt;/a&gt;快速计算器：&lt;/h3&gt;&lt;p&gt;Wox 还能进行一些简单的数学运算，可以非常方便地随手进行计算，并且回车后还可以复制计算结果。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGaERlWHlheEFtWkY4d2xTamIydmNaMCtreTh5Q0lQc3FRPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;自定义主题外观：&quot;&gt;&lt;a href=&quot;#自定义主题外观：&quot; class=&quot;headerlink&quot; title=&quot;自定义主题外观：&quot;&gt;&lt;/a&gt;自定义主题外观：&lt;/h2&gt;&lt;p&gt;除了插件外，Wox 还支持自定义主题外观。你可以在设置界面中的 Theme 页面中选择已有的主题，也可以通过这个在线的主题制作工具自行定制。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGb1FBK2JTdGUyMEtmNmlydWtvUEQ3ZnZZaG9CTmJKYW5BPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;总结-Wox-的一些特性：&quot;&gt;&lt;a href=&quot;#总结-Wox-的一些特性：&quot; class=&quot;headerlink&quot; title=&quot;总结 Wox 的一些特性：&quot;&gt;&lt;/a&gt;总结 Wox 的一些特性：&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;可以搜索本机安装的程序，支持中文拼音模糊搜索&lt;/li&gt;
 &lt;li&gt;搜索浏览器书签&lt;/li&gt;
 &lt;li&gt;瞬间搜索出本地硬盘所有文件（通过 Everything 插件）&lt;/li&gt;
@@ -624,38 +623,28 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
 &lt;li&gt;支持插件扩展&lt;/li&gt;
 &lt;li&gt;支持自定义主题&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;写在后面：&quot;&gt;&lt;a href=&quot;#写在后面：&quot; class=&quot;headerlink&quot; title=&quot;写在后面：&quot;&gt;&lt;/a&gt;写在后面：&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;虽然 Wox 推出的时间并不长，目前还不算很稳定(偶尔出错)，但由于其开源且支持插件扩展，整体思路优秀，个人认为它的潜力非常巨大。由于它借鉴了 Mac 上的效率神器 Alfred 高效的工作方式，有点
-**Alfred Windows 版**
-的味道。假以时日，一旦插件丰富起来、稳定性提高之后，Wox 也将会成为 Windows 上的最佳效率神器。
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;相关文件下载地址：&quot;&gt;&lt;a href=&quot;#相关文件下载地址：&quot; class=&quot;headerlink&quot; title=&quot;相关文件下载地址：&quot;&gt;&lt;/a&gt;相关文件下载地址：&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;&amp;gt; *   [官方网站](http://www.getwox.com/)
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;h2 id=&quot;写在后面：&quot;&gt;&lt;a href=&quot;#写在后面：&quot; class=&quot;headerlink&quot; title=&quot;写在后面：&quot;&gt;&lt;/a&gt;写在后面：&lt;/h2&gt;&lt;p&gt;虽然 Wox 推出的时间并不长，目前还不算很稳定(偶尔出错)，但由于其开源且支持插件扩展，整体思路优秀，个人认为它的潜力非常巨大。由于它借鉴了 Mac 上的效率神器 Alfred 高效的工作方式，有点 &lt;strong&gt;Alfred Windows 版&lt;/strong&gt; 的味道。假以时日，一旦插件丰富起来、稳定性提高之后，Wox 也将会成为 Windows 上的最佳效率神器。&lt;/p&gt;
+&lt;h2 id=&quot;相关文件下载地址：&quot;&gt;&lt;a href=&quot;#相关文件下载地址：&quot; class=&quot;headerlink&quot; title=&quot;相关文件下载地址：&quot;&gt;&lt;/a&gt;相关文件下载地址：&lt;/h2&gt;&lt;blockquote&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.getwox.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方网站&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1sjw09kx&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 Wox 快捷启动器&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;small&amp;gt;
-    Copyright &amp;amp;copy;
-    [觉小微](http://www.jefway.com)
-    for
-    [觉微创意](http://www.jefway.com/)
-    2010 |
-    [Permalink](http://www.jefway.com/wox.html)
-    | 0 条评论
-&amp;lt;/small&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;</content>
+</content>
     
     <summary type="html">
     
-      &lt;pre&gt;&lt;code&gt;在日常的电脑操作中，我们常常花很多时间重复做着一件事情：退回桌面/开始菜单-&amp;amp;gt;寻找软件图标-&amp;amp;gt;点击启动。但如果你喜欢高效的键盘操作，那么你需要一款好用的 **快速启动器软件**
-。
-
-我们曾介绍过 Launchy、AltRun、E
+      &lt;p&gt;在日常的电脑操作中，我们常常花很多时间重复做着一件事情：退回桌面/开始菜单-&amp;gt;寻找软件图标-&amp;gt;点击启动。但如果你喜欢高效的键盘操作，那么你需要一款好用的 &lt;strong&gt;快速启动器软件&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;我们曾介绍过 Launchy、AltRun
     
     </summary>
     
     
       <category term="软件" scheme="http://blog.jefway.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="工具" scheme="http://blog.jefway.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="快速启动" scheme="http://blog.jefway.com/tags/%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8/"/>
     
   </entry>
   
@@ -664,7 +653,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Ice-Box-%E6%8A%8A%E8%80%97%E7%94%B5%E5%BA%94%E7%94%A8%E9%83%BD%E5%86%BB%E8%B5%B7%E6%9D%A5.html"/>
     <id>http://blog.jefway.com/Ice-Box-把耗电应用都冻起来.html</id>
     <published>2015-11-20T07:32:00.000Z</published>
-    <updated>2016-03-25T14:45:34.716Z</updated>
+    <updated>2016-03-27T08:29:09.964Z</updated>
     
     <content type="html">&lt;p&gt;Android 系统越来越流畅，用户体验在慢慢改善，但是耗电却始终是个棘手的问题。虽然大部分应用能够「守本分」，但是总有那么一小撮应用，即使退出了之后还「阴魂不散」，偷偷的在后台蚕食你手机宝贵的电量。眼看 Android 6.0 的 Doze 模式依旧遥远，是时候找一个「冰箱」把那些耗电大户「冻」起来了。&lt;/p&gt;
 &lt;p&gt;而 Ice Box 就是这样一个冰箱，不过这款应用需要 Root 权限。&lt;/p&gt;
@@ -685,8 +674,6 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
 &lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1o6H5pMU&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载Ice Box&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;small&gt;&lt;br&gt;Copyright &amp;copy;&lt;br&gt;&lt;a href=&quot;http://www.jefway.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉小微&lt;/a&gt;&lt;br&gt;for&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉微创意&lt;/a&gt;&lt;br&gt;2010 |&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/ice-box.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Permalink&lt;/a&gt;&lt;br&gt;| 0 条评论&lt;br&gt;&lt;/small&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -705,7 +692,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Smooth-%E8%AE%A9%E4%BD%A0%E4%BD%93%E9%AA%8C%E5%88%B0%E4%B8%8D%E5%90%8C%E7%9A%84%E5%88%B7%E5%BE%AE%E5%8D%9A%E4%BD%93%E9%AA%8C.html"/>
     <id>http://blog.jefway.com/Smooth-让你体验到不同的刷微博体验.html</id>
     <published>2015-11-19T02:19:00.000Z</published>
-    <updated>2016-03-25T14:36:28.010Z</updated>
+    <updated>2016-03-27T08:28:31.746Z</updated>
     
     <content type="html">&lt;p&gt;很多人都很喜欢在手机上随时随地刷微博，因此一款精致好用的微博客户端则是每一位同学都会希望的。其实除了新浪官方的客户端之外，还有计得非常精美的微博客户端 Smooth值得推荐。&lt;/p&gt;
 &lt;p&gt;Smooth 是最受欢迎的第三方微博客户端之一，它拥有出众的用户体验及精致的皮肤,全新的Android 5 Material Design风格，沉浸式，手势，使用习惯&lt;/p&gt;
@@ -731,8 +718,6 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
 &lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1kTuACNd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 Smooth&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;small&gt;&lt;br&gt;Copyright &amp;copy;&lt;br&gt;&lt;a href=&quot;http://www.jefway.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉小微&lt;/a&gt;&lt;br&gt;for&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉微创意&lt;/a&gt;&lt;br&gt;2010 |&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/smooth.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Permalink&lt;/a&gt;&lt;br&gt;| 0 条评论&lt;br&gt;&lt;/small&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -745,6 +730,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="APP" scheme="http://blog.jefway.com/tags/APP/"/>
     
+      <category term="社交" scheme="http://blog.jefway.com/tags/%E7%A4%BE%E4%BA%A4/"/>
+    
   </entry>
   
   <entry>
@@ -752,7 +739,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/BuMP-Music-Player-%E6%82%AC%E5%9C%A8%E9%82%A3%E5%84%BF%E7%9A%84%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8.html"/>
     <id>http://blog.jefway.com/BuMP-Music-Player-悬在那儿的音乐播放器.html</id>
     <published>2015-11-18T09:59:00.000Z</published>
-    <updated>2016-03-25T14:39:46.963Z</updated>
+    <updated>2016-03-27T08:21:10.797Z</updated>
     
     <content type="html">&lt;p&gt;由于工作的原因，最近开始频繁的使用手机长时间阅读文字，而作为一个音乐爱好者，在阅读的同时怎么能不听歌呢？然而使用过常用的几款音乐播放器之后，我发现它们并不能满足我的需求。&lt;/p&gt;
 &lt;p&gt;因为在阅读过程中，为了切歌而切换应用非常打扰阅读体验，而传统的应用采取的下拉状态栏切歌只能切换上下曲，选择非常有限。所以经过总结，我希望有一款这样的播放器：&lt;/p&gt;
@@ -782,8 +769,6 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
 &lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1o6D1yx8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载Bump Music Player&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;small&gt;&lt;br&gt;Copyright &amp;copy;&lt;br&gt;&lt;a href=&quot;http://www.jefway.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉小微&lt;/a&gt;&lt;br&gt;for&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉微创意&lt;/a&gt;&lt;br&gt;2010 |&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/bump-music-player.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Permalink&lt;/a&gt;&lt;br&gt;| 0 条评论&lt;br&gt;&lt;/small&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -796,6 +781,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="APP" scheme="http://blog.jefway.com/tags/APP/"/>
     
+      <category term="音乐" scheme="http://blog.jefway.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
   </entry>
   
   <entry>
@@ -803,67 +790,40 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Notation-%E6%9E%81%E7%AE%80%E8%BD%BB%E7%9B%88%E9%AB%98%E6%95%88%E7%9A%84%E7%BA%AF%E6%96%87%E6%9C%AC%E7%AC%94%E8%AE%B0%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6.html"/>
     <id>http://blog.jefway.com/Notation-极简轻盈高效的纯文本笔记工具软件.html</id>
     <published>2015-11-16T02:52:00.000Z</published>
-    <updated>2016-03-25T14:44:07.641Z</updated>
+    <updated>2016-03-27T08:20:28.972Z</updated>
     
-    <content type="html">&lt;p&gt;我们都知道在笔记类软件领域，&lt;br&gt;&lt;a href=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkJWcTg3RHBXbXVVcWdnVzBWeW4wRldwMDRzOTFoRzlaVDJ2RHZvcENUMXdBPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;印象笔记&lt;/a&gt;&lt;br&gt;以及为知笔记已经是最非常优秀的知识管理工具产品了。但总觉得它们用起来很大型很“重”，一些琐碎的文字资料用它们来管理起来感觉有点杀鸡用牛刀了。&lt;/p&gt;
-&lt;p&gt;于是很多人就像我一样直接保存 N 份 txt 纯文本文档就完事，但当资料数量多起来后，你会发现管理和查找都变得麻烦起来，直到我遇到了&lt;br&gt;&lt;strong&gt;Notation&lt;/strong&gt;&lt;br&gt;这款极简的笔记软件！它的体积足够的小巧轻盈，启动速度极快，界面简约，支持中文全文搜索，支持 Markdown 语法，支持数据同步以及各种高效的快捷键……&lt;/p&gt;
-&lt;h2 id=&quot;Notation-简单快速实用的免费笔记软件：&quot;&gt;&lt;a href=&quot;#Notation-简单快速实用的免费笔记软件：&quot; class=&quot;headerlink&quot; title=&quot;Notation - 简单快速实用的免费笔记软件：&quot;&gt;&lt;/a&gt;Notation - 简单快速实用的免费笔记软件：&lt;/h2&gt;&lt;p&gt;对于我来说，&lt;br&gt;&lt;strong&gt;Notation&lt;/strong&gt;&lt;br&gt;简直像是量身订做一样。因为，我非常需要一款免费、启动速度足够快、有高效快捷键、可全文搜索的笔记软件来帮我管理、记住一大堆工作和生活上出现的零散、琐碎的事情和资料。&lt;/p&gt;
+    <content type="html">&lt;p&gt;我们都知道在笔记类软件领域，&lt;a href=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkJWcTg3RHBXbXVVcWdnVzBWeW4wRldwMDRzOTFoRzlaVDJ2RHZvcENUMXdBPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;印象笔记&lt;/a&gt;以及为知笔记已经是最非常优秀的知识管理工具产品了。但总觉得它们用起来很大型很“重”，一些琐碎的文字资料用它们来管理起来感觉有点杀鸡用牛刀了。&lt;/p&gt;
+&lt;p&gt;于是很多人就像我一样直接保存 N 份 txt 纯文本文档就完事，但当资料数量多起来后，你会发现管理和查找都变得麻烦起来，直到我遇到了&lt;strong&gt;Notation&lt;/strong&gt;这款极简的笔记软件！它的体积足够的小巧轻盈，启动速度极快，界面简约，支持中文全文搜索，支持 Markdown 语法，支持数据同步以及各种高效的快捷键……&lt;/p&gt;
+&lt;h2 id=&quot;Notation-简单快速实用的免费笔记软件：&quot;&gt;&lt;a href=&quot;#Notation-简单快速实用的免费笔记软件：&quot; class=&quot;headerlink&quot; title=&quot;Notation - 简单快速实用的免费笔记软件：&quot;&gt;&lt;/a&gt;Notation - 简单快速实用的免费笔记软件：&lt;/h2&gt;&lt;p&gt;对于我来说，&lt;strong&gt;Notation&lt;/strong&gt;简直像是量身订做一样。因为，我非常需要一款免费、启动速度足够快、有高效快捷键、可全文搜索的笔记软件来帮我管理、记住一大堆工作和生活上出现的零散、琐碎的事情和资料。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkJWcTg3RHBXbXVVcWdnVzBWeW4wRldwMDRzOTFoRzlaVDJ2RHZvcENUMXdBPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
-&lt;p&gt;最初我使用&lt;br&gt;&lt;strong&gt;印象笔记&lt;/strong&gt;&lt;br&gt;和&lt;br&gt;&lt;strong&gt;为知&lt;/strong&gt;&lt;br&gt;来管理，后来我发现这些笔记与我的生活上的笔记混杂在一起不太方便，无论搜索还是分类整理，都无法非常高效地解决问题，干脆直接回到用 txt 文本文档记录，然而最大的问题是即便配合Everything 或 Listary 等工具都不能快速搜索文本里面的内容，而 Notation 则直接提供了我想要的功能。&lt;/p&gt;
+&lt;p&gt;最初我使用&lt;strong&gt;印象笔记&lt;/strong&gt;和&lt;strong&gt;为知&lt;/strong&gt;来管理，后来我发现这些笔记与我的生活上的笔记混杂在一起不太方便，无论搜索还是分类整理，都无法非常高效地解决问题，干脆直接回到用 txt 文本文档记录，然而最大的问题是即便配合Everything 或 Listary 等工具都不能快速搜索文本里面的内容，而 Notation 则直接提供了我想要的功能。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://getnotation.com/img/notation-enUS.png&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Notation 支持批量导入 txt 文档以及 zip 压缩包，也可以将数据导出成 txt 或 html 文件。如果你在笔记里使用了 Markdown 语法编写，那么导出时将 Notation 将会把该笔记还原成一个格式排版好的网页。&lt;/p&gt;
 &lt;p&gt;而且，Notation 支持快捷键操作，如果你喜欢高效的键盘操作方式，那么相信 Notation 能让你喜欢上他。下面是它的快捷键列表：&lt;/p&gt;
-&lt;h3 id=&quot;Notation-键盘快捷键&quot;&gt;&lt;a href=&quot;#Notation-键盘快捷键&quot; class=&quot;headerlink&quot; title=&quot;Notation 键盘快捷键&quot;&gt;&lt;/a&gt;Notation 键盘快捷键&lt;/h3&gt;&lt;p&gt;&lt;code&gt;Win + N&lt;/code&gt;&lt;br&gt;创建一条新笔记&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + D&lt;/code&gt;&lt;br&gt;复制创建出多一条相同的笔记&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + Shift + F&lt;/code&gt;&lt;br&gt;定位到搜索框(全部笔记)&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + Del&lt;/code&gt;&lt;br&gt;删除选中的笔记&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + F&lt;/code&gt;&lt;br&gt;定位到搜索框(当前笔记)&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;F3&lt;/code&gt;&lt;br&gt;下一条&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + L&lt;/code&gt;&lt;br&gt;选中笔记列表&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + +&lt;/code&gt;&lt;br&gt;字体增大&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + N&lt;/code&gt;&lt;br&gt;将光标移动到笔记文字框&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + -&lt;/code&gt;&lt;br&gt;字体减小&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + P&lt;/code&gt;&lt;br&gt;打印&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + 0&lt;/code&gt;&lt;br&gt;恢复原始字体&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + E&lt;/code&gt;&lt;br&gt;导出选中的笔记&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;F1&lt;/code&gt;&lt;br&gt;帮助&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + Shift + E&lt;/code&gt;&lt;br&gt;导出全部笔记&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;ESC&lt;/code&gt;&lt;br&gt;隐藏窗口&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + Shift + I&lt;/code&gt;&lt;br&gt;导入笔记&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl + Q&lt;/code&gt;&lt;br&gt;退出软件&lt;/p&gt;
-&lt;h2 id=&quot;数据同步与跨平台：&quot;&gt;&lt;a href=&quot;#数据同步与跨平台：&quot; class=&quot;headerlink&quot; title=&quot;数据同步与跨平台：&quot;&gt;&lt;/a&gt;数据同步与跨平台：&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Notation&lt;/strong&gt;&lt;br&gt;还能支持数据同步，它使用了&lt;br&gt;&lt;strong&gt;SimpleNote&lt;/strong&gt;&lt;br&gt;的帐号 (&lt;br&gt;&lt;a href=&quot;https://app.simplenote.com/signup/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里注册&lt;/a&gt;&lt;br&gt;) 进行同步的。SimpleNote 也是一款简约的笔记软件服务，提供了 Mac 、iOS 和 Android 平台的客户端以及网页版，但没提供 Windows 版，Notation 恰好填补了这个空白。你只需在 Edit -&amp;gt; Settings -&amp;gt; SimpleNote 中登录帐号即可，因此，你的数据依然是全平台通用的。&lt;/p&gt;
-&lt;p&gt;总之，如果你需要一款 Windows 上的&lt;br&gt;&lt;strong&gt;极简高效的笔记软件&lt;/strong&gt;&lt;br&gt;，Notation 将会是你很好的选择。而它配合 SimpleNote 又能完美的跨平台使用，使得该软件实用性大大提升。作为一款追求高效的笔记软件，或许换换口味试试它不错哦。&lt;/p&gt;
+&lt;h3 id=&quot;Notation-键盘快捷键&quot;&gt;&lt;a href=&quot;#Notation-键盘快捷键&quot; class=&quot;headerlink&quot; title=&quot;Notation 键盘快捷键&quot;&gt;&lt;/a&gt;Notation 键盘快捷键&lt;/h3&gt;&lt;p&gt;&lt;code&gt;Win + N&lt;/code&gt; 创建一条新笔记&lt;br&gt;&lt;code&gt;Ctrl + D&lt;/code&gt; 复制创建出多一条相同的笔记&lt;br&gt;&lt;code&gt;Ctrl + Shift + F&lt;/code&gt; 定位到搜索框(全部笔记)&lt;br&gt;&lt;code&gt;Ctrl + Del&lt;/code&gt; 删除选中的笔记&lt;br&gt;&lt;code&gt;Ctrl + F&lt;/code&gt; 定位到搜索框(当前笔记)&lt;br&gt;&lt;code&gt;F3&lt;/code&gt; 下一条&lt;br&gt;&lt;code&gt;Ctrl + L&lt;/code&gt; 选中笔记列表&lt;br&gt;&lt;code&gt;Ctrl + +&lt;/code&gt; 字体增大&lt;br&gt;&lt;code&gt;Ctrl + N&lt;/code&gt; 将光标移动到笔记文字框&lt;br&gt;&lt;code&gt;Ctrl + -&lt;/code&gt; 字体减小&lt;br&gt;&lt;code&gt;Ctrl + P&lt;/code&gt; 打印&lt;br&gt;&lt;code&gt;Ctrl + 0&lt;/code&gt; 恢复原始字体&lt;br&gt;&lt;code&gt;Ctrl + E&lt;/code&gt; 导出选中的笔记&lt;br&gt;&lt;code&gt;F1&lt;/code&gt; 帮助&lt;br&gt;&lt;code&gt;Ctrl + Shift + E&lt;/code&gt; 导出全部笔记&lt;br&gt;&lt;code&gt;ESC&lt;/code&gt; 隐藏窗口&lt;br&gt;&lt;code&gt;Ctrl + Shift + I&lt;/code&gt; 导入笔记&lt;br&gt;&lt;code&gt;Ctrl + Q&lt;/code&gt; 退出软件&lt;/p&gt;
+&lt;h2 id=&quot;数据同步与跨平台：&quot;&gt;&lt;a href=&quot;#数据同步与跨平台：&quot; class=&quot;headerlink&quot; title=&quot;数据同步与跨平台：&quot;&gt;&lt;/a&gt;数据同步与跨平台：&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Notation&lt;/strong&gt;还能支持数据同步，它使用了&lt;strong&gt;SimpleNote&lt;/strong&gt;的帐号 (&lt;br&gt;&lt;a href=&quot;https://app.simplenote.com/signup/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里注册&lt;/a&gt;) 进行同步的。SimpleNote 也是一款简约的笔记软件服务，提供了 Mac 、iOS 和 Android 平台的客户端以及网页版，但没提供 Windows 版，Notation 恰好填补了这个空白。你只需在 Edit -&amp;gt; Settings -&amp;gt; SimpleNote 中登录帐号即可，因此，你的数据依然是全平台通用的。&lt;/p&gt;
+&lt;p&gt;总之，如果你需要一款 Windows 上的&lt;strong&gt;极简高效的笔记软件&lt;/strong&gt;，Notation 将会是你很好的选择。而它配合 SimpleNote 又能完美的跨平台使用，使得该软件实用性大大提升。作为一款追求高效的笔记软件，或许换换口味试试它不错哦。&lt;/p&gt;
 &lt;h2 id=&quot;相关文件下载地址：&quot;&gt;&lt;a href=&quot;#相关文件下载地址：&quot; class=&quot;headerlink&quot; title=&quot;相关文件下载地址：&quot;&gt;&lt;/a&gt;相关文件下载地址：&lt;/h2&gt;&lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://getnotation.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方网站&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1ntlcXSH&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 Notation 笔记软件&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(Win)&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1ntlcXSH&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 Notation 笔记软件&lt;/a&gt;(Win)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1kTGVfK&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SimpleNote Android&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://geo.itunes.apple.com/cn/app/simplenote/id289429962?mt=6&amp;amp;at=10laHZ&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SimpleNote IOS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://geo.itunes.apple.com/cn/app/simplenote/id692867256?mt=6&amp;amp;at=10laHZ&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SimpleNote Mac&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;small&gt;&lt;br&gt;Copyright &amp;copy;&lt;br&gt;&lt;a href=&quot;http://www.jefway.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉小微&lt;/a&gt;&lt;br&gt;for&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉微创意&lt;/a&gt;&lt;br&gt;2010 |&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/notation.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Permalink&lt;/a&gt;&lt;br&gt;| 0 条评论&lt;br&gt;&lt;/small&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;我们都知道在笔记类软件领域，&lt;br&gt;&lt;a href=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkJWcTg3RHBXbXVVcWdnVzBWeW4wRldwMDRzOTFoRzlaVDJ2RHZvcENUMXdBPT0.pn
+      &lt;p&gt;我们都知道在笔记类软件领域，&lt;a href=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkJWcTg3RHBXbXVVcWdnVzBWeW4wRldwMDRzOTFoRzlaVDJ2RHZvcENUMXdBPT0.png?im
     
     </summary>
     
     
       <category term="软件" scheme="http://blog.jefway.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="笔记" scheme="http://blog.jefway.com/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -872,7 +832,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Pintasking-%E8%AE%A9%E6%89%8B%E6%9C%BA%E4%B9%9F%E5%A6%82%E3%80%8C-Alt-Tab-%E3%80%8D%E8%88%AC%E5%BE%97%E5%BF%83%E5%BA%94%E6%89%8B.html"/>
     <id>http://blog.jefway.com/Pintasking-让手机也如「-Alt-Tab-」般得心应手.html</id>
     <published>2015-11-15T07:06:00.000Z</published>
-    <updated>2016-03-25T14:41:41.735Z</updated>
+    <updated>2016-03-27T08:16:00.644Z</updated>
     
     <content type="html">&lt;p&gt;得益于硬件水平的不断提升，我们的移动设备似乎已能胜任大多数情况下的多任务处理工作。但内存大并不代表体验佳，尽管我们几乎能在任何时候便捷地呼出多任务管理界面，当后台任务堆积过多时，不手动进行一番清理我们依旧很难在诸多任务中进行快速定位和切换。&lt;/p&gt;
 &lt;p&gt;如何才能专注于某几项特定的任务而不受多余的干扰，Pintasking 或许能给我们一个完美的解决方案。&lt;/p&gt;
@@ -934,8 +894,6 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
 &lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1qW5p78C&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 PinTasking 客户端 (Android)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;small&gt;&lt;br&gt;Copyright &amp;copy;&lt;br&gt;&lt;a href=&quot;http://www.jefway.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉小微&lt;/a&gt;&lt;br&gt;for&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉微创意&lt;/a&gt;&lt;br&gt;2010 |&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/pintasking.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Permalink&lt;/a&gt;&lt;br&gt;| 0 条评论&lt;br&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;/div&gt;</content>
     
     <summary type="html">
@@ -948,6 +906,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="APP" scheme="http://blog.jefway.com/tags/APP/"/>
     
+      <category term="工具" scheme="http://blog.jefway.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
   </entry>
   
   <entry>
@@ -955,7 +915,7 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Monospace-Writer-%E8%AE%A9%E4%BD%A0%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%88%9B%E4%BD%9C.html"/>
     <id>http://blog.jefway.com/Monospace-Writer-让你在手机上也能轻松创作.html</id>
     <published>2015-11-14T02:48:00.000Z</published>
-    <updated>2016-03-25T14:44:20.314Z</updated>
+    <updated>2016-03-27T08:14:51.685Z</updated>
     
     <content type="html">&lt;p&gt;写作的时候需要什么？这个问题在各个编辑器文章中已经讨论了无数遍。我们之所以一再推荐 Markdown 也是基于这样的讨论，Markdown 通过简单的标记语言屏蔽了写作过程中可能影响思考进程的几乎一切因素，形成了一个只需要考虑文字创作本身，而不会被排版之类的「噪音」影响的体验。&lt;/p&gt;
 &lt;p&gt;在日常生活中，我的写作工作大部分时间都在 Mac 上完成，偶尔才会用上移动端设备，大多也就是写写大纲，记记脑洞，灵感突然袭来的时候写上不多不少的一段纯文字。可惜的是，Android 平台上的优秀文本编辑器寥寥无几，以至于在我从 iPhone 迁移到 Android 设备之后的很长一段时间内，合适的写作应用只有锤子便签。&lt;/p&gt;
@@ -983,8 +943,6 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
 &lt;li&gt;&lt;a href=&quot;http://pan.baidu.com/s/1sjzhLFJ&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 Monospace 客户端 (Android)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;small&gt;&lt;br&gt;Copyright &amp;copy;&lt;br&gt;&lt;a href=&quot;http://www.jefway.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉小微&lt;/a&gt;&lt;br&gt;for&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉微创意&lt;/a&gt;&lt;br&gt;2010 |&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/monospace-writer.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Permalink&lt;/a&gt;&lt;br&gt;| 0 条评论&lt;br&gt;&lt;/small&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -996,6 +954,10 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
       <category term="APP" scheme="http://blog.jefway.com/tags/APP/"/>
     
+      <category term="笔记" scheme="http://blog.jefway.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="写作" scheme="http://blog.jefway.com/tags/%E5%86%99%E4%BD%9C/"/>
+    
   </entry>
   
   <entry>
@@ -1003,11 +965,11 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     <link href="http://blog.jefway.com/Raindrop-io-%E8%B7%A8%E5%B9%B3%E5%8F%B0%E4%BA%91%E7%AB%AF%E4%B9%A6%E7%AD%BE%EF%BC%8C%E8%AE%A9%E4%BD%A0%E5%96%9C%E7%88%B1%E7%9A%84%E7%BD%91%E7%AB%99%EF%BC%8C%E8%A7%A6%E6%89%8B%E5%8F%AF%E5%8F%8A.html"/>
     <id>http://blog.jefway.com/Raindrop-io-跨平台云端书签，让你喜爱的网站，触手可及.html</id>
     <published>2015-11-13T03:10:00.000Z</published>
-    <updated>2016-03-26T03:11:52.753Z</updated>
+    <updated>2016-03-27T08:13:51.309Z</updated>
     
     <content type="html">&lt;p&gt;平时我们上网查阅资料、阅读文章等等都有收藏或稍后阅读的需求。而随着人们电脑、手机、平板等各种设备越来越多，当然也希望这些文章收藏/网页书签能在任何设备上都能自动同步了。&lt;/p&gt;
-&lt;p&gt;虽然现在很多浏览器都有收藏夹同步功能，但如果将各类待读文章与网址收藏夹混杂在一起似乎并不好管理，整理起来很伤脑筋，而且也不能方便地搜索收藏过的内容。Raindrop.io 是一个跨桌面和移动平台的免费&lt;br&gt;&lt;strong&gt;云端网络书签服务&lt;/strong&gt;&lt;br&gt;，拥有精致的设计以及方便的收藏保存、分类整理、搜索以及书签同步等功能……&lt;/p&gt;
-&lt;h2 id=&quot;收藏网页的利器、文章稍后阅读清单-你喜爱的网站，触手可及！&quot;&gt;&lt;a href=&quot;#收藏网页的利器、文章稍后阅读清单-你喜爱的网站，触手可及！&quot; class=&quot;headerlink&quot; title=&quot;收藏网页的利器、文章稍后阅读清单 -  你喜爱的网站，触手可及！&quot;&gt;&lt;/a&gt;收藏网页的利器、文章稍后阅读清单 -  你喜爱的网站，触手可及！&lt;/h2&gt;&lt;p&gt;传统的浏览器收藏夹功能仅仅提保存了网页的标题和网址，收藏一时爽，但项目多起来后想要查找或整理就让人死的心都有了。我们认为，一款&lt;br&gt;&lt;strong&gt;强大的网络书签工具&lt;/strong&gt;&lt;br&gt;，应该是一个可以在不同设备之前自动同步稍后阅读 (网页/文章) 列表，不仅要可以轻松分类整理，还要可以快速搜索查找内容！&lt;/p&gt;
+&lt;p&gt;虽然现在很多浏览器都有收藏夹同步功能，但如果将各类待读文章与网址收藏夹混杂在一起似乎并不好管理，整理起来很伤脑筋，而且也不能方便地搜索收藏过的内容。Raindrop.io 是一个跨桌面和移动平台的免费&lt;strong&gt;云端网络书签服务&lt;/strong&gt;，拥有精致的设计以及方便的收藏保存、分类整理、搜索以及书签同步等功能……&lt;/p&gt;
+&lt;h2 id=&quot;收藏网页的利器、文章稍后阅读清单-你喜爱的网站，触手可及！&quot;&gt;&lt;a href=&quot;#收藏网页的利器、文章稍后阅读清单-你喜爱的网站，触手可及！&quot; class=&quot;headerlink&quot; title=&quot;收藏网页的利器、文章稍后阅读清单 -  你喜爱的网站，触手可及！&quot;&gt;&lt;/a&gt;收藏网页的利器、文章稍后阅读清单 -  你喜爱的网站，触手可及！&lt;/h2&gt;&lt;p&gt;传统的浏览器收藏夹功能仅仅提保存了网页的标题和网址，收藏一时爽，但项目多起来后想要查找或整理就让人死的心都有了。我们认为，一款&lt;strong&gt;强大的网络书签工具&lt;/strong&gt;，应该是一个可以在不同设备之前自动同步稍后阅读 (网页/文章) 列表，不仅要可以轻松分类整理，还要可以快速搜索查找内容！&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkRmUUpBV3B0TzhyVEp6SGk3M0xZNDE2azVvY1Nhc25YdUVsNm84ZXZXYy9nPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Raindrop.io&lt;/strong&gt;&lt;br&gt;做到了想要的一切，简洁、美观，跨平台提供 Android / iOS / Mac 平台客户端、网页版以及各大浏览器的插件扩展。你的所有书签都会保存在云端，无论你使用何种设备，都能非常方便地保存、整理以及获取你的书签收藏！！即使在他人的电脑上也能通过网页版进行访问。&lt;/p&gt;
 &lt;h2 id=&quot;Raindrop-io-网页版截图：&quot;&gt;&lt;a href=&quot;#Raindrop-io-网页版截图：&quot; class=&quot;headerlink&quot; title=&quot;Raindrop.io 网页版截图：&quot;&gt;&lt;/a&gt;Raindrop.io 网页版截图：&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkRmUUpBV3B0TzhyWW1CWmdVRHRlVHZic3Q4MmJSZWx4ckVES252RTNTSXV3PT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
@@ -1030,30 +992,13 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
 &lt;h2 id=&quot;相关文件下载地址：&quot;&gt;&lt;a href=&quot;#相关文件下载地址：&quot; class=&quot;headerlink&quot; title=&quot;相关文件下载地址：&quot;&gt;&lt;/a&gt;相关文件下载地址：&lt;/h2&gt;&lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://raindrop.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方网站&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;下载浏览器插件：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/raindropio-smart-bookmark/ldgfbffkinooeloadekpmfoklnobpien&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Chrome&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;|&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://raindrop.io/releases/raindropio.xpi&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Firefox&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;|&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://addons.opera.com/extensions/details/raindropio-smart-bookmarks&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Opera&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;下载浏览器插件：&lt;a href=&quot;https://chrome.google.com/webstore/detail/raindropio-smart-bookmark/ldgfbffkinooeloadekpmfoklnobpien&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Chrome&lt;/a&gt; | &lt;a href=&quot;https://raindrop.io/releases/raindropio.xpi&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Firefox&lt;/a&gt; | &lt;a href=&quot;https://addons.opera.com/extensions/details/raindropio-smart-bookmarks&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Opera&lt;/a&gt; &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://f1.market.mi-img.com/download/AppStore/0ebf844d6e79d3a867631a82b19265702394187cb/io.raindrop.raindropio.apk&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Raindrop 客户端 (Android)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://geo.itunes.apple.com/cn/app/raindrop.io-ni-xi-ai-wang/id1021913807?mt=6&amp;amp;at=10laHZ&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Raindrop 客户端 (IOS)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://geo.itunes.apple.com/cn/app/raindrop.io-keep-your-favorites/id957810159?mt=6&amp;amp;at=10laHZ&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Raindrop 客户端 (MAC)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://raindrop.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Raindrop 客户端 (网页版)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;small&gt;&lt;br&gt;Copyright &amp;copy;&lt;br&gt;&lt;a href=&quot;http://www.jefway.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉小微&lt;/a&gt;&lt;br&gt;for&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;觉微创意&lt;/a&gt;&lt;br&gt;2010 |&lt;br&gt;&lt;a href=&quot;http://www.jefway.com/raindrop-io.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Permalink&lt;/a&gt;&lt;br&gt;| 0 条评论&lt;br&gt;&lt;/small&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -1063,6 +1008,8 @@ CSS调用之后就可以在HTML中给元素添加CSS类来显示图标了，看�
     
     </summary>
     
+    
+      <category term="APP" scheme="http://blog.jefway.com/tags/APP/"/>
     
       <category term="插件" scheme="http://blog.jefway.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
