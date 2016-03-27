@@ -519,6 +519,7 @@ code {
   background: #eee;
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
+  color: #c7254e;
 }
 pre code {
   background: none;
@@ -1512,7 +1513,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2f29ff;
+  background: #ff139f;
 }
 .links-of-blogroll {
   font-size: 13px;
