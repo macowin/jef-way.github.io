@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.jefway.com/"/>
-  <updated>2016-03-27T08:56:46.996Z</updated>
+  <updated>2016-03-29T03:23:46.692Z</updated>
   <id>http://blog.jefway.com/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="http://blog.jefway.com/Vimium-%E8%AE%A9%E4%BD%A0%E4%BD%93%E9%AA%8CGeek%E8%88%AC%E7%9A%84%E6%B5%8F%E8%A7%88%E4%BD%93%E9%AA%8C.html"/>
     <id>http://blog.jefway.com/Vimium-让你体验Geek般的浏览体验.html</id>
     <published>2016-03-24T08:47:56.000Z</published>
-    <updated>2016-03-27T08:56:46.996Z</updated>
+    <updated>2016-03-29T03:23:46.692Z</updated>
     
-    <content type="html">&lt;p&gt;相信很多电脑高手们都会寻找一一些快捷高效的操作方式，如经常利用键盘的快速操作，让你脱离鼠标，可以让你不用花太多精力地去移动细小的指针进行操作，使得工作的效率提高许多。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkNOMktVZmttR21lQU5taFFUZEFqSjZmQXhySU44UWxsNW9qL3Z1aVI0dGlRPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Vimium - 让你体验Geek般的浏览体验&quot;&gt;&lt;/p&gt;
+&lt;p&gt;相信很多电脑高手们都会寻找一一些快捷高效的操作方式，如经常利用键盘的快速操作，让你脱离鼠标，可以让你不用花太多精力地去移动细小的指针进行操作，使得工作的效率提高许多。&lt;/p&gt;
 &lt;p&gt;不过，实际上很多时候我们还是不得不用鼠标来操作，尤其是在浏览网页时，没有鼠标很多事情基本上没法做。但是！作为一个键盘党怎么可以容忍这种事情发生呢！今天给大家介绍的 &lt;strong&gt;Vimium&lt;/strong&gt; 就是为解决这个问题而生的，它能让你只用键盘就能高效快速便捷地上网，这才是高手们应该有的境界～嗯，软件也是应该要这么玩才有意思……&lt;/p&gt;
 &lt;h2 id=&quot;关于-Vimium-的由来&quot;&gt;&lt;a href=&quot;#关于-Vimium-的由来&quot; class=&quot;headerlink&quot; title=&quot;关于 Vimium 的由来&quot;&gt;&lt;/a&gt;关于 Vimium 的由来&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Vimium&lt;/strong&gt; 这个名字其实是 Vim 和 Chromium 的合体；很多人可能还不知道 Vim，这样告诉你，你是不是经常在电影里看到那些顶尖的黑客，他们在屏幕上来去自如，最关键的是，他们竟然都不用鼠标？没错，狭义地说，Vim 其实是 Linux 等平台上的一款文本编辑器，它可以让你彻底脱离鼠标，通过一系列快捷键，来操作任何一件事情。&lt;/p&gt;
 &lt;p&gt;而 Vimium 则继承了 Vim 中的常用键位，让你在使用 Chrome 的过程中，无论是浏览网页、切换标签或是其它任何操作，全都可以只通过键盘完成。想像一下，你再也不需要移动鼠标去打开一个链接，手指不用离开键盘，一切都是这么流畅。&lt;/p&gt;
@@ -63,8 +64,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;相信很多电脑高手们都会寻找一一些快捷高效的操作方式，如经常利用键盘的快速操作，让你脱离鼠标，可以让你不用花太多精力地去移动细小的指针进行操作，使得工作的效率提高许多。&lt;/p&gt;
-&lt;p&gt;不过，实际上很多时候我们还是不得不用鼠标来操作，尤其是在浏览网页时，没有鼠标很多事情基本上没
+      &lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkNOMktVZmttR21lQU5taFFUZEFqSjZmQXhySU44UWxsNW9qL3Z1aVI0dGlRPT0.png?imageView&amp;amp;th
     
     </summary>
     
@@ -80,9 +80,10 @@
     <link href="http://blog.jefway.com/Iconfont-%E8%AE%A9%E5%AD%97%E4%BD%93%E5%9B%BE%E6%A0%87%E6%9B%B4%E8%87%AA%E7%94%B1.html"/>
     <id>http://blog.jefway.com/Iconfont-让字体图标更自由.html</id>
     <published>2016-03-22T08:45:00.000Z</published>
-    <updated>2016-03-27T09:06:41.989Z</updated>
+    <updated>2016-03-29T03:13:26.119Z</updated>
     
-    <content type="html">&lt;p&gt;今天因为工作需要无意中发现的&lt;strong&gt;&lt;a href=&quot;http://www.iconfont.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Iconfont&lt;/a&gt;&lt;/strong&gt;这个网站，发现有点相见恨晚的感觉，因为就在昨天我还在为icon字体的事儿发愁：网站本来是使用了icon字体图标的，效果本来挺好的，但有一个bug是我发现在chrome下面很多图标都无法显示，不管我将字体文件怎样重新编辑和生成都不能解决。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkRmWTFjempkZ0szZEFnMThzNjN2andGMzQybkJPVzRHb0Qxa1pSbDd4YWRnPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Iconfont - 让字体图标更自由&quot;&gt;&lt;/p&gt;
+&lt;p&gt;今天因为工作需要无意中发现的&lt;strong&gt;&lt;a href=&quot;http://www.iconfont.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Iconfont&lt;/a&gt;&lt;/strong&gt;这个网站，发现有点相见恨晚的感觉，因为就在昨天我还在为icon字体的事儿发愁：网站本来是使用了icon字体图标的，效果本来挺好的，但有一个bug是我发现在chrome下面很多图标都无法显示，不管我将字体文件怎样重新编辑和生成都不能解决。&lt;/p&gt;
 &lt;p&gt;在认识到以我现有的水平是搞不定这个问题的之后，只好很不情愿的将字体文件全部替换成Font Awesome字体了；因为Font Awesome仅字体文件就有好几百KB（svg文件达到194KB），这无疑会增加网站访问的压力，虽然我现在用着七牛每个月10G的免费流量，但也不想给网站增加额外的几百KB请求的负担不是，还好今天发现了&lt;strong&gt;iconfont&lt;/strong&gt;，下面就来说说为什么我要将刚修改好的Font Awesome字体抛弃而转用iconfont。&lt;/p&gt;
 &lt;h2 id=&quot;两者之间的优缺点&quot;&gt;&lt;a href=&quot;#两者之间的优缺点&quot; class=&quot;headerlink&quot; title=&quot;两者之间的优缺点&quot;&gt;&lt;/a&gt;两者之间的优缺点&lt;/h2&gt;&lt;p&gt;iconfont的图标库相当巨大，我在写上一篇文章的时候还是52090个，现在刷新之后图标数量已经是368485个了，如果这么大的一个库里面仍然没有你需要的图标的话，你也可以自己动手制作你自己的图标然后使用网站的在线生成工具来生成字体文件，分分钟就可以使用了。&lt;/p&gt;
 &lt;p&gt;除了拥有巨大的图标库之外，iconfont最值得推荐的原因还在于她使用上的灵活性（实话说，iconfont给我最初的印象是有点像现在各大运营商主打的可自由搭配的积木套餐），因为她完全可以由你自由搭配组合、按需索取，如果你的网站一共只需要用到5个图标，那么你只需要将这5个图标的字体文件和相关的css下载下来就可以用了，如果你想使用iconfont的CDN服务的话，你都不用下载，直接将这几个图标添加到你自己的项目中，然后在你的网站里面引用一个CSS文件就可以了。&lt;/p&gt;
@@ -107,7 +108,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;今天因为工作需要无意中发现的&lt;strong&gt;&lt;a href=&quot;http://www.iconfont.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Iconfont&lt;/a&gt;&lt;/strong&gt;这个网站，发现有点相见恨晚的感觉，因为就在昨天我还在为ic
+      &lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkRmWTFjempkZ0szZEFnMThzNjN2andGMzQybkJPVzRHb0Qxa1pSbDd4YWRnPT0.png?imageView&amp;amp;t
     
     </summary>
     
@@ -123,16 +124,16 @@
     <link href="http://blog.jefway.com/Word-%E9%99%A4%E4%BA%86%E7%BC%96%E8%BE%91%E6%96%87%E6%A1%A3%E8%BF%98%E5%8F%AF%E4%BB%A5%E8%BF%99%E6%A0%B7.html"/>
     <id>http://blog.jefway.com/Word-除了编辑文档还可以这样.html</id>
     <published>2016-03-21T06:53:00.000Z</published>
-    <updated>2016-03-27T08:47:01.781Z</updated>
+    <updated>2016-03-29T03:22:37.285Z</updated>
     
-    <content type="html">&lt;p&gt;在平时的工作中，我们会经常遇到孰能生巧的人，他们因为长时间的使用某一种工具，而把这种工具使用的出神入化，让人非常钦佩；而我今天给大家分享的就是一个把&lt;strong&gt;Word&lt;/strong&gt;使用的出神入化的大神的视频…&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkNHV0NlTFowVVlWcGRHak5VZVlsMEttNlI2VzFJdVhCTlRLb3JuYW1lbGp3PT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Word 除了编辑文档还可以这样......&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在平时的工作中，我们会经常遇到孰能生巧的人，他们因为长时间的使用某一种工具，而把这种工具使用的出神入化，让人非常钦佩；而我今天给大家分享的就是一个把&lt;strong&gt;Word&lt;/strong&gt;使用的出神入化的大神的视频…&lt;/p&gt;
 &lt;h2 id=&quot;用Word来做平面设计的工作&quot;&gt;&lt;a href=&quot;#用Word来做平面设计的工作&quot; class=&quot;headerlink&quot; title=&quot;用Word来做平面设计的工作&quot;&gt;&lt;/a&gt;用Word来做平面设计的工作&lt;/h2&gt;&lt;p&gt;视频中，大神使用我们经常使用的文档编辑软件&lt;strong&gt;Word&lt;/strong&gt;设计出了&lt;strong&gt;IOS7&lt;/strong&gt;的界面，做出来的效果比专业平面设计软件设计出来的效果都要好&lt;/p&gt;
 &lt;iframe height=&quot;480&quot; width=&quot;100%&quot; src=&quot;http://player.youku.com/embed/XMTUwNzA3NzYyNA&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</content>
     
     <summary type="html">
     
-      &lt;p&gt;在平时的工作中，我们会经常遇到孰能生巧的人，他们因为长时间的使用某一种工具，而把这种工具使用的出神入化，让人非常钦佩；而我今天给大家分享的就是一个把&lt;strong&gt;Word&lt;/strong&gt;使用的出神入化的大神的视频…&lt;/p&gt;
-&lt;h2 id=&quot;用Word来做平面设计的工作&quot;
+      &lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkNHV0NlTFowVVlWcGRHak5VZVlsMEttNlI2VzFJdVhCTlRLb3JuYW1lbGp3PT0.png?imageView&amp;amp;th
     
     </summary>
     
@@ -148,9 +149,10 @@
     <link href="http://blog.jefway.com/%E5%88%9B%E6%84%8F%E5%8A%A8%E7%94%BB-%E3%80%8A%E5%8A%A8%E7%94%BB%E5%B8%88%E5%A4%A7%E6%88%98%E7%81%AB%E6%9F%B4%E4%BA%BA%E3%80%8B.html"/>
     <id>http://blog.jefway.com/创意动画-《动画师大战火柴人》.html</id>
     <published>2016-03-20T05:58:00.000Z</published>
-    <updated>2016-03-27T08:46:35.827Z</updated>
+    <updated>2016-03-29T03:21:12.205Z</updated>
     
-    <content type="html">&lt;p&gt;今天呢，给大家分享一部动画师&lt;strong&gt;Alan Becker&lt;/strong&gt;创作的火柴人系列的Flash动画，主要讲述了动画师和他所创造的动画人物-&lt;strong&gt;火柴人&lt;/strong&gt;之间的故事，动画剧情非常精彩和完整，充满的创意。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkIrU0Znam83NTlGWkpvTkhKMDd1K043L0R2NjdtV09TYVUvQTl1MGVVQzJRPT0.jpg?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;创意动画 - 《动画师大战火柴人》&quot;&gt;&lt;/p&gt;
+&lt;p&gt;今天呢，给大家分享一部动画师&lt;strong&gt;Alan Becker&lt;/strong&gt;创作的火柴人系列的Flash动画，主要讲述了动画师和他所创造的动画人物-&lt;strong&gt;火柴人&lt;/strong&gt;之间的故事，动画剧情非常精彩和完整，充满的创意。&lt;/p&gt;
 &lt;h2 id=&quot;《动画师大战火柴人》剧情介绍&quot;&gt;&lt;a href=&quot;#《动画师大战火柴人》剧情介绍&quot; class=&quot;headerlink&quot; title=&quot;《动画师大战火柴人》剧情介绍&quot;&gt;&lt;/a&gt;《动画师大战火柴人》剧情介绍&lt;/h2&gt;&lt;p&gt;故事从动画师开始创作说起，这天动画师用新买的电脑在创作动画，中途，动画师因为事情离开了电脑前；这时，屏幕中的火柴人活了过来，开始探头探脑，观察着周围的情况，它在一个网页中发现了4个自己的同伴被关在一个房子中，它看到4个和自己长得差不多的小伙伴们，感到非常高兴，于是它就把4个同伴放了出来，开始在电脑屏幕上大肆破坏…&lt;/p&gt;
 &lt;p&gt;在它们玩的高兴的时候，动画师从外面回来了，当他看到火柴人先是破坏了他的PS软件，动画师感到非常愤怒，把其他4个火柴人的进程给强制关闭，发现同伴消失之后，火柴人以为动画师灭了自己的一帮兄弟，于是它又黑进了动画师的Facebook账户，接着由数据线进入iPhone手机，让动画师手机里的APP全部报废……然而，经过一番斗智斗勇之后，动画师和火柴人却因才华惺惺相惜起来，最终化敌为友！&lt;/p&gt;
 &lt;h2 id=&quot;一起欣赏一下《动画师大战火柴人》动画吧&quot;&gt;&lt;a href=&quot;#一起欣赏一下《动画师大战火柴人》动画吧&quot; class=&quot;headerlink&quot; title=&quot;一起欣赏一下《动画师大战火柴人》动画吧&quot;&gt;&lt;/a&gt;一起欣赏一下《动画师大战火柴人》动画吧&lt;/h2&gt;&lt;iframe height=&quot;480&quot; width=&quot;100%&quot; src=&quot;http://player.youku.com/embed/XMTUwNTg2MDY0MA&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -158,8 +160,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;今天呢，给大家分享一部动画师&lt;strong&gt;Alan Becker&lt;/strong&gt;创作的火柴人系列的Flash动画，主要讲述了动画师和他所创造的动画人物-&lt;strong&gt;火柴人&lt;/strong&gt;之间的故事，动画剧情非常精彩和完整，充满的创意。&lt;/p&gt;
-&lt;h2 id=&quot;《动
+      &lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkIrU0Znam83NTlGWkpvTkhKMDd1K043L0R2NjdtV09TYVUvQTl1MGVVQzJRPT0.jpg?imageView&amp;amp;th
     
     </summary>
     
@@ -229,9 +230,10 @@
     <link href="http://blog.jefway.com/Typora-%E8%AE%A9%E4%BD%A0%E7%88%B1%E4%B8%8A%E5%86%99%E4%BD%9C%E6%97%B6%E8%BD%BB%E6%9D%BE%E6%83%AC%E6%84%8F%E7%9A%84%E6%84%9F%E8%A7%89.html"/>
     <id>http://blog.jefway.com/Typora-让你爱上写作时轻松惬意的感觉.html</id>
     <published>2016-03-11T04:26:00.000Z</published>
-    <updated>2016-03-27T08:42:48.380Z</updated>
+    <updated>2016-03-29T03:24:18.911Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;a href=&quot;#接触Typora源于Markdown写作&quot; class=&quot;headerlink&quot; title=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;/a&gt;接触Typora源于Markdown写作&lt;/h2&gt;&lt;p&gt;最近呢，我抽了点时间把网站重新规划了一下，我觉得以前的网站比较繁杂、没有真正的主题，而且我平时更新也比较少，网站程序本身也比较臃肿，访问速度不快，等等这些种种原因致使我下定决心重做网站…&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkJ6Y3JtdWFENzY1UjV5ajFvM0hzV0dhTjA0dlErUWVuNnpLTURieHhYZjlRPT0.png?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Typora - 让你爱上写作时轻松惬意的感觉&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;a href=&quot;#接触Typora源于Markdown写作&quot; class=&quot;headerlink&quot; title=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;/a&gt;接触Typora源于Markdown写作&lt;/h2&gt;&lt;p&gt;最近呢，我抽了点时间把网站重新规划了一下，我觉得以前的网站比较繁杂、没有真正的主题，而且我平时更新也比较少，网站程序本身也比较臃肿，访问速度不快，等等这些种种原因致使我下定决心重做网站…&lt;/p&gt;
 &lt;p&gt;于是我重新选择了一个新的博客程序，重新编写了主题样式，让博客看着和原来差不多；博客程序是支持&lt;code&gt;Markdown语法&lt;/code&gt;模式来写作的，我也是第一次接触这种写作方式，接触不久我就发现我爱上了这种写作方式，我也开始寻找一些支持Markdown语法的编辑器，发现有很多不错的编辑软件功能都非常的不错，而我今天为大家推荐的就是这款&lt;strong&gt;Typora&lt;/strong&gt;编辑器。&lt;/p&gt;
 &lt;h2 id=&quot;Typora的Markdown写作的特点&quot;&gt;&lt;a href=&quot;#Typora的Markdown写作的特点&quot; class=&quot;headerlink&quot; title=&quot;Typora的Markdown写作的特点&quot;&gt;&lt;/a&gt;Typora的Markdown写作的特点&lt;/h2&gt;&lt;p&gt;Typora 和其他的Markdown编辑器有点不同，因为它将&lt;strong&gt;写作&lt;/strong&gt;和&lt;strong&gt;预览&lt;/strong&gt;两件事情合在一起了，你输入的地方，也是输出的地方，就像现在很流行的 WYSIWYG（What You See Is What You Get）,其实转念一想，这和 Office Word 没什么不同嘛，只不过编辑文本时不用再去工具栏上点选，一切的格式都能通过符号来控制。&lt;/p&gt;
 &lt;p&gt;我们来看一下 Typora 官方的演示视频，你就知道这一切是多么的自然啦；没错，所有的行内元素（如加粗、斜体）都会根据当前是否在编辑态而智能地在编辑态和预览态切换，而区块级元素（如标题、列表）则会在按下 Enter 后即时渲染，不能再次编辑，一切都变得如此干净和纯粹。&lt;/p&gt;
@@ -274,7 +276,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;a href=&quot;#接触Typora源于Markdown写作&quot; class=&quot;headerlink&quot; title=&quot;接触Typora源于Markdown写作&quot;&gt;&lt;/a&gt;接触Typora源于Markdown写作&lt;/h2&gt;&lt;
+      &lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkJ6Y3JtdWFENzY1UjV5ajFvM0hzV0dhTjA0dlErUWVuNnpLTURieHhYZjlRPT0.png?imageView&amp;amp;t
     
     </summary>
     
@@ -292,9 +294,10 @@
     <link href="http://blog.jefway.com/Flippr-%E8%AE%A9%E4%BD%A0%E7%9A%84-Widget-%E5%8F%91%E6%8C%A5%E6%97%A0%E9%99%90%E5%88%9B%E6%84%8F.html"/>
     <id>http://blog.jefway.com/Flippr-让你的-Widget-发挥无限创意.html</id>
     <published>2015-12-10T01:57:00.000Z</published>
-    <updated>2016-03-27T08:37:43.005Z</updated>
+    <updated>2016-03-29T03:15:57.262Z</updated>
     
-    <content type="html">&lt;p&gt;作为 Android 平台引以为傲的桌面元素，Widget 的方便之处自然不必多言。桌面放个天气小部件，随时就能看到天气情况；放个备忘录，打开桌面就可以起到提醒的作用。而 Widget 最棒的一点还是它的互动性，不仅可以控制音乐播放器，快速打开应用里面的特定功能，你甚至可以在桌面放一个计算器，需要时随时计算而不用打开应用。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaK3RTTWNSQ0ZUZDhtb1p6ZWlON1RwWFhqa2dBeFFINjJRPT0.jpg?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Flippr - 让你的 Widget 发挥无限创意&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作为 Android 平台引以为傲的桌面元素，Widget 的方便之处自然不必多言。桌面放个天气小部件，随时就能看到天气情况；放个备忘录，打开桌面就可以起到提醒的作用。而 Widget 最棒的一点还是它的互动性，不仅可以控制音乐播放器，快速打开应用里面的特定功能，你甚至可以在桌面放一个计算器，需要时随时计算而不用打开应用。&lt;/p&gt;
 &lt;p&gt;Widget 的存在大大地减少了我们的操作，削弱了点开应用的必要性。然而如此好用的东西，只能在桌面使用岂不可惜。&lt;/p&gt;
 &lt;p&gt;J 君曾经推荐过一款能够将 Widget 小部件放进下拉状态栏的应用 Snap ，也曾经推荐过一款悬浮音乐播放器 &lt;a href=&quot;http://www.jefway.com/bump-music-player.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BuMP Music Player&lt;/a&gt;，前者是为了节省桌面空间，后者是为了在一边阅读一边听音乐时尽量保持少的操作。而 flippr 这款应用可以轻松的代替这它们，因为它能让你的 Widget 小部件做到「随手可得」。&lt;/p&gt;
 &lt;h2 id=&quot;无论何时，一划即得&quot;&gt;&lt;a href=&quot;#无论何时，一划即得&quot; class=&quot;headerlink&quot; title=&quot;无论何时，一划即得&quot;&gt;&lt;/a&gt;无论何时，一划即得&lt;/h2&gt;&lt;p&gt;Snap 将 Widget 放在下拉菜单栏里面，已经可以做到在任何界面使用 Widget 了，但是下拉菜单栏始终是一个让大屏手机用户苦恼的动作。flippr 则更进一步，将 Widget 改为由一个悬浮圆滑动呼出，效果颇为炫酷。&lt;/p&gt;
@@ -322,7 +325,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;作为 Android 平台引以为傲的桌面元素，Widget 的方便之处自然不必多言。桌面放个天气小部件，随时就能看到天气情况；放个备忘录，打开桌面就可以起到提醒的作用。而 Widget 最棒的一点还是它的互动性，不仅可以控制音乐播放器，快速打开应用里面的特定功能，你甚至可以
+      &lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaK3RTTWNSQ0ZUZDhtb1p6ZWlON1RwWFhqa2dBeFFINjJRPT0.jpg?imageView&amp;amp;t
     
     </summary>
     
@@ -338,9 +341,10 @@
     <link href="http://blog.jefway.com/Atom-Github-%E6%89%93%E9%80%A0%E7%9A%84%E4%B8%8B%E4%B8%80%E4%BB%A3%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91%E5%88%A9%E5%99%A8.html"/>
     <id>http://blog.jefway.com/Atom-Github-打造的下一代编程开发利器.html</id>
     <published>2015-11-27T08:55:00.000Z</published>
-    <updated>2016-03-27T08:36:47.202Z</updated>
+    <updated>2016-03-29T03:18:37.562Z</updated>
     
-    <content type="html">&lt;p&gt;在代码编辑器、文本编辑器领域，有着不少的「神器」级的产品，如历史悠久的 VIM、Emacs 以及如今当红的&lt;a href=&quot;http://www.jefway.com/subliem-text.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SublimeText&lt;/a&gt;。另外还有 EditPlus、NotePad++、UltraEdit 等一大堆流行的利器，可谓百家争鸣。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaNjYzbU1hY3RFTmZyYUwyYndSQUJVbUJlVGdaUWsyOXZnPT0.jpg?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Atom - Github 打造的下一代编程开发利器&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在代码编辑器、文本编辑器领域，有着不少的「神器」级的产品，如历史悠久的 VIM、Emacs 以及如今当红的&lt;a href=&quot;http://www.jefway.com/subliem-text.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SublimeText&lt;/a&gt;。另外还有 EditPlus、NotePad++、UltraEdit 等一大堆流行的利器，可谓百家争鸣。&lt;/p&gt;
 &lt;p&gt;然而，作为目前全球范围内影响力最大的代码仓库/开源社区，GitHub 的程序员们并不满足于此。他们使用目前最先进流行的技术重新打造了一款称为“属于21世纪”的代码编辑器——&lt;strong&gt;Atom&lt;/strong&gt;， 它开源免费跨平台，并且整合 GIT 并提供类似 SublimeText 的包管理功能，支持插件扩展，可配置性非常高……&lt;/p&gt;
 &lt;h2 id=&quot;ATOM-由-GitHub-打造更为先进的编辑器&quot;&gt;&lt;a href=&quot;#ATOM-由-GitHub-打造更为先进的编辑器&quot; class=&quot;headerlink&quot; title=&quot;ATOM - 由 GitHub 打造更为先进的编辑器&quot;&gt;&lt;/a&gt;ATOM - 由 GitHub 打造更为先进的编辑器&lt;/h2&gt;&lt;p&gt;Atom 代码编辑器支持 Windows、Mac、Linux 三大桌面平台，完全免费，并且已经在 GitHub 上开放了全部的源代码。在经过一段长时间的迭代开发和不断改进后，Atom 终于从早期的测试版达到了 1.0 正式版了！相比之前的版本，在性能和稳定性方面都有着显著的改善。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkNXWWRvZ2xYR0k3RGZCRld1T24zSEo4bnpoUXppNmxUYkQzQ3NEeVhBR2xnPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
@@ -368,7 +372,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;在代码编辑器、文本编辑器领域，有着不少的「神器」级的产品，如历史悠久的 VIM、Emacs 以及如今当红的&lt;a href=&quot;http://www.jefway.com/subliem-text.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sub
+      &lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaNjYzbU1hY3RFTmZyYUwyYndSQUJVbUJlVGdaUWsyOXZnPT0.jpg?imageView&amp;amp;t
     
     </summary>
     
@@ -384,9 +388,10 @@
     <link href="http://blog.jefway.com/D-Day-%E7%81%BE%E9%9A%BE%E6%9D%A5%E4%B8%B4%EF%BC%8C%E4%BD%A0%E7%9A%84%E9%80%89%E6%8B%A9%E6%98%AF%E4%BB%80%E4%B9%88.html"/>
     <id>http://blog.jefway.com/D-Day-灾难来临，你的选择是什么.html</id>
     <published>2015-11-26T14:25:00.000Z</published>
-    <updated>2016-03-27T08:35:46.863Z</updated>
+    <updated>2016-03-29T03:16:29.559Z</updated>
     
-    <content type="html">&lt;p&gt;实话告诉大家，小编我呢，其实是一个半个韩剧迷啦，那大家就要问了，为什么说是半个韩剧迷呢？其实呢，我对电视剧要求还是比较高的，我不是所有韩剧都看的，我是非常喜欢哪些有特点、有意义的韩剧看的，看到搞笑的地方我会笑，看到伤心的时候我也会哭，所以说我是半个韩剧迷啦；我个人真是挺佩服哪些写出这么多好题材的编剧们，这不我又发现了一部不错的韩剧，今天就推荐给大家；要是大家也有好的韩剧也可以推荐给我哦！&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaeFlxbXh4eE9qNFZwRDFac1hFWG9LS0c0bFcvb3BmVGF3PT0.jpg?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;D-Day - 灾难来临，你的选择是什么&quot;&gt;&lt;/p&gt;
+&lt;p&gt;实话告诉大家，小编我呢，其实是一个半个韩剧迷啦，那大家就要问了，为什么说是半个韩剧迷呢？其实呢，我对电视剧要求还是比较高的，我不是所有韩剧都看的，我是非常喜欢哪些有特点、有意义的韩剧看的，看到搞笑的地方我会笑，看到伤心的时候我也会哭，所以说我是半个韩剧迷啦；我个人真是挺佩服哪些写出这么多好题材的编剧们，这不我又发现了一部不错的韩剧，今天就推荐给大家；要是大家也有好的韩剧也可以推荐给我哦！&lt;/p&gt;
 &lt;h2 id=&quot;D-Day-灾难来临日&quot;&gt;&lt;a href=&quot;#D-Day-灾难来临日&quot; class=&quot;headerlink&quot; title=&quot;D-Day 灾难来临日&quot;&gt;&lt;/a&gt;D-Day 灾难来临日&lt;/h2&gt;&lt;p&gt;《D-Day》（灾难来临日）是韩国JTBC电视台于2015年9月18日起播出的金土迷你连续剧，到现在应该是已经完结的状态了，喜欢的朋友可以一次看个够，不用辛苦追剧了；这是韩国首部灾难型题材电视剧，主要讲述了首尔发生大地震后，灾难医疗小组成员冒着生命危险执行任务的医疗组故事；电视剧题材新颖，场景华丽，由金英光、郑素敏、金晶和、李成烈和尹珠熙等倾情出演，剧中将出现高楼大厦倒塌的画面，将运用CG技术展现壮观场面。&lt;/p&gt;
 &lt;h2 id=&quot;D-Day-剧情简介&quot;&gt;&lt;a href=&quot;#D-Day-剧情简介&quot; class=&quot;headerlink&quot; title=&quot;D-Day 剧情简介&quot;&gt;&lt;/a&gt;D-Day 剧情简介&lt;/h2&gt;&lt;p&gt;《D-DAY》是JTBC数一数二的代表作，主要讲述了首尔在发生大地震后，灾难医疗小组成员李海成带领着组员一起冒着生命危险执行任务的医疗组故事。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkRyNDNRTzM1MEFUQklXbHJaNXk1WkVGV3IzL0Q5dDIzNDRsUnVyZ3R5cSt3PT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
@@ -414,7 +419,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;实话告诉大家，小编我呢，其实是一个半个韩剧迷啦，那大家就要问了，为什么说是半个韩剧迷呢？其实呢，我对电视剧要求还是比较高的，我不是所有韩剧都看的，我是非常喜欢哪些有特点、有意义的韩剧看的，看到搞笑的地方我会笑，看到伤心的时候我也会哭，所以说我是半个韩剧迷啦；我个人真是挺佩服
+      &lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaeFlxbXh4eE9qNFZwRDFac1hFWG9LS0c0bFcvb3BmVGF3PT0.jpg?imageView&amp;amp;t
     
     </summary>
     
@@ -430,9 +435,10 @@
     <link href="http://blog.jefway.com/Vysor-%E5%90%8C%E6%AD%A5%E6%98%BE%E7%A4%BA%E7%94%BB%E9%9D%A2%E7%9A%84%E7%A5%9E%E5%99%A8.html"/>
     <id>http://blog.jefway.com/Vysor-同步显示画面的神器.html</id>
     <published>2015-11-25T08:12:00.000Z</published>
-    <updated>2016-03-27T08:35:00.768Z</updated>
+    <updated>2016-03-29T03:23:08.348Z</updated>
     
-    <content type="html">&lt;p&gt;虽然现在各种如 ARC Welder / Genymotion / Andy 等安卓模拟器可以让你在电脑上运行手机 APP 或玩手机游戏，但还有很多人希望能直接在电脑上远程控制手机真机，或在电脑上同步显示手机的画面！&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkNEM0hzUjY0dmtna2ZsQkRhMGEvRlNXd1djZnk5bTNLeHVWT1RybHBibDl3PT0.jpg?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Vysor - 同步显示画面的神器&quot;&gt;&lt;/p&gt;
+&lt;p&gt;虽然现在各种如 ARC Welder / Genymotion / Andy 等安卓模拟器可以让你在电脑上运行手机 APP 或玩手机游戏，但还有很多人希望能直接在电脑上远程控制手机真机，或在电脑上同步显示手机的画面！&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Vysor&lt;/strong&gt; 是一款可以免费让你 &lt;strong&gt;在电脑上控制 Android 手机/平板的软件&lt;/strong&gt;！它实用性超高，不仅可以将安卓手机的屏幕画面实时同步投影显示在电脑的屏幕上，甚至还能直接在电脑上对手机进行远程控制操作！而且它是一款Chrome 浏览器插件应用，可跨平台支持 Win / Mac / Linux，用途非常广泛，绝对是手机控的必备神器……&lt;/p&gt;
 &lt;h2 id=&quot;Vysor-电脑“远程”控制-Android-安卓手机的超实用工具！&quot;&gt;&lt;a href=&quot;#Vysor-电脑“远程”控制-Android-安卓手机的超实用工具！&quot; class=&quot;headerlink&quot; title=&quot;Vysor - 电脑“远程”控制 Android 安卓手机的超实用工具！&quot;&gt;&lt;/a&gt;Vysor - 电脑“远程”控制 Android 安卓手机的超实用工具！&lt;/h2&gt;&lt;p&gt;通过 Vysor 我们不仅能在电脑上同步看到手机的实时动态画面，而且还能通过键盘和鼠标直接控制手机！！Vysor 可以应用在很多场景，譬如对于上班一族来说，工作时不再需要偷偷低头拿着手机了，直接在电脑上就能收发微信、玩游戏、炒股、下载安装或使用各种 APP 等等。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/cU1NQXlBREt0dkdOQjEyZXp4bm41MXlSK21GV3JVOFBFeUY5ZTJ5em1KUDB6VFI4Tndmdy9RPT0.jpg?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg5Yib5oSPIC8gamVmLXdheS5sb2Z0ZXIuY29t&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
@@ -475,8 +481,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;虽然现在各种如 ARC Welder / Genymotion / Andy 等安卓模拟器可以让你在电脑上运行手机 APP 或玩手机游戏，但还有很多人希望能直接在电脑上远程控制手机真机，或在电脑上同步显示手机的画面！&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vysor&lt;/strong
+      &lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkNEM0hzUjY0dmtna2ZsQkRhMGEvRlNXd1djZnk5bTNLeHVWT1RybHBibDl3PT0.jpg?imageView&amp;amp;t
     
     </summary>
     
@@ -492,9 +497,10 @@
     <link href="http://blog.jefway.com/%E6%A0%87%E4%BD%A0%E5%A6%B9%E5%95%8A-UI%E8%AE%BE%E8%AE%A1%E5%B8%88%E5%BF%85%E5%A4%87%E7%9A%84%E8%87%AA%E5%8A%A8%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7.html"/>
     <id>http://blog.jefway.com/标你妹啊-UI设计师必备的自动标注工具.html</id>
     <published>2015-11-24T05:35:00.000Z</published>
-    <updated>2016-03-27T08:34:18.085Z</updated>
+    <updated>2016-03-29T03:21:42.471Z</updated>
     
-    <content type="html">&lt;p&gt;APP设计师们，你还在为繁琐枯燥的设计标注工作而烦恼、因为程序猿的设计还原不准而抓狂吗？今天给大家推荐一款UI设计师必备的UI自动标注工具——标你妹啊。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaOUtCVkFZc2hwTkJGZytuWWxyVXRERlorV0RYYVBnaytBPT0.jpg?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;标你妹啊-UI设计师必备的自动标注工具&quot;&gt;&lt;/p&gt;
+&lt;p&gt;APP设计师们，你还在为繁琐枯燥的设计标注工作而烦恼、因为程序猿的设计还原不准而抓狂吗？今天给大家推荐一款UI设计师必备的UI自动标注工具——标你妹啊。&lt;/p&gt;
 &lt;p&gt;这是一款云端、一键自动完成所有标注数据的自动标注工具。Photoshop的设计师从此可以真正体验到自动化标注的高效便捷 ！&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;工具地址：&lt;a href=&quot;http://www.biaonimeia.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.biaonimeia.com&lt;/a&gt;&lt;/p&gt;
@@ -529,8 +535,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;APP设计师们，你还在为繁琐枯燥的设计标注工作而烦恼、因为程序猿的设计还原不准而抓狂吗？今天给大家推荐一款UI设计师必备的UI自动标注工具——标你妹啊。&lt;/p&gt;
-&lt;p&gt;这是一款云端、一键自动完成所有标注数据的自动标注工具。Photoshop的设计师从此可以真正体验到自动化标
+      &lt;p&gt;&lt;img src=&quot;http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaOUtCVkFZc2hwTkJGZytuWWxyVXRERlorV0RYYVBnaytBPT0.jpg?imageView&amp;amp;t
     
     </summary>
     
@@ -548,9 +553,10 @@
     <link href="http://blog.jefway.com/Inputting-Android-%E4%B8%8A%E7%9A%84%E3%80%8CCtrl-Z%E3%80%8D.html"/>
     <id>http://blog.jefway.com/Inputting-Android-上的「Ctrl-Z」.html</id>
     <published>2015-11-23T02:37:00.000Z</published>
-    <updated>2016-03-27T08:33:18.491Z</updated>
+    <updated>2016-03-29T03:12:45.837Z</updated>
     
-    <content type="html">&lt;p&gt;和心上人聊天的时候，我们总是斟酌用词、语气严谨，生怕说错什么让对方误解。所以在说话时，我们常常会经历「输入、删除、输入、删除」的往复过程，可是翻来覆去还是觉得第一次说的比较靠谱，于是只好再重新输入一遍。然而当我们发送完这句话，这时候往往已经过去了好几分钟，对方是不是以为我对 TA 爱答不理呢？如果手机上能够做到桌面系统上的「撤销」功能那不就方便多了。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaNEoyTGZuSHdMakpCbWVoZHc1RXlJckg5SVl2RlNkb05nPT0.jpg?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Inputting+ - Android 上的「Ctrl+Z」&quot;&gt;&lt;/p&gt;
+&lt;p&gt;和心上人聊天的时候，我们总是斟酌用词、语气严谨，生怕说错什么让对方误解。所以在说话时，我们常常会经历「输入、删除、输入、删除」的往复过程，可是翻来覆去还是觉得第一次说的比较靠谱，于是只好再重新输入一遍。然而当我们发送完这句话，这时候往往已经过去了好几分钟，对方是不是以为我对 TA 爱答不理呢？如果手机上能够做到桌面系统上的「撤销」功能那不就方便多了。&lt;/p&gt;
 &lt;p&gt;少数派曾经为大家介绍过 Type Machine，它能够记录所有你输入过的文字，然而它也仅仅是记录一段输入完整的文字，不能记录输入的历史动作，想要用它实现「撤销」和「重做」确实有些捉襟见肘。而 Inputting+ 这款应用不仅能够实现 Type Machine 的所有功能，还高精度记录了我们所有的录入动作，从此，我们打字也可以吃后悔药了。&lt;/p&gt;
 &lt;h2 id=&quot;记录一字一符&quot;&gt;&lt;a href=&quot;#记录一字一符&quot; class=&quot;headerlink&quot; title=&quot;记录一字一符&quot;&gt;&lt;/a&gt;记录一字一符&lt;/h2&gt;&lt;p&gt;Inputting+ 的主要目的就是做到 PC 或 MAC 上的「撤销」和「重做」功能，这种功能的原理无非就是系统或应用在后台记录你输入过的东西，然后再需要的时候一次一次恢复回来。&lt;/p&gt;
 &lt;p&gt;Inputting+ 的运作方式非常简单，当我们点击输入框，Inputting+ 的悬浮球会与输入键盘同时弹出，我们将候选词上屏的时候，Inputting+ 会在后台记录这次上屏内容，下一次再有内容上屏的时候，如果同一个输入框中有内容，那么 Inputting+ 会认为第二次上屏内容为增量输入，从而将这次输入的文字作为撤销的一个步骤。&lt;/p&gt;
@@ -575,7 +581,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;和心上人聊天的时候，我们总是斟酌用词、语气严谨，生怕说错什么让对方误解。所以在说话时，我们常常会经历「输入、删除、输入、删除」的往复过程，可是翻来覆去还是觉得第一次说的比较靠谱，于是只好再重新输入一遍。然而当我们发送完这句话，这时候往往已经过去了好几分钟，对方是不是以为我对
+      &lt;p&gt;&lt;img src=&quot;http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaNEoyTGZuSHdMakpCbWVoZHc1RXlJckg5SVl2RlNkb05nPT0.jpg?imageView&amp;amp;t
     
     </summary>
     
@@ -591,9 +597,10 @@
     <link href="http://blog.jefway.com/Wox-%E5%BC%80%E6%BA%90%E5%85%8D%E8%B4%B9%E5%BC%BA%E5%A4%A7%E7%9A%84%E5%BF%AB%E6%8D%B7%E5%90%AF%E5%8A%A8%E5%99%A8%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7.html"/>
     <id>http://blog.jefway.com/Wox-开源免费强大的快捷启动器辅助工具.html</id>
     <published>2015-11-21T06:06:00.000Z</published>
-    <updated>2016-03-27T08:32:32.328Z</updated>
+    <updated>2016-03-29T03:22:05.221Z</updated>
     
-    <content type="html">&lt;p&gt;在日常的电脑操作中，我们常常花很多时间重复做着一件事情：退回桌面/开始菜单-&amp;gt;寻找软件图标-&amp;gt;点击启动。但如果你喜欢高效的键盘操作，那么你需要一款好用的 &lt;strong&gt;快速启动器软件&lt;/strong&gt;。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkNEM0hzUjY0dmtnak83a2d0bkZJSFgxV01UWHRmd2poR0tlRERNOGY2dVp3PT0.jpg?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Wox - 开源免费强大的快捷启动器辅助工具&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在日常的电脑操作中，我们常常花很多时间重复做着一件事情：退回桌面/开始菜单-&amp;gt;寻找软件图标-&amp;gt;点击启动。但如果你喜欢高效的键盘操作，那么你需要一款好用的 &lt;strong&gt;快速启动器软件&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;我们曾介绍过 Launchy、AltRun、Executor、Alfred 等键盘快速启动工具，而今天推荐的则是另外一款国产开源免费的软件快捷启动工具 Wox！它可以搜索你电脑上的程序，通过快捷键呼出搜索框，输入少量字母快速匹配出对应软件并启动、打开网页、翻译单词、或配合 Everything 插件搜索任意文件等等……&lt;/p&gt;
 &lt;h2 id=&quot;Wox-强大高效的快捷启动软件&quot;&gt;&lt;a href=&quot;#Wox-强大高效的快捷启动软件&quot; class=&quot;headerlink&quot; title=&quot;Wox - 强大高效的快捷启动软件&quot;&gt;&lt;/a&gt;Wox - 强大高效的快捷启动软件&lt;/h2&gt;&lt;p&gt;你可以将 &lt;strong&gt;Wox&lt;/strong&gt; 看作一个高效的本地快速搜索框，通过快捷键呼出，然后输入关键字来搜索程序进行快速启动，或者搜索本地硬盘的文件，打开百度、Google 进行搜索，甚至是通过一些插件的功能实现单词翻译、关闭屏幕、查询剪贴板历史、查询编程文档、查询天气等更多功能。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkE2K3ppaFpqNTZGdHBVclpxU3NrM1ZDMkdNUXQ5eTZkNTNPeWgrQTMvYTZnPT0.png?imageView&amp;amp;thumbnail=500x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg%7Cwatermark&amp;amp;type=2&amp;amp;text=wqkg6KeJ5b6uIC8gamVmd2F5LmxvZnRlci5jb20=&amp;amp;font=bXN5aA==&amp;amp;gravity=southwest&amp;amp;dissolve=30&amp;amp;fontsize=240&amp;amp;dx=8&amp;amp;dy=10&amp;amp;stripmeta=0&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
@@ -635,8 +642,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;在日常的电脑操作中，我们常常花很多时间重复做着一件事情：退回桌面/开始菜单-&amp;gt;寻找软件图标-&amp;gt;点击启动。但如果你喜欢高效的键盘操作，那么你需要一款好用的 &lt;strong&gt;快速启动器软件&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;我们曾介绍过 Launchy、AltRun
+      &lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkNEM0hzUjY0dmtnak83a2d0bkZJSFgxV01UWHRmd2poR0tlRERNOGY2dVp3PT0.jpg?imageView&amp;amp;t
     
     </summary>
     
@@ -654,9 +660,10 @@
     <link href="http://blog.jefway.com/Ice-Box-%E6%8A%8A%E8%80%97%E7%94%B5%E5%BA%94%E7%94%A8%E9%83%BD%E5%86%BB%E8%B5%B7%E6%9D%A5.html"/>
     <id>http://blog.jefway.com/Ice-Box-把耗电应用都冻起来.html</id>
     <published>2015-11-20T07:32:00.000Z</published>
-    <updated>2016-03-27T08:29:09.964Z</updated>
+    <updated>2016-03-29T03:14:08.885Z</updated>
     
-    <content type="html">&lt;p&gt;Android 系统越来越流畅，用户体验在慢慢改善，但是耗电却始终是个棘手的问题。虽然大部分应用能够「守本分」，但是总有那么一小撮应用，即使退出了之后还「阴魂不散」，偷偷的在后台蚕食你手机宝贵的电量。眼看 Android 6.0 的 Doze 模式依旧遥远，是时候找一个「冰箱」把那些耗电大户「冻」起来了。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaOS9DNUN6WEtUeUEvVlRQTUtkdGxFWUdoN0Q5L0FieFFBPT0.jpg?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Ice Box - 把耗电应用都冻起来&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Android 系统越来越流畅，用户体验在慢慢改善，但是耗电却始终是个棘手的问题。虽然大部分应用能够「守本分」，但是总有那么一小撮应用，即使退出了之后还「阴魂不散」，偷偷的在后台蚕食你手机宝贵的电量。眼看 Android 6.0 的 Doze 模式依旧遥远，是时候找一个「冰箱」把那些耗电大户「冻」起来了。&lt;/p&gt;
 &lt;p&gt;而 Ice Box 就是这样一个冰箱，不过这款应用需要 Root 权限。&lt;/p&gt;
 &lt;h2 id=&quot;不乖的，把它们放进去冻起来&quot;&gt;&lt;a href=&quot;#不乖的，把它们放进去冻起来&quot; class=&quot;headerlink&quot; title=&quot;不乖的，把它们放进去冻起来&quot;&gt;&lt;/a&gt;不乖的，把它们放进去冻起来&lt;/h2&gt;&lt;p&gt;总有一些应用，不会经常用到，隔三岔五的又需要打开看一下。卸载了麻烦，不卸载又老是在后台自启动，躲在后台蚕食本来就不多的电量。像这种「电老鼠」，总是让人头疼。&lt;/p&gt;
 &lt;p&gt;这个时候你就需要这样一台「冰箱」：Ice Box 来帮助你。打开它可以看见一段简单的说明，点击左边「编辑」按钮添加需要「冻结」的应用，中间的「雪花」按钮就可以冻结这些应用，另外，在手机锁屏后也会自动冻结这些应用。&lt;/p&gt;
@@ -679,7 +686,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;Android 系统越来越流畅，用户体验在慢慢改善，但是耗电却始终是个棘手的问题。虽然大部分应用能够「守本分」，但是总有那么一小撮应用，即使退出了之后还「阴魂不散」，偷偷的在后台蚕食你手机宝贵的电量。眼看 Android 6.0 的 Doze 模式依旧遥远，是时候找一个「冰
+      &lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaOS9DNUN6WEtUeUEvVlRQTUtkdGxFWUdoN0Q5L0FieFFBPT0.jpg?imageView&amp;amp;th
     
     </summary>
     
@@ -740,9 +747,10 @@
     <link href="http://blog.jefway.com/BuMP-Music-Player-%E6%82%AC%E5%9C%A8%E9%82%A3%E5%84%BF%E7%9A%84%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8.html"/>
     <id>http://blog.jefway.com/BuMP-Music-Player-悬在那儿的音乐播放器.html</id>
     <published>2015-11-18T09:59:00.000Z</published>
-    <updated>2016-03-27T08:21:10.797Z</updated>
+    <updated>2016-03-29T03:17:04.279Z</updated>
     
-    <content type="html">&lt;p&gt;由于工作的原因，最近开始频繁的使用手机长时间阅读文字，而作为一个音乐爱好者，在阅读的同时怎么能不听歌呢？然而使用过常用的几款音乐播放器之后，我发现它们并不能满足我的需求。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaODlDWEdKNUttVEg1cHhCWGM5MFBBUklSamU4dk16QXVRPT0.jpg?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;BuMP Music Player - 悬在那儿的音乐播放器&quot;&gt;&lt;/p&gt;
+&lt;p&gt;由于工作的原因，最近开始频繁的使用手机长时间阅读文字，而作为一个音乐爱好者，在阅读的同时怎么能不听歌呢？然而使用过常用的几款音乐播放器之后，我发现它们并不能满足我的需求。&lt;/p&gt;
 &lt;p&gt;因为在阅读过程中，为了切歌而切换应用非常打扰阅读体验，而传统的应用采取的下拉状态栏切歌只能切换上下曲，选择非常有限。所以经过总结，我希望有一款这样的播放器：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;快捷切歌，无需切换应用&lt;/li&gt;
@@ -774,8 +782,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;由于工作的原因，最近开始频繁的使用手机长时间阅读文字，而作为一个音乐爱好者，在阅读的同时怎么能不听歌呢？然而使用过常用的几款音乐播放器之后，我发现它们并不能满足我的需求。&lt;/p&gt;
-&lt;p&gt;因为在阅读过程中，为了切歌而切换应用非常打扰阅读体验，而传统的应用采取的下拉状态栏切歌只
+      &lt;p&gt;&lt;img src=&quot;http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkJpTU1UTlZEbTZaODlDWEdKNUttVEg1cHhCWGM5MFBBUklSamU4dk16QXVRPT0.jpg?imageView&amp;amp;th
     
     </summary>
     
@@ -917,9 +924,10 @@
     <link href="http://blog.jefway.com/Monospace-Writer-%E8%AE%A9%E4%BD%A0%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E4%B9%9F%E8%83%BD%E8%BD%BB%E6%9D%BE%E5%88%9B%E4%BD%9C.html"/>
     <id>http://blog.jefway.com/Monospace-Writer-让你在手机上也能轻松创作.html</id>
     <published>2015-11-14T02:48:00.000Z</published>
-    <updated>2016-03-27T08:14:51.685Z</updated>
+    <updated>2016-03-29T03:11:20.335Z</updated>
     
-    <content type="html">&lt;p&gt;写作的时候需要什么？这个问题在各个编辑器文章中已经讨论了无数遍。我们之所以一再推荐 Markdown 也是基于这样的讨论，Markdown 通过简单的标记语言屏蔽了写作过程中可能影响思考进程的几乎一切因素，形成了一个只需要考虑文字创作本身，而不会被排版之类的「噪音」影响的体验。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkNEM0hzUjY0dmtnakdWZTRFRUtyTVE3aFhBUU1jcjcva0NEVnA3NEtBd3ZRPT0.jpg?imageView&amp;amp;thumbnail=1680x0&amp;amp;quality=96&amp;amp;stripmeta=0&amp;amp;type=jpg&quot; alt=&quot;Monospace Writer - 让你在手机上也能轻松创作&quot;&gt;&lt;/p&gt;
+&lt;p&gt;写作的时候需要什么？这个问题在各个编辑器文章中已经讨论了无数遍。我们之所以一再推荐 Markdown 也是基于这样的讨论，Markdown 通过简单的标记语言屏蔽了写作过程中可能影响思考进程的几乎一切因素，形成了一个只需要考虑文字创作本身，而不会被排版之类的「噪音」影响的体验。&lt;/p&gt;
 &lt;p&gt;在日常生活中，我的写作工作大部分时间都在 Mac 上完成，偶尔才会用上移动端设备，大多也就是写写大纲，记记脑洞，灵感突然袭来的时候写上不多不少的一段纯文字。可惜的是，Android 平台上的优秀文本编辑器寥寥无几，以至于在我从 iPhone 迁移到 Android 设备之后的很长一段时间内，合适的写作应用只有锤子便签。&lt;/p&gt;
 &lt;p&gt;在一段时间的寻找过后，我终于找到了合适的替代品，Monospace Writer。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://cdn.sspai.com/attachment/thumbnail/2015/11/03/d9a1934f5b7bde2fcb81017cc0e58130471ba_mw_800_wm_1_wmp_3.jpg&quot; alt=&quot;请输入图片描述&quot;&gt;&lt;/p&gt;
@@ -949,7 +957,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;写作的时候需要什么？这个问题在各个编辑器文章中已经讨论了无数遍。我们之所以一再推荐 Markdown 也是基于这样的讨论，Markdown 通过简单的标记语言屏蔽了写作过程中可能影响思考进程的几乎一切因素，形成了一个只需要考虑文字创作本身，而不会被排版之类的「噪音」影响的体
+      &lt;p&gt;&lt;img src=&quot;http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkNEM0hzUjY0dmtnakdWZTRFRUtyTVE3aFhBUU1jcjcva0NEVnA3NEtBd3ZRPT0.jpg?imageView&amp;amp;t
     
     </summary>
     
