@@ -1,0 +1,789 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
+  <link href="//fonts.useso.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="git,github,版本控制," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="觉微创意" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.5.0" />
+
+
+
+
+
+
+<meta name="description" content="如果你是一名程序员，那么一定会听过或用过现在最流行的版本控制工具 GIT！而 GitHub.com 则是目前全球最热门的公共代码仓库网站，多到数不清的知名开源项目源代码都是托管在它上面。
+用户可在 GitHub 上为项目建立公开的代码库，也能付费建立私有的库。托管后你不仅可以使用任何 Git 本身提供的版本控制功能，还可以与其他用户(同事/朋友或是网上任意对项目有兴趣的人) 进行协同开发，可以跟">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GitHub Desktop 官方桌面客户端工具">
+<meta property="og:url" content="http://blog.jefway.com/GitHub-Desktop-官方桌面客户端工具.html">
+<meta property="og:site_name" content="觉微创意">
+<meta property="og:description" content="如果你是一名程序员，那么一定会听过或用过现在最流行的版本控制工具 GIT！而 GitHub.com 则是目前全球最热门的公共代码仓库网站，多到数不清的知名开源项目源代码都是托管在它上面。
+用户可在 GitHub 上为项目建立公开的代码库，也能付费建立私有的库。托管后你不仅可以使用任何 Git 本身提供的版本控制功能，还可以与其他用户(同事/朋友或是网上任意对项目有兴趣的人) 进行协同开发，可以跟">
+<meta property="og:image" content="http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkFNSzNyWm1BRklRaFdNYnlxS2V4dmJJYkZmTHU3RVQ1Zm1maHFOYVhjWjhRPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+<meta property="og:image" content="http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkFNSzNyWm1BRklRcVRwV1lINld0U1RqUDZYVS9NRGFFZk5uRk5ubU5YSGVBPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+<meta property="og:image" content="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkFNSzNyWm1BRklRajRMVTNrUFZwZVd6bjViQmpFVDNQTkZLQlk5cktzOElBPT0.png?imageView&thumbnail=2000y574&type=jpg&quality=96&stripmeta=0&type=jpg">
+<meta property="og:image" content="http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkRaMUY1QW5PME0vRGpMNkJ2aHJPSE1mT0NWMFVPUlJ6OGpqL2hDODV3djBBPT0.png?imageView&thumbnail=1832y852&type=jpg&quality=96&stripmeta=0&type=jpg">
+<meta property="og:updated_time" content="2016-04-25T03:57:14.684Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GitHub Desktop 官方桌面客户端工具">
+<meta name="twitter:description" content="如果你是一名程序员，那么一定会听过或用过现在最流行的版本控制工具 GIT！而 GitHub.com 则是目前全球最热门的公共代码仓库网站，多到数不清的知名开源项目源代码都是托管在它上面。
+用户可在 GitHub 上为项目建立公开的代码库，也能付费建立私有的库。托管后你不仅可以使用任何 Git 本身提供的版本控制功能，还可以与其他用户(同事/朋友或是网上任意对项目有兴趣的人) 进行协同开发，可以跟">
+<meta name="twitter:image" content="http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkFNSzNyWm1BRklRaFdNYnlxS2V4dmJJYkZmTHU3RVQ1Zm1maHFOYVhjWjhRPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"hide"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> GitHub Desktop 官方桌面客户端工具 | 觉微创意 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">觉微创意</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">一个有创意爱分享的博客平台</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="st-search-show-outputs">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'RazVmaDcXk4hc3hoDuJr','2.0.0');
+</script>
+
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                GitHub Desktop 官方桌面客户端工具
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-04-19T11:10:49+08:00" content="2016-04-19">
+              2016-04-19
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/GitHub-Desktop-官方桌面客户端工具.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="GitHub-Desktop-官方桌面客户端工具.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkFNSzNyWm1BRklRaFdNYnlxS2V4dmJJYkZmTHU3RVQ1Zm1maHFOYVhjWjhRPT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="GitHub Desktop 官方桌面客户端工具"></p>
+<p>如果你是一名程序员，那么一定会听过或用过现在最流行的版本控制工具 GIT！而 <a href="https://github.com/" target="_blank" rel="external">GitHub.com</a> 则是目前全球最热门的公共代码仓库网站，多到数不清的知名开源项目源代码都是托管在它上面。</p>
+<p>用户可在 GitHub 上为项目建立公开的代码库，也能付费建立私有的库。托管后你不仅可以使用任何 Git 本身提供的<strong>版本控制</strong>功能，还可以与其他用户(同事/朋友或是网上任意对项目有兴趣的人) 进行协同开发，可以跟踪项目动态、对别人的源代码做出贡献，或对改动提出意见评论等……</p>
+<h2 id="GitHub-Desktop-免费的-Github-官方桌面客户端"><a href="#GitHub-Desktop-免费的-Github-官方桌面客户端" class="headerlink" title="GitHub Desktop 免费的 Github 官方桌面客户端"></a>GitHub Desktop 免费的 Github 官方桌面客户端</h2><p>托管在 GitHub 上面的项目可以通过传统的 Git 命令行方式进行访问和操作 (后面有教程)，而对于习惯了使用 GUI 窗口界面软件的用户，如今 GitHub 也已经为 Mac 和 Windows 平台发布了界面统一的全新的 <strong>GitHub Desktop</strong> 官方桌面客户端，用于代替之前的旧版客户端。</p>
+<p><img src="http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkFNSzNyWm1BRklRcVRwV1lINld0U1RqUDZYVS9NRGFFZk5uRk5ubU5YSGVBPT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="GitHub 客户端"></p>
+<p>GitHub Desktop 完全免费，如果你的电脑上已经安装过旧版的客户端，那么它们将会自动更新到 GitHub Desktop。新版的 GitHub 客户端能够与 GitHub Enterprise 一同使用。新版的亮点有很多（比如协作工具），会在侧栏列出所有工作中的项目（便于用户克隆、新建），会显示出直观的时间线 (可直观了解当前项目的分支、Commit 情况等)</p>
+<p><img src="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkFNSzNyWm1BRklRajRMVTNrUFZwZVd6bjViQmpFVDNQTkZLQlk5cktzOElBPT0.png?imageView&amp;thumbnail=2000y574&amp;type=jpg&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="Github desktop 客户端"></p>
+<p>此外，用户也可以在库视图（Repository View）中查看、切换和创建分支，以可视化图形的形式查看历史变化概要，以及提交、合并或部署代码。</p>
+<p><img src="http://imglf0.nosdn.127.net/img/djhlbDd5N3FFVkRaMUY1QW5PME0vRGpMNkJ2aHJPSE1mT0NWMFVPUlJ6OGpqL2hDODV3djBBPT0.png?imageView&amp;thumbnail=1832y852&amp;type=jpg&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="请输入图片描述"></p>
+<p>由于新版的 GitHub Desktop 在 Mac 和 Windows 上的界面统一起来了，经常要在两个不同平台切换使用的朋友应该会更加顺手了。当然，GitHub 可以允许你在 GitHub.com 网页版上实现所有的功能，你也可以使用一些第三方的 Git 客户端 (如 SourceTree、Tower 等) 或是 Git 命令行来完成工作，这个就得看大家自己的工作习惯了。</p>
+<h2 id="写在后面："><a href="#写在后面：" class="headerlink" title="写在后面："></a>写在后面：</h2><p>作为官方客户端，GitHub Desktop 完全免费而且界面和功能非常简洁！没有繁杂的选项，也没有花哨的功能，一切都是为了更加易用高效。图形化的软件比命令行也更适合 Git 新手们上手和学习，值得推荐使用。</p>
+<p>最后，不得不说的是，GIT 真 TM 是一个伟大的发明！它对于程序开发的方便和强大之处远超你想象，所以如果你还没试过使用 Git 对代码进行版本控制，那么快参考下下面的这些图文和视频教程早早入坑吧！到时候你一定会惊叹——“我嘞个叉！怎么不早点学 GIT 这个神器呢……”</p>
+<ul>
+<li><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">史上最浅显易懂的 Git 入门教程 - by 廖雪峰</a></li>
+</ul>
+<h2 id="相关下载"><a href="#相关下载" class="headerlink" title="相关下载"></a>相关下载</h2><blockquote>
+<ul>
+<li><a href="https://desktop.github.com/" target="_blank" rel="external">官方网站</a></li>
+<li><a href="https://github-windows.s3.amazonaws.com/GitHubSetup.exe" target="_blank" rel="external">下载 GitHub Desktop (Win)</a></li>
+</ul>
+</blockquote>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/git/" rel="tag">#git</a>
+          
+            <a href="/tags/github/" rel="tag">#github</a>
+          
+            <a href="/tags/版本控制/" rel="tag">#版本控制</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/Seer-空格键快速预览工具.html" rel="next" title="Seer - 空格键快速预览工具">
+                <i class="fa fa-chevron-left"></i> Seer - 空格键快速预览工具
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/在Windows下搭建React-Native-Android开发环境.html" rel="prev" title="在Windows下搭建React Native Android开发环境">
+                在Windows下搭建React Native Android开发环境 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="GitHub-Desktop-官方桌面客户端工具.html"
+     data-title="GitHub Desktop 官方桌面客户端工具"
+     data-content=""
+     data-url="http://blog.jefway.com/GitHub-Desktop-官方桌面客户端工具.html">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="GitHub-Desktop-官方桌面客户端工具.html"
+           data-title="GitHub Desktop 官方桌面客户端工具" data-url="http://blog.jefway.com/GitHub-Desktop-官方桌面客户端工具.html">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/default_avatar.jpg"
+               alt="觉小微" />
+          <p class="site-author-name" itemprop="name">觉小微</p>
+          <p class="site-description motion-element" itemprop="description">觉微创意是一个以分享为核心的一个个人博客平台，会不定时给大家分享一些互联网上的有趣的视频、图片、音乐以及有趣的网络文章，把快乐分享给大家！</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">62</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">62</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        <div class="links-of-blogroll motion-element">
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator">
+            <i class="fa fa-angle-double-up"></i>
+          </div>
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub-Desktop-免费的-Github-官方桌面客户端"><span class="nav-number">1.</span> <span class="nav-text">GitHub Desktop 免费的 Github 官方桌面客户端</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#写在后面："><span class="nav-number">2.</span> <span class="nav-text">写在后面：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相关下载"><span class="nav-number">3.</span> <span class="nav-text">相关下载</span></a></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator">
+            <i class="fa fa-angle-double-down"></i>
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2014 - 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">觉小微</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+
+  
+
+
+
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=0.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=0.5.0"></script>
+
+
+
+  
+  
+
+  
+  
+<script type="text/javascript" src="/js/src/scrollspy.js?v=0.5.0"></script>
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 1 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = NexT.utils.escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    NexT.motion.middleWares.sidebar = function () {
+      var $tocContent = $('.post-toc-content');
+
+      if (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always') {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          NexT.utils.displaySidebar();
+        }
+      }
+    };
+  });
+</script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=0.5.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"hexo-next-jefway"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>

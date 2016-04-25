@@ -1,0 +1,808 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
+  <link href="//fonts.useso.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="软件,快速预览," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="觉微创意" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.5.0" />
+
+
+
+
+
+
+<meta name="description" content="相信很多使用过苹果的 Mac 电脑的朋友都会对 OS X 系统的一些贴心功能印象深刻，如桌面 Dock 图标栏，屏幕触发角、空格键文件预览等。其实这些功能在 Windows 上也有对应软件可以实现的。
+譬如今天的主角 Seer 就可以为 Windows 增加类似 OSX 系统的文件快速预览功能，你只要鼠标选中任意文件并敲下键盘空白键，即可快速“预览”该文件的内容……
+OSX 上不起眼但非常好用的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Seer - 空格键快速预览工具">
+<meta property="og:url" content="http://blog.jefway.com/Seer-空格键快速预览工具.html">
+<meta property="og:site_name" content="觉微创意">
+<meta property="og:description" content="相信很多使用过苹果的 Mac 电脑的朋友都会对 OS X 系统的一些贴心功能印象深刻，如桌面 Dock 图标栏，屏幕触发角、空格键文件预览等。其实这些功能在 Windows 上也有对应软件可以实现的。
+譬如今天的主角 Seer 就可以为 Windows 增加类似 OSX 系统的文件快速预览功能，你只要鼠标选中任意文件并敲下键盘空白键，即可快速“预览”该文件的内容……
+OSX 上不起眼但非常好用的">
+<meta property="og:image" content="http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkFLZlB0eVQrV2pHaGVrcGRTa09ISlBSc0tkeFphTURReldhSEhlclhjNnh3PT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+<meta property="og:image" content="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkFLZlB0eVQrV2pHdXc1Vm5jMkRKcjV1ZXdCQUZFQ3NrNDZCa3d6UlRZRFFnPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+<meta property="og:image" content="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkFLZlB0eVQrV2pHb3RQM3BSc0VhNmxYa3o5RnJ3RW5sTEV2dTh3b09JV0RRPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+<meta property="og:image" content="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkFlUVBwV1lYMjVxdzVrbXd5QXZGTnBxcGdtaWoxdVBkTTN0MXlRUU0wRDV3PT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+<meta property="og:image" content="http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkFLZlB0eVQrV2pHdjJLakhMNFhUaU5nSkU0dVZUQ3pISjhNQ1RmYmpEU3J3PT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+<meta property="og:image" content="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkFLZlB0eVQrV2pHbVZpM2lLckh0U0JTNm95Z0g4ejgzdGF2blRMZFFSN0ZBPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+<meta property="og:image" content="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkJ2VGNDNmxuNEhBcjZaUDk5dlE5Mzk3S0JGNlI0U3RQVHgzcEZsM0oxMWRBPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+<meta property="og:updated_time" content="2016-04-25T03:55:27.292Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Seer - 空格键快速预览工具">
+<meta name="twitter:description" content="相信很多使用过苹果的 Mac 电脑的朋友都会对 OS X 系统的一些贴心功能印象深刻，如桌面 Dock 图标栏，屏幕触发角、空格键文件预览等。其实这些功能在 Windows 上也有对应软件可以实现的。
+譬如今天的主角 Seer 就可以为 Windows 增加类似 OSX 系统的文件快速预览功能，你只要鼠标选中任意文件并敲下键盘空白键，即可快速“预览”该文件的内容……
+OSX 上不起眼但非常好用的">
+<meta name="twitter:image" content="http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkFLZlB0eVQrV2pHaGVrcGRTa09ISlBSc0tkeFphTURReldhSEhlclhjNnh3PT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"hide"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Seer - 空格键快速预览工具 | 觉微创意 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">觉微创意</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">一个有创意爱分享的博客平台</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="st-search-show-outputs">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'RazVmaDcXk4hc3hoDuJr','2.0.0');
+</script>
+
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Seer - 空格键快速预览工具
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-04-18T13:18:39+08:00" content="2016-04-18">
+              2016-04-18
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/Seer-空格键快速预览工具.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="Seer-空格键快速预览工具.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkFLZlB0eVQrV2pHaGVrcGRTa09ISlBSc0tkeFphTURReldhSEhlclhjNnh3PT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="Seer - 空格键快速预览工具"></p>
+<p>相信很多使用过苹果的 Mac 电脑的朋友都会对 OS X 系统的一些贴心功能印象深刻，如桌面 Dock 图标栏，屏幕触发角、空格键文件预览等。其实这些功能在 Windows 上也有对应软件可以实现的。</p>
+<p>譬如今天的主角 <strong>Seer</strong> 就可以为 Windows 增加类似 OSX 系统的文件快速预览功能，你只要鼠标选中任意文件并敲下键盘空白键，即可快速“预览”该文件的内容……</p>
+<h2 id="OSX-上不起眼但非常好用的文件快速预览功能"><a href="#OSX-上不起眼但非常好用的文件快速预览功能" class="headerlink" title="OSX 上不起眼但非常好用的文件快速预览功能"></a>OSX 上不起眼但非常好用的文件快速预览功能</h2><p>苹果 OS X 系统提供的快速「文件预览」功能非常非常简单：当你鼠标选中任何一个视频、音乐、图片、图标、PSD / AI、Office 文档、文本、PDF、ZIP/RAR 压缩包等文件后，按下空白键就会立即弹出一个「预览」窗口来显示/播放你的文件内容，再按一次则会马上关闭掉。</p>
+<p><img src="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkFLZlB0eVQrV2pHdXc1Vm5jMkRKcjV1ZXdCQUZFQ3NrNDZCa3d6UlRZRFFnPT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="请输入图片描述"></p>
+<p>听起来好像并没有什么卵用吧？因为 Quick Look 这功能似乎太基础太简单了，但实际上用起来却意外的方便！特别在文件多的时候，你不需一一用专门的软件打开它们即可快速地挑选出你要的文件，文件多的时候便利性就能体现出来了，习惯了之后根本离不开……</p>
+<h2 id="Seer-Windows-下模仿-OS-X-快速文件预览功能的工具"><a href="#Seer-Windows-下模仿-OS-X-快速文件预览功能的工具" class="headerlink" title="Seer -  Windows 下模仿 OS X 快速文件预览功能的工具"></a>Seer -  Windows 下模仿 OS X 快速文件预览功能的工具</h2><p>对于习惯了使用 Mac 的同学，平常可能并不会注意到「预览」这个贴心的小功能，但在切换到 Windows 系统工作时才会感觉到好像少了点什么！！于是，终于有程序员对此“不满”，并为此特意为开发了 <strong>Seer</strong>！</p>
+<p>Seer 是一款 Windows 下免费的模仿类似 OS X 系统的文件预览功能的工具，可以让你不用打开文件就能快速通过按空白键预览到文件的内容，这对于电脑中文件较多的用户来说非常实用！如图：</p>
+<p><img src="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkFLZlB0eVQrV2pHb3RQM3BSc0VhNmxYa3o5RnJ3RW5sTEV2dTh3b09JV0RRPT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="Seer 图片预览Seer - 预览图片"></p>
+<p>而且 Seer 的功能比 Mac 自带的预览功能还丰富一点。譬如增加了 Markdown 语法显示支持、代码高亮、 json 和 xml 格式化查看、文本编码检测、文件夹内容预览等。</p>
+<h2 id="Seer-的一些截图："><a href="#Seer-的一些截图：" class="headerlink" title="Seer 的一些截图："></a>Seer 的一些截图：</h2><p><img src="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkFlUVBwV1lYMjVxdzVrbXd5QXZGTnBxcGdtaWoxdVBkTTN0MXlRUU0wRDV3PT0.png?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="视频预览视频预览"></p>
+<p><img src="http://imglf1.nosdn.127.net/img/djhlbDd5N3FFVkFLZlB0eVQrV2pHdjJLakhMNFhUaU5nSkU0dVZUQ3pISjhNQ1RmYmpEU3J3PT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="压缩包预览压缩包文件预览"></p>
+<p><img src="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkFLZlB0eVQrV2pHbVZpM2lLckh0U0JTNm95Z0g4ejgzdGF2blRMZFFSN0ZBPT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="代码高亮代码文件预览 (语法高亮)"></p>
+<p><img src="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkJ2VGNDNmxuNEhBcjZaUDk5dlE5Mzk3S0JGNlI0U3RQVHgzcEZsM0oxMWRBPT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="Markdown 预览Markdown (.md) 文件预览"></p>
+<h2 id="Seer-的一些功能特性："><a href="#Seer-的一些功能特性：" class="headerlink" title="Seer 的一些功能特性："></a>Seer 的一些功能特性：</h2><ul>
+<li>支持常见图片格式的显示，包括 JPG / PNG / GIF / BMP 以及 PSD / AI 等</li>
+<li>常见视频和音频格式</li>
+<li>ZIP 和 RAR 格式压缩包</li>
+<li>Txt 纯文本，并支持 Markdown</li>
+<li>代码高亮， 并支持 JSON 和 XML</li>
+<li>PDF 文档</li>
+<li>微软 Office 文档</li>
+<li>文件夹内容预览</li>
+<li>软件无需联网也不需要额外的权限要求</li>
+<li>所有文件预览时均为“只读”模式，不必担心文件内容被误删改</li>
+<li>更多的功能可以在“设置”页面看到</li>
+</ul>
+<h2 id="Seer-简单使用说明："><a href="#Seer-简单使用说明：" class="headerlink" title="Seer 简单使用说明："></a>Seer 简单使用说明：</h2><p>除了预览 Office 文档需要安装 Office 软件才能支持外 (2007版本及以上)，其他格式都不需要额外安装任何东西。要注意的是，Office 预览默认不开启，需要手动设置开启，否则只能看到文件大小等属性。</p>
+<p>首次启动软件后，可以到桌面右下角找到 Seer 的小图标，右键选择 “Settings” 可以打开设置界面。你除了可以在常规 (General) 一页中设置开机启动 (Run Seer when PC boots) 和一些相关的设置；类型 (Type)一页设置关联的扩展名，Support Microsoft Office Files 一项开启 Office 文档预览支持；键盘 (keyboard) 一页中则可以查看 Seer 的热键，如P键可用于播放/暂停等。</p>
+<h2 id="写在后面："><a href="#写在后面：" class="headerlink" title="写在后面："></a>写在后面：</h2><p>当然，无论你有没用过 Mac OS X 其实都不要紧，Seer 一样都能带来更便利高效的文件预览！而且在 Windows 上如果配合 Listary 一起工作，那么在找文件/定位文件时比 Mac 还更有杀伤力！</p>
+<p>Seer 的使用也极之简单，安装并运行后它就常驻后台不用管了，通过鼠标选中任何一个文件，敲一下空格就会出现预览，再敲一下就关闭。不过，Seer 仅能支持 Vista 以上的操作系统，实测 Windows 10 完美支持！也就是说，XP 的同学又多了一个升级系统的理由了……</p>
+<h2 id="相关文件下载地址"><a href="#相关文件下载地址" class="headerlink" title="相关文件下载地址"></a>相关文件下载地址</h2><blockquote>
+<ul>
+<li><a href="http://pan.baidu.com/s/1dFHL8at" target="_blank" rel="external">下载 Seer 文件预览工具</a></li>
+</ul>
+</blockquote>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/软件/" rel="tag">#软件</a>
+          
+            <a href="/tags/快速预览/" rel="tag">#快速预览</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/一枝梅-小偷成为侠盗的历程.html" rel="next" title="一枝梅 - 小偷成为侠盗的历程">
+                <i class="fa fa-chevron-left"></i> 一枝梅 - 小偷成为侠盗的历程
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/GitHub-Desktop-官方桌面客户端工具.html" rel="prev" title="GitHub Desktop 官方桌面客户端工具">
+                GitHub Desktop 官方桌面客户端工具 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="Seer-空格键快速预览工具.html"
+     data-title="Seer - 空格键快速预览工具"
+     data-content=""
+     data-url="http://blog.jefway.com/Seer-空格键快速预览工具.html">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="Seer-空格键快速预览工具.html"
+           data-title="Seer - 空格键快速预览工具" data-url="http://blog.jefway.com/Seer-空格键快速预览工具.html">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/default_avatar.jpg"
+               alt="觉小微" />
+          <p class="site-author-name" itemprop="name">觉小微</p>
+          <p class="site-description motion-element" itemprop="description">觉微创意是一个以分享为核心的一个个人博客平台，会不定时给大家分享一些互联网上的有趣的视频、图片、音乐以及有趣的网络文章，把快乐分享给大家！</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">62</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">62</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        <div class="links-of-blogroll motion-element">
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator">
+            <i class="fa fa-angle-double-up"></i>
+          </div>
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#OSX-上不起眼但非常好用的文件快速预览功能"><span class="nav-number">1.</span> <span class="nav-text">OSX 上不起眼但非常好用的文件快速预览功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Seer-Windows-下模仿-OS-X-快速文件预览功能的工具"><span class="nav-number">2.</span> <span class="nav-text">Seer -  Windows 下模仿 OS X 快速文件预览功能的工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Seer-的一些截图："><span class="nav-number">3.</span> <span class="nav-text">Seer 的一些截图：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Seer-的一些功能特性："><span class="nav-number">4.</span> <span class="nav-text">Seer 的一些功能特性：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Seer-简单使用说明："><span class="nav-number">5.</span> <span class="nav-text">Seer 简单使用说明：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#写在后面："><span class="nav-number">6.</span> <span class="nav-text">写在后面：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相关文件下载地址"><span class="nav-number">7.</span> <span class="nav-text">相关文件下载地址</span></a></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator">
+            <i class="fa fa-angle-double-down"></i>
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2014 - 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">觉小微</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+
+  
+
+
+
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=0.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=0.5.0"></script>
+
+
+
+  
+  
+
+  
+  
+<script type="text/javascript" src="/js/src/scrollspy.js?v=0.5.0"></script>
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 1 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = NexT.utils.escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    NexT.motion.middleWares.sidebar = function () {
+      var $tocContent = $('.post-toc-content');
+
+      if (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always') {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          NexT.utils.displaySidebar();
+        }
+      }
+    };
+  });
+</script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=0.5.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"hexo-next-jefway"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
