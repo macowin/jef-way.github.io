@@ -1,0 +1,785 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
+  <link href="//fonts.useso.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="网盘,云服务," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="觉微创意" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.5.0" />
+
+
+
+
+
+
+<meta name="description" content="简单轻松地搭建自己的私有云存储同步网盘ownCloud 是一个开源免费专业的私有云存储项目，它能帮你快速在个人电脑或服务器上架设一套专属的私有云文件同步网盘，可以像 Dropbox 那样实现文件跨平台同步、共享、版本控制、团队协作等等。ownCloud 能让你将所有的文件掌握在自己的手中，只要你的设备性能和空间充足，那么用其来几乎没有任何限制。
+
+你只需在电脑上安装好 ownCloud 的服务器">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ownCloud - 轻松架设搭建属于自己的私有云服务">
+<meta property="og:url" content="http://blog.jefway.com/ownCloud-轻松架设搭建属于自己的私有云服务.html">
+<meta property="og:site_name" content="觉微创意">
+<meta property="og:description" content="简单轻松地搭建自己的私有云存储同步网盘ownCloud 是一个开源免费专业的私有云存储项目，它能帮你快速在个人电脑或服务器上架设一套专属的私有云文件同步网盘，可以像 Dropbox 那样实现文件跨平台同步、共享、版本控制、团队协作等等。ownCloud 能让你将所有的文件掌握在自己的手中，只要你的设备性能和空间充足，那么用其来几乎没有任何限制。
+
+你只需在电脑上安装好 ownCloud 的服务器">
+<meta property="og:image" content="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkNzRVVuNHVKcVRpY1ZiN3VQSGpaVi9LWk9PK05SbnorcWNHUTdISEtHY3JBPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+<meta property="og:image" content="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkNzRVVuNHVKcVRpYUZSQkhvR0FHR3Yvd2pBQmFHOEozMWV3QjZCZFBYSEVBPT0.png?imageView&thumbnail=1920y891&type=jpg&quality=96&stripmeta=0&type=jpg">
+<meta property="og:image" content="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkNzRVVuNHVKcVRpWEUwczRQY01FU1JwYjJ5Rzdwa0JrY3hVUnMvZ2hsVWlRPT0.png?imageView&thumbnail=1920y942&type=jpg&quality=96&stripmeta=0&type=jpg">
+<meta property="og:updated_time" content="2016-05-09T02:23:01.363Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ownCloud - 轻松架设搭建属于自己的私有云服务">
+<meta name="twitter:description" content="简单轻松地搭建自己的私有云存储同步网盘ownCloud 是一个开源免费专业的私有云存储项目，它能帮你快速在个人电脑或服务器上架设一套专属的私有云文件同步网盘，可以像 Dropbox 那样实现文件跨平台同步、共享、版本控制、团队协作等等。ownCloud 能让你将所有的文件掌握在自己的手中，只要你的设备性能和空间充足，那么用其来几乎没有任何限制。
+
+你只需在电脑上安装好 ownCloud 的服务器">
+<meta name="twitter:image" content="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkNzRVVuNHVKcVRpY1ZiN3VQSGpaVi9LWk9PK05SbnorcWNHUTdISEtHY3JBPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"hide"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> ownCloud - 轻松架设搭建属于自己的私有云服务 | 觉微创意 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">觉微创意</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">一个有创意爱分享的博客平台</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="st-search-show-outputs">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'RazVmaDcXk4hc3hoDuJr','2.0.0');
+</script>
+
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                ownCloud - 轻松架设搭建属于自己的私有云服务
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-04T16:00:00+08:00" content="2016-05-04">
+              2016-05-04
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/ownCloud-轻松架设搭建属于自己的私有云服务.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="ownCloud-轻松架设搭建属于自己的私有云服务.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkNzRVVuNHVKcVRpY1ZiN3VQSGpaVi9LWk9PK05SbnorcWNHUTdISEtHY3JBPT0.jpg?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="ownCloud - 轻松架设搭建属于自己的私有云服务"></p>
+<h2 id="简单轻松地搭建自己的私有云存储同步网盘"><a href="#简单轻松地搭建自己的私有云存储同步网盘" class="headerlink" title="简单轻松地搭建自己的私有云存储同步网盘"></a>简单轻松地搭建自己的私有云存储同步网盘</h2><p><strong>ownCloud</strong> 是一个开源免费专业的私有云存储项目，它能帮你快速在个人电脑或服务器上架设一套专属的私有云文件同步网盘，可以像 Dropbox 那样实现文件跨平台同步、共享、版本控制、团队协作等等。ownCloud 能让你将所有的文件掌握在自己的手中，只要你的设备性能和空间充足，那么用其来几乎没有任何限制。</p>
+<p><img src="http://imglf2.nosdn.127.net/img/djhlbDd5N3FFVkNzRVVuNHVKcVRpYUZSQkhvR0FHR3Yvd2pBQmFHOEozMWV3QjZCZFBYSEVBPT0.png?imageView&amp;thumbnail=1920y891&amp;type=jpg&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="请输入图片描述"></p>
+<p>你只需在电脑上安装好 ownCloud 的服务器端作为主机，即可通过局域网访问和使用你自己的私有云了。当然，你也可以将电脑配置成公网访问的形式、或者安装在公网的 VPS 服务器上，来实现真正的互联网云存储服务。</p>
+<h2 id="跨平台同步、功能丰富，支持文件共享与协作"><a href="#跨平台同步、功能丰富，支持文件共享与协作" class="headerlink" title="跨平台同步、功能丰富，支持文件共享与协作"></a>跨平台同步、功能丰富，支持文件共享与协作</h2><p>ownCloud 跨平台支持 Windows、Mac、Android、iOS、Linux 等平台，而且还提供了网页版和 WebDAV 形式访问，因此你可以在任何电脑、手机上都能轻松获取你的文件了。</p>
+<h2 id="ownCloud-网页版截图"><a href="#ownCloud-网页版截图" class="headerlink" title="ownCloud 网页版截图"></a>ownCloud 网页版截图</h2><p><img src="http://imglf.nosdn.127.net/img/djhlbDd5N3FFVkNzRVVuNHVKcVRpWEUwczRQY01FU1JwYjJ5Rzdwa0JrY3hVUnMvZ2hsVWlRPT0.png?imageView&amp;thumbnail=1920y942&amp;type=jpg&amp;quality=96&amp;stripmeta=0&amp;type=jpg" alt="请输入图片描述"></p>
+<p>ownCloud 不仅适用于个人使用，对经常需要传输共享文件、远程协作等需求的团队或公司更是合适！功能上也很强大：能支持文件分享、获取文件链接、文件版本历史控制 (文件删除恢复)、文件评论协作、文件共享(可设置读写权限)、图片音乐和文档等文件预览、开放 API、支持第三方应用整合等等。除了云存储之外，ownCloud 还可以用于同步日历、电子邮件联系人、网页浏览器的书签等功能。</p>
+<p>值得一提的是，ownCloud 跟 Seafile 不太一样的是，Seafile 所有的数据文件在服务器上都是进行了切割和整合存储的 (不清楚有没加密)，在服务器上是无法直接查看或复制用户所保存的文件的，这在安全性(隐私)上会有一道保障。</p>
+<p>而 ownCloud 则是直接原封不动地将文件保存在服务器硬盘，目录结构也跟网页版 (客户端) 上看到的一样，只要别人有权限访问你的主机，那么就能绕过 ownCloud 直接查看或拷走所有用户的文件了。不过，ownCloud 这种方式也有它的优点，就是当有一天你不再想用 ownCloud，或者它因各种原因挂掉了，你的文件的备份和导出都非常方便！那时 Seafile 就有点傻眼了，所以，这个怎么选择就得看大家实际的需求跟场景了。</p>
+<p>也正因为这样的特点，ownCloud 主机服务器端还支持将文件上传到公有云服务，如 Amazon S3、Dropbox、FTP、Google Drive、OpenStack Object Storage、SMB、WebDAV、SFTP 等远程服务器，所以更加灵活。</p>
+<p>ownCloud 项目使用了 PHP+MySQL 的经典组合，无论在自己的电脑上或是 VPS 服务器上，基本上只要能跑  WordPress 网站的机器都能运行了，安装服务器端就像用 PHP 程序建站一样简单。官方建议在 Linux (如 Ubuntu 或 CentOS) 系统下搭建，对于 Windows 作为主机的用户，可以通过 WAMP、XAMPP 等工具搭建简单的运行环境。另外，ownCloud 还提供了搭建好环境的虚拟机文件，你可以直接在 VMWare、VirtualBox、Hyper-V 中运行 ownCloud 服务器端。</p>
+<h2 id="相关文件下载地址"><a href="#相关文件下载地址" class="headerlink" title="相关文件下载地址"></a>相关文件下载地址</h2><blockquote>
+<ul>
+<li><a href="https://owncloud.org/" target="_blank" rel="external">官方网站</a></li>
+<li><a href="http://pan.baidu.com/s/1o8MnEiA" target="_blank" rel="external">下载 ownCloud 服务器端：PHP源代码</a></li>
+</ul>
+</blockquote>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/网盘/" rel="tag">#网盘</a>
+          
+            <a href="/tags/云服务/" rel="tag">#云服务</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/doPDF-虚拟打印机-万能-PDF-转换软件.html" rel="next" title="doPDF 虚拟打印机 - 万能 PDF 转换软件">
+                <i class="fa fa-chevron-left"></i> doPDF 虚拟打印机 - 万能 PDF 转换软件
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/NW-js-入门教程.html" rel="prev" title="NW.js 入门教程">
+                NW.js 入门教程 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="ownCloud-轻松架设搭建属于自己的私有云服务.html"
+     data-title="ownCloud - 轻松架设搭建属于自己的私有云服务"
+     data-content=""
+     data-url="http://blog.jefway.com/ownCloud-轻松架设搭建属于自己的私有云服务.html">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="ownCloud-轻松架设搭建属于自己的私有云服务.html"
+           data-title="ownCloud - 轻松架设搭建属于自己的私有云服务" data-url="http://blog.jefway.com/ownCloud-轻松架设搭建属于自己的私有云服务.html">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/default_avatar.jpg"
+               alt="觉小微" />
+          <p class="site-author-name" itemprop="name">觉小微</p>
+          <p class="site-description motion-element" itemprop="description">觉微创意是一个以分享为核心的一个个人博客平台，会不定时给大家分享一些互联网上的有趣的视频、图片、音乐以及有趣的网络文章，把快乐分享给大家！</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">72</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">77</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        <div class="links-of-blogroll motion-element">
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator">
+            <i class="fa fa-angle-double-up"></i>
+          </div>
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#简单轻松地搭建自己的私有云存储同步网盘"><span class="nav-number">1.</span> <span class="nav-text">简单轻松地搭建自己的私有云存储同步网盘</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#跨平台同步、功能丰富，支持文件共享与协作"><span class="nav-number">2.</span> <span class="nav-text">跨平台同步、功能丰富，支持文件共享与协作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ownCloud-网页版截图"><span class="nav-number">3.</span> <span class="nav-text">ownCloud 网页版截图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相关文件下载地址"><span class="nav-number">4.</span> <span class="nav-text">相关文件下载地址</span></a></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator">
+            <i class="fa fa-angle-double-down"></i>
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2014 - 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">觉小微</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+
+  
+
+
+
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=0.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=0.5.0"></script>
+
+
+
+  
+  
+
+  
+  
+<script type="text/javascript" src="/js/src/scrollspy.js?v=0.5.0"></script>
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 1 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = NexT.utils.escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    NexT.motion.middleWares.sidebar = function () {
+      var $tocContent = $('.post-toc-content');
+
+      if (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always') {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          NexT.utils.displaySidebar();
+        }
+      }
+    };
+  });
+</script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=0.5.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"hexo-next-jefway"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
